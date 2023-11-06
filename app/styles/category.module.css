@@ -1,0 +1,30 @@
+.container {
+  max-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.containerlist {
+  max-width: 80vw;
+  background: #ffffff;
+  height: 820px;
+  flex-direction: column;
+}
+
+.list {
+  text-align: left;
+  padding: 16px;
+}
+.item ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.list h1{
+  font-weight: bold;
+  font-size: 20px;
+}
