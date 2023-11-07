@@ -7,7 +7,7 @@
 .containerlist {
   width: 65%;
   background: #ffffff;
-  height: 820px;
+  max-height: 100%;
   flex-direction: column;
 }
 .containerlists {
@@ -16,30 +16,65 @@
 .list {
   padding: 16px;
 }
-.item ul {
-  margin-top: 20px;
-
-  gap: 20px;
-  margin-bottom: 20px;
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
+.item ul {
+  margin-top: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
 .card {
   margin-bottom: 20px;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  width: 25vw;
 }
-.headertop{
+.card h2{
+  font-size: 20px;
+}
+.card h3{
+  font-style: italic;
+  color: gray;
+  font-size: 14px;
+}
+.headertop {
+  display: flex;
+  max-width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.inlice {
+  border: 1px solid orange;
+  height: 45px;
+  margin: 10px;
+}
+.itemtop {
+  font-size: 20px;
+}
+.icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+@media screen and (max-width: 512px){
+  .icon{
+    font-size: 13px;
+  }
+  .card{
     display: flex;
-    max-width: 100%;
-    align-items: center;
-    justify-content: center;
-}
-.inlice{
-    border: 1px solid orange; 
-    height: 45px;
-    margin: 10px;
-}
-.itemtop{
-    font-size: 20px;
+    flex-direction: column;
+  }
+  .card h3{
+    font-size: 13px;
+  }
+  .card h2{
+    font-size: 13px;
+  }
 }

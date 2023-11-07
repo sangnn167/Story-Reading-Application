@@ -1,8 +1,8 @@
 "use client";
 import storiesData from "../../data/stories";
 import styles from "@/app/styles/home.module.css";
-import Image from "next/image";
-import Link from "next/link";
+import Image from "@/node_modules/next/image";
+import Link from "@/node_modules/next/link";
 
 const StoryPage = ({ params }: { params: { id: String } }) => {
   const { id } = params;
@@ -21,29 +21,41 @@ const StoryPage = ({ params }: { params: { id: String } }) => {
         <div className={styles.card}>
           <h1>{selectedStory.title}</h1>
           <div className={styles.img}>
-            <Image
-              src="https://vnkings.com/wp-content/uploads/2017/06/19665128_278555815952158_3528244146282740007_n-copy.jpg"
-              alt="story.title"
-              width={250}
-              height={200}
-            />
-            <div className={styles.thongtin}>
-              <div className={styles.author}>
-                <p>Tác giả:</p> <p>{selectedStory.author}</p>
+            <div>
+              <Image
+                src="https://vnkings.com/wp-content/uploads/2017/06/19665128_278555815952158_3528244146282740007_n-copy.jpg"
+                alt="story.title"
+                width={250}
+                height={200}
+              />
+            </div>
+            <div>
+              <div className={styles.thongtin}>
+                <div className={styles.author}>
+                  <p>Tác giả:</p> <p>{selectedStory.author}</p>
+                </div>
+                <div className={styles.author}>
+                  <p>Thể loại</p> <p>{selectedStory.category}</p>
+                </div>
+                <div className={styles.author}>
+                  <p>Trạng thái:</p> <p>{selectedStory.status}</p>
+                </div>
+
+                <div className={styles.author}>
+                  <p className={styles.date}>
+                    Ngày đăng: {selectedStory.datePosted}
+                  </p>
+                </div>
+                <button
+                  style={{
+                    background: buttonColor,
+                    borderRadius: "5px",
+                    padding: "3px",
+                    color: "#ffffff",
+                  }}>
+                  {buttonContent}
+                </button>
               </div>
-              <div className={styles.author}>
-                <p>Thể loại</p> <p>{selectedStory.category}</p>
-              </div>
-              <div className={styles.author}>
-                <p>Tình trạng:</p> <p>{selectedStory.status}</p>
-              </div>
-              
-              <div className={styles.author}>
-                <p className={styles.date}>
-                  Ngày đăng: {selectedStory.datePosted}
-                </p>
-              </div>
-              <button style={{ background: buttonColor,borderRadius: "5px",padding: "3px",color: "#ffffff" }}>{buttonContent}</button>
             </div>
           </div>
           <div className={styles.chapter}>
@@ -60,7 +72,7 @@ const StoryPage = ({ params }: { params: { id: String } }) => {
                             Chapter {chapter.chapterNumber}:{" "}
                             {chapter.chapterTitle}
                           </strong>
-                          <p style={{ color: "gray", fontSize: "14px" }}>
+                          <p>
                             {chapter.chapterDatePosted}
                             {"⮞"}
                           </p>
@@ -73,7 +85,6 @@ const StoryPage = ({ params }: { params: { id: String } }) => {
             )}
             <div className={styles.containerdescription}>
               <div className={styles.inline}></div>
-
               <div className={styles.description}>
                 <p>
                   <strong>Mô tả:</strong> {selectedStory.description}

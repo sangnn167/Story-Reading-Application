@@ -1,8 +1,8 @@
 "use client";
 import storiesData from "../../data/stories";
 import styles from "@/app/styles/profile.module.css";
-import Link from "next/link";
-import Image from "next/image";
+import Link from "@/node_modules/next/link";
+import Image from "@/node_modules/next/image";
 
 const Favourite = () => {
   const filteredStories = storiesData.filter((story) => story.favourite === true);
@@ -14,25 +14,34 @@ const Favourite = () => {
           <div className={styles.headertop}>
             <div className={styles.itemtop}>
               <Link href="/profile">
-                <h1>Truyện</h1>
+              <div className={styles.icon}>
+                  <img src="/icons/bookss.png" alt="" />
+                  <h1>Truyện</h1>
+                </div>
               </Link>
             </div>
             <div className={styles.inlice}></div>
             <div className={styles.itemtop}>
               <Link href="/profile/favourite">
-                <h1>Yêu thích</h1>
+              <div className={styles.icon}>
+                  <img src="/icons/heart.png" alt="" />
+                  <h1>Yêu thích</h1>
+                </div>
               </Link>
             </div>
             <div className={styles.inlice}></div>
             <div className={styles.itemtop}>
             <Link href="/profile/follow">
-              <h1>Đang theo dõi</h1>
+            <div className={styles.icon}>
+                <img src="/icons/follow.png" alt="" />
+                  <h1>Đang theo dõi</h1>
+                </div>
               </Link>
             </div>
           </div>
-
+          <h1>Truyện đang yêu thích</h1>
           <div className={styles.item}>
-            <h1>Truyện đang yêu thích</h1>
+            
             <ul>
               {filteredStories.map((story) => (
                 <li key={story.id}>
@@ -45,7 +54,10 @@ const Favourite = () => {
                           width={150}
                           height={100}
                         />
+                        <div>
                         <h2>{story.title}</h2>
+                        <h3>Lượt xem:{story.follow}</h3>
+                        </div>
                       </div>
                     </Link>
                   </div>
