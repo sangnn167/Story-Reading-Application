@@ -143,15 +143,18 @@
 }
 @media screen and (max-width: 512px){
   .item{
-    font-size: 7.5px;
+    font-size: 11px;
   }
   .item p{
-    font-size: 7.5px;
+    display: none;
   }
   .author{
     font-size: 13px;
   }
   .description p {
     font-size: 13px;
+  }
+  .date {
+    font-size: 11px;
   }
 }
