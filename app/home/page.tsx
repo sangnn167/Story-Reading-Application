@@ -4,10 +4,10 @@ import Link from "@/node_modules/next/link";
 import storiesData from "../data/stories";
 import styles from "@/app/styles/trangchu.module.css";
 import Image from "@/node_modules/next/image";
-import { useSelector, useDispatch } from "@/node_modules/react-redux/es/exports";
+import {useSelector,useDispatch,} from "@/node_modules/react-redux/es/exports";
 import Form from "react-bootstrap/Form";
-import { setFilteredStories, setSelectedCategory } from "../store/slice/readstories";
-import NewStory from "./newstor`y/page";
+import {setFilteredStories,setSelectedCategory} from "../store/slice/readstories";
+import NewStory from "./newstory/page";
 
 const Home = () => {
   const dispatch = useDispatch();
