@@ -4,6 +4,7 @@ import "./globals.css";
 import Link from "@/node_modules/next/link";
 import styles from "@/app/styles/styles.module.css"
 import { ReduxProvider } from "./store/provider";
+import Header from "./header/page";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -21,28 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className={styles.header}>
-          <ul>
-            <li>
-              <Link href="/home/"><div className={styles.menutop}>
-              <img src="/icons/home.png"/>Trang Chủ</div>
-              </Link>
-            </li>
-            <li>
-              <div className={styles.menutop}>
-              <img src="/icons/category.png"/>
-              <Link href="/category">Thể Loại</Link>
-              </div>
-            </li>
-            <li>
-            <div className={styles.menutop}>
-              <img src="/icons/people.png"/>
-              <Link href="/profile">Cá Nhân</Link>
-              </div>
-            </li>
-            
-          </ul>
-        </div>
+        <Header/>
         <ReduxProvider>{children}</ReduxProvider>
       </body>
     </html>

@@ -1,40 +1,55 @@
 "use client";
-import React, {  useMemo } from "react";
+import React, { useEffect } from "react";
 import Link from "@/node_modules/next/link";
 import storiesData from "../data/stories";
 import styles from "@/app/styles/trangchu.module.css";
 import Image from "@/node_modules/next/image";
-import { useSelector,useDispatch } from "@/node_modules/react-redux/es/exports";
-import { setSearchTerm } from "../store/slice/readstories";
+import { useSelector, useDispatch } from "@/node_modules/react-redux/es/exports";
+import Form from "react-bootstrap/Form";
+import { setFilteredStories, setSelectedCategory } from "../store/slice/readstories";
+import NewStory from "./newstor`y/page";
 
 const Home = () => {
-  const searchTerm = useSelector((state:any) => state.stories.searchTerm);
   const dispatch = useDispatch();
+  const { selectedCategory, filteredStories } = useSelector(
+    (state: any) => state.stories
+  );
 
-  const filteredStories = useMemo(() => {
-    return storiesData.filter((story) =>
-      story.title.toLowerCase().includes(searchTerm.toLowerCase())
-    );
-  }, [searchTerm]);
+  useEffect(() => {
+    const updatedStories = storiesData
+      .filter((story) => {
+        if (selectedCategory === "1") {
+          return true;
+        } else {
+          return (
+            story.category ===
+            (selectedCategory === "2" ? "Cổ tích" : "Giải trí")
+          );
+        }
+      })
+      .slice(0, 8);
+    dispatch(setFilteredStories(updatedStories));
+  }, [selectedCategory, dispatch]);
 
   return (
     <div className={styles.container}>
       <div className={styles.containerlist}>
-        <div className={styles.search}>
-          <div className={styles.inputsearch}>
-            <input
-              type="search"
-              placeholder="Tìm kiếm"
-              value={searchTerm}
-              onChange={(e) => dispatch(setSearchTerm(e.target.value))}
-            />
-          </div>
+        <div className={styles.dropdown}>
+          <Form.Select
+            className={styles.customselect}
+            aria-label="Default select example"
+            value={selectedCategory}
+            onChange={(e) => dispatch(setSelectedCategory(e.target.value))}
+          >
+            <option value="1">Tất cả</option>
+            <option value="2">Cổ tích</option>
+            <option value="3">Giải trí</option>
+          </Form.Select>
         </div>
-
         <div className={styles.list}>
           <div className={styles.item}>
             <ul>
-              {filteredStories.map((story) => (
+              {filteredStories.map((story: any) => (
                 <li key={story.id}>
                   <div className={styles.card}>
                     <Link href={`/home/${story.id}`}>
@@ -50,6 +65,13 @@ const Home = () => {
                 </li>
               ))}
             </ul>
+          </div>
+        </div>
+        <div className={styles.newStoryUpdate}>
+          <div className={styles.itemStoryUpdate}>
+            <h1>TRUYỆN MỚI CẬP NHẬT</h1>
+            <div className={styles.inline}></div>
+            <NewStory />
           </div>
         </div>
       </div>

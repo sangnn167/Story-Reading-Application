@@ -3,16 +3,19 @@ import { createSlice } from "@reduxjs/toolkit";
 export const ReadStories = createSlice({
   name: "stories",
   initialState: {
-    searchTerm: "",
+    selectedCategory:"1",
+    filteredStories: [],
   },
   reducers: {
-    setSearchTerm: (state, action) => {
-      state.searchTerm = action.payload;
+    setSelectedCategory: (state, action) => {
+      state.selectedCategory = action.payload;
     },
-   
+    setFilteredStories: (state, action) => {
+      state.filteredStories = action.payload;
+    },
   },
 });
 
-export const { setSearchTerm} = ReadStories.actions;
+export const {setSelectedCategory,setFilteredStories} = ReadStories.actions;
 
 export default ReadStories.reducer;

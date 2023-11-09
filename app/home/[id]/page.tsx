@@ -65,16 +65,14 @@ const StoryPage = ({ params }: { params: { id: String } }) => {
                   {selectedStory.chapters.map((chapter, index) => (
                     <li key={index}>
                       <Link
-                        href={`/home/${selectedStory.id}/${chapter.chapterNumber}`}
-                      >
+                        href={`/home/${selectedStory.id}/${chapter.chapterNumber}`}>
                         <div className={styles.item}>
                           <strong>
                             Chapter {chapter.chapterNumber}:{" "}
                             {chapter.chapterTitle}
                           </strong>
                           <p>
-                            {chapter.chapterDatePosted}
-                            {"⮞"}
+                            {chapter.chapterDatePosted}{"⮞"}
                           </p>
                         </div>
                       </Link>
