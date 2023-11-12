@@ -15,6 +15,9 @@
   min-height: 100vh;
   flex-direction: column;
   overflow-y: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .list {
   text-align: left;
@@ -23,7 +26,6 @@
 .item ul {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 20px;
   align-items: center;
   justify-content: center;
   gap: 20px;
@@ -45,18 +47,25 @@
   height: 200px;
 }
 .customselect {
-  background-color: rgb(133, 123, 106);
+  background-color: orange;
   padding: 8px;
-  margin-top: 20px;
+  margin-top: 19px;
   border-radius: 5px;
   width: 8vw;
+  color: white;
 }
+.customselect option {
+  background-color: black;
+  color: white;
+}
+
 .newStoryUpdate{
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
+  margin-top: 15px;
 }
 .itemStoryUpdate{
   width: 80.5%;
@@ -65,7 +74,6 @@
 .inline{
   border: 1px solid grey;
 }
-/* Trong Table.module.css */
 .table {
   border-collapse: collapse;
   width: 100%;
@@ -80,6 +88,28 @@ tr > .td:first-child {
 }
 tr > .td:last-child {
   border-right: none;
+}
+.filter{
+  width: 85%;
+
+  flex-direction: column;
+  padding: 5px;
+}
+.filter h1{
+  text-align: left;
+
+}
+.search{
+  display: flex;
+  margin-bottom: 10px;
+}
+.input input{
+  padding: 5px;
+  margin-top: 20px;
+  margin-right: 20px;
+  border-radius: 5px;
+  border: 2px solid black;
+  
 }
 
 

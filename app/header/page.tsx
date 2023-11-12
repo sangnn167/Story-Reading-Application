@@ -1,18 +1,9 @@
 "use client";
 import styles from "@/app/styles/header.module.css";
 import Link from "@/node_modules/next/link";
-import React, { useState } from 'react';
 
 const Header = () => {
-  const [searchValue, setSearchValue] = useState('');
-  
-  const handleSearch = () => {
-    if (searchValue.trim() === '') {
-      alert("Mời bạn nhập vào chỗ trống");
-    } else {
-      //Sử lý sau khi chuyển trang
-    }
-  };
+
   return (
     <div className={styles.header}>
       <div className={styles.headermenu}>
@@ -57,15 +48,6 @@ const Header = () => {
           </li>
         </ul>
       </div>
-      <div className={styles.search}>
-        <div className={styles.input}>
-          <input type="search" placeholder="Tìm kiếm..." value={searchValue} onChange={(e) => setSearchValue(e.target.value)} />
-        </div>
-        <div className={styles.button}>
-          <button onClick={handleSearch}>Tìm kiếm</button> 
-        </div>
-      </div>
-
     </div>
   );
 };

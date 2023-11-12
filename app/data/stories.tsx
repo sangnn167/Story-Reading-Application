@@ -10,6 +10,7 @@ const storiesData = [
     favourite: false,
     follow: 200,
     user: "Sang",
+    history: false,
     chapters: [
       {
         chapterNumber: 1,
@@ -37,6 +38,7 @@ const storiesData = [
     category: "Giải trí",
     status: "[Đang cập nhật]",
     favourite: true,
+    history: false,
     chapters: [
       {
         chapterNumber: 1,
@@ -75,6 +77,7 @@ const storiesData = [
     status: "Full",
     follow: 110,
     favourite: false,
+    history: false,
     chapters: [
       {
         chapterNumber: 1,
@@ -95,6 +98,7 @@ const storiesData = [
     status: "[Đang cập nhật]",
     follow: 114,
     favourite: false,
+    history: true,
     chapters: [
       {
         chapterNumber: 1,
@@ -128,6 +132,7 @@ const storiesData = [
     follow: 990,
     status: "[Đang cập nhật]",
     favourite: true,
+    history: true,
     chapters: [
       {
         chapterNumber: 1,
@@ -154,6 +159,7 @@ const storiesData = [
     favourite: false,
     follow: 152,
     user: "Nam",
+    history: true,
     chapters: [
       {
         chapterNumber: 1,
@@ -174,6 +180,7 @@ const storiesData = [
     category: "Giải trí",
     status: "[Đang cập nhật]",
     favourite: true,
+    history: true,
     chapters: [
       {
         chapterNumber: 1,
@@ -189,8 +196,8 @@ const storiesData = [
       },
       {
         chapterNumber: 3,
-        chapterTitle: "Sau buổi dạo chơi",
-        chapterDescription: "Sau buổi dạo chơi, vẫn là những ngày tháng bình thường, mỗi ngày đi làm rồi tan làm, chỉ là cuộc sống vẫn không chịu hệt như trước nay – ví dụ như ngày nào giờ nào Long Hoằng Văn cũng vây quanh Lâm Giai Thụy. Lâm Giai Thụy cau mày khổ não nói: “Anh không cần phải đi làm nữa hả? Ngày nào cũng theo tôi không thấy mệt sao?”Còn Long Hoằng Văn thì ngại ngùng nhưng cũng đành mặt dày mà đáp: “Tôi… Tôi… Tôi nghỉ phép bốn tháng.” Lâm Giai Thụy kinh ngạc nhìn anh: “Anh xác định là công ty của anh sẽ không sập chứ?”Long Hoằng Văn gãi gãi đầu: “Thật ra… Tôi không quan trọng đến thế, Tiểu Thụy anh xem trọng tôi quá rồi! Haha…” Lâm Giai Thụy thẳng thừng liếc một cái rồi quay đầu đi mất.Lâm Giai Thụy lúc này có chút phiền não khi ấy đã đồng ý làm bạn với Long Hoằng Văn, người đâu bám dai như đỉa, ruột để ngoài da, bản thân hắn sao có thể không cảm thấy gì? Nhìn thấy phía sau có một gã đang cầm máy ảnh hình như đang loay hoay chụp đàn chó lớn, Lâm Giai Thụy bất đắc dĩ lắc đầu. Ai có thể như thế mà nỗ lực cả đời? Khi mà toàn bộ nỗ lực đều bị xem thường thành vô giá trị, không có ai bằng lòng bỏ ra cố gắng không cần thiết chỉ để bảo vệ những điều vô ích. Người người ngoài miệng nói yêu, kì thực tình yêu ấy chỉ là muốn chứng minh bản thân được người khác yêu thương, hơn nữa nếu như tốn hết tâm tư vẫn không thể chứng minh được, người sẽ thẹn quá thành giận như thế nào?Tôi đồng ý chơi trò này, bởi vì tôi đã không còn gì để mất, cũng không kì vọng đạt được điều gì, đến cuối cùng ai khóc ai cười, đều không liên quan đến tôi.Lâm Giai Thụy nhìn bóng dáng của Long Hoằng Văn, lẩm bẩm: “Vậy lời yêu của anh có thể đảm bảo dài lâu đến khi nào?” Hắn hoảng hốt trong nháy mắt, hắn nghĩ, có lẽ không nên để con người này bước vào cuộc sống của bản thân, là người rồi cũng sẽ có lúc có cảm tình, hắn trước nay đánh giá bản thân quá cao, thế nên mới trải qua như vậy. Không phải là tình yêu, nhưng nếu phải mất đi bạn bè, cũng sẽ là một ngày tồi tệ trong đời, đến lúc đó bản thân lại phải giải quyết thế nào đây? Đã từng có bài học kinh nghiệm rồi, chẳng lẽ bản thân cứ vậy mà không khôn lên được?Lâm Giai Thụy cứ mãi suy nghĩ cho đến khi bất giác lùi về sau một bước. Long Hoằng Văn đang loay hoay cầm máy ảnh, mấy ngày gần đây anh lấy lý do học nhiếp ảnh cùng Lâm Giai Thụy, ngày ngày đều đến công viên thủy sinh trợ giúp hắn, đã quen thuộc với đồng nghiệp của Lâm Giai Thụy rồi, cũng là vì muốn hiểu thêm về Lâm Giai Thụy.Long Hoằng Văn lơ đãng quay người liền nhìn thấy cảnh tượng như thế này: Lâm Giai Thụy tâm trạng ngẩn ngơ, đôi mắt thường ngày ưu buồn, trong ánh mắt chất chứa chút ít mờ mịt. Hắn đứng bên ngoài khu vực triển lãm san hô sống, du khách đi đi lại lại ngang qua không ngớt, mà dường như hắn không hề để ý đến, chỉ ngỡ ngàng đứng giữa dòng người, hệt như một đứa trẻ lạc do dự không biết đường đi nằm ở phương nào. Ngọn đèn phía sau lưng hắn rọi sáng một góc san hô hồng nhạt, bên trong là đủ loại cá muôn màu muôn sắc đang vui sướng bơi qua bơi lại. Mà hắn lại ở giữa nửa sáng nửa tối, chầm chậm cúi thấp đầu, không rõ là đang suy tư điều gì.Long Hoằng Văn bước đến, vỗ vỗ vào vai hắn, hắn như bừng tỉnh nhìn Long Hoằng Văn. Lâm Giai Thụy mỉm cười với anh, trong lòng đã quyết định giữ khoảng cách vẫn tốt hơn: “Hoằng Văn, sau này anh đừng đến đây nữa, muốn học nhiếp ảnh thì chỗ của tôi có vài quyển sách, đợi tôi quay về lấy cho anh.” Long Hoằng Văn giật mình hỏi: “Tại sao? Tiểu Thụy, tôi ở đây sẽ không quấy rầy anh đâu.”Lâm Giai Thụy lắc lắc đầu: “Cứ như thế này hoài không tốt, ông chủ của chúng tôi cũng sẽ không trả lương cho anh, anh đến làm việc không công để làm gì chứ?”Long Hoằng Văn nghẹn lại, muốn nói không sao cả anh không ngại đâu, thế nhưng nhìn thấy nét mặt kiên quyết của Lâm Giai Thụy, cuối cùng vẫn hèn nhát mà chấp nhận. Nếu như vì vậy mà khiến cho đối phương chán ghét, chẳng phải mất nhiều hơn được sao?Thấy anh đồng ý, Lâm Giai Thụy thở phào nhẹ nhõm, lúc này du khách đã ngày một thưa, cũng gần đến giờ tan làm. Bấy giờ đa số du khách đều đến phía cửa ra xem màn biểu diễn cuối cùng của ngày hôm nay. Lâm Giai Thụy gật gật đầu nói: “Anh không cần làm việc, luôn luôn bất chấp chạy đến tìm tôi, chúng ta là bạn bè, là bạn thì vẫn nên giống như bạn, còn về những thứ khác, tất cả tùy duyên được không?”Long Hoằng Văn miễn cưỡng gật đầu, có chút đau lòng, trái tim của người này là tường đồng vách sắt hay sao, tại sao luôn không tìm được khe hở? Hắn luôn bao bọc bản thân mình lại không để nửa ngọn gió xuyên qua, hay nửa phần nào cho người ngoài dòm ngó như vậy sao?Bị từ chối đột ngột, Long Hoằng Văn bỗng nhiên ý thức, có lẽ trên đời này có thứ bản thân cưỡng cầu cũng không được, thế nhưng một thoáng qua khi ấy, đến bây giờ đã không thể làm chủ bản thân nữa rồi. Trong quá khứ mình trước nay đã quá thuận buồm xuôi gió, thế nên cuối cùng trời cao cũng không vừa mắt, liền ban tặng cho anh một kiếp nạn, qua được thì có thể an ổn nơi thiên đường, qua không được thì cả quãng đời còn lại đành chịu sống trong đau khổ lẫn dày vò như địa ngục.Ánh mắt của Long Hoằng Văn thâm trầm bám theo Lâm Giai Thụy, Lâm Giai Thụy thiếu tự nhiên quay mặt đi, nói: “Tôi dẫn anh đi xem A Triết biểu diễn.”Đi mấy vòng cuối cùng cũng đến cửa ra. Phía trước cửa ra thoạt nhìn giống như một khối kiến trúc hình trụ vĩ đại được dựng lên bằng thủy tinh, có chừng 5 tầng lầu, bên trong là nhiều loài cá đang bơi lội, dòng hải lưu nhân tạo khiến những chú cá bơi nhanh hơn. Từng nhóm từng nhóm muôn màu muôn sắc bơi vòng quanh, đẹp đến không nói nên lời.Nhưng thu hút sự chú ý nhất lại là mỹ nhân ngư màu xanh nhạt ở giữa. Nó từ tầng thấp nhất của hình trụ bơi đến tầng cao nhất, đôi khi còn chào các du khách. Vóc dáng thon dài tuyệt đẹp, lại tràn đầy mạnh mẽ, gương mặt trong thủy quang toát ra vẻ mị hoặc không gì sánh được. Đó chính là Lữ Triết Minh, công việc của hắn là mặc đồ mỹ nhân ngư biểu diễn trong nước. Lâm Giai Thụy cùng các hành khách xung quanh đều giơ máy ảnh lên, điều chỉnh góc độ rồi hướng về phía Lữ Triết Minh liên tục nhấn nút.Cuối cùng đến giờ tan làm, Lữ Triết Minh cùng đồng nghiệp bước ra ngoài, thấy Lâm Giai Thụy lại bất đắc dĩ lên tiếng: “Cậu lại chụp, chụp tới chụp lui cũng có khác gì nhau đâu?”Đồng nghiệp của Lữ Triết Minh là Trần Tiêu lại gần len lén nói với Lâm Giai Thụy: “A Thụy, nhớ cho tôi một bản ~” Lữ Triết Minh bất đắc dĩ nắm tóc Trần Tiêu kéo lại, nói: “Cậu lại có âm mưu gì? Lại đem hình tôi đi tán gái hả?” Trần Tiêu khoát tay lia lịa: “Không, tôi nào có dám? Cũng tại cậu đó, tự dưng lại đẹp tới vậy, đến nữ thần Đồng Hân Hân của tôi cũng không thể sánh bằng, tiêu chuẩn của tôi không thể không nâng lên một chút… Đến việc lấy hình để có chút an ủi cũng không cho sao!”Đồng Hân Hân là một “mỹ nhân ngư” khác, tiết mục của Trần Tiêu là ôm bình dưỡng khí làm mồi cho cá mập. Trước khi Lữ Triết Minh đến, Đồng Hân Hân luôn là nữ thần trong lòng cậu ta, sau khi Lữ Triết Minh đến nữ thần liền biến thành nam thần rồi… Lữ Triết Minh hết cách, đành thả cậu ta ra. Tên này thích nhất là quấy phá, có một lần dùng ảnh của hắn lên mạng tán gái, sau cùng phải gặp mặt thì suy sụp, sống chết muốn hắn đi, nhưng hắn lại không đồng ý, cuối cùng tình cảm đó cứ thế mà chấm dứt, tên này cũng không dám lấy hình hắn đi khắp nơi rêu rao nữa, nhưng vẫn quấn lấy Tiểu Thụy đòi hình,  không biết dùng để làm gì.Bước ra khỏi cửa, Lữ Triết Minh tạm biệt bọn họ. Lữ Triết Minh sống ở phố cổ, là nơi già cõi nhất thành phố A, ba mẹ quanh năm lưu trú ở nước ngoài, thế nên chỉ có một thân một mình. Nhưng nhiều năm qua mấy người hàng xóm nhà họ An luôn đối tối với hắn, vì thế cũng không lẻ loi cô độc.Không giống như Lâm Giai Thụy, thật sự một thân một mình, có nhà ở nơi khác nhưng không thể quay về, lại có một quá khứ không thể nào chạm tới. Vì lẽ đó nên mới bao dung cậu ấy, cũng là vì biết trong lòng cậu ấy có nỗi đau không thể nào buông bỏ, cũng biết cậu ấy khó mà có thể mở lòng, thế nên mới có lúc cho phép cậu ấy giở tính trẻ con.Dạo gần đây cái người tên Long Hoằng Văn luôn vây quanh Lâm Giai Thụy, Lữ Triết Minh hy vọng đây có thể là một bước chuyển biến mới, giúp cậu ấy có thể vui vẻ hơn một chút. Lữ Triết Minh mỉm cười, thế nhưng nếu như người này làm tổn thương Tiểu Thụy, vậy thì hắn cũng không ngại mà khiến anh ta vĩnh viễn mất đi Tiểu Thụy. Giống hệt như ban đầu, cho dù không có sức phản kháng, thế nhưng vẫn có thể thoát ly.Lúc Lữ Triết Minh quay về nhà trời cũng đã dần tối, có một người đứng ngay ở cửa mờ tối như đang chờ đợi ai đấy. Lữ Triết Minh định bước tới hỏi thăm, bóng người kia liền cử động, phát ra một âm thanh quen thuộc: “A Triết? Cậu về rồi?”Lữ Triết Minh cảm thấy khó hiểu: “Cậu đứng ở đây làm gì?”“Không, mẹ làm món gà cay cậu thích ăn, tôi chờ cậu về gọi cậu qua ăn.”“Ồ, vậy đợi một lát, tôi đi tắm rửa thay đồ xong sẽ qua ngay.”“Ừa.” An Chí Hằng ở phía sau hắn ánh mắt âm trầm, mẹ hôm nay lại giục anh đi xem mắt. Nhưng bản thân phải nói thế nào cho rõ khi mà cả đời này chỉ thích mỗi một người, mà người này đã chiếm cứ trái tim anh hơn hai mươi mấy năm?Có những thứ nếu không trả giá cao thì vĩnh viễn không cách nào đạt được, trong quá khứ đã hèn nhát một lần, cũng vì thế mà lỡ mất những năm quan trọng cùng cậu ấy kề vai, khi một lần nữa đứng trước mặt cậu ấy lại nghiễm nhiên phát hiện rằng cả hai đã không còn cách nào quay lại thân thiết như ngày trước. Những nuối tiếc kia anh không muốn có nữa, càng không cho phép lại xảy ra. Nếu như trong mấy năm đó A Triết đem người yêu về thì phải làm sao? An Chí Hằng rùng mình một cái, thật may là chuyện như vậy vẫn chưa xảy đến, nếu không bản thân sẽ phát điên lên mất. An Chí Hằng nhìn theo bóng lưng Lữ Triết Minh, quyết định làm đến cùng, tìm một cơ hội nói rõ với mẹ.",
+        chapterTitle: " Đuổi ra khỏi nhà",
+        chapterDescription: "Trong lòng Ninh Thư phát ngốc, đau đến chết lặng, cô thật sự rất chán ghét cảm giác này, luôn bị nó này ảnh hưởng, khiến cho cô thật khó chịu.Lăng Tuyết nhàn nhạt cười một tiếng, đoán chừng là bởi vì hành động lấy lòng cô ta của Lãnh Ngạo, cô ta liếc nhìn Ninh Thư, đi qua trước mặt cô, mang theo một cỗ mùi thơm dễ chịu, Ninh Thư hít hít mũi, thật dễ ngửi.Đúng là một nữ nhân có mị lực, Ninh Thư không phủ nhận mị lực của Lăng Tuyết, bằng không sẽ không mê hoặc được nam chính, có nhiều nam phụ như vậy, dưới tay cô ta còn có vô số em trai nhỏ.Ninh Thư dưới con mắt muôn hình muôn vẻ của mọi người, có chút đứng ngồi không yên, thật vất vả chờ đến lúc tan học, vừa ra đến cổng trường, liền thấy tài xế chờ ở cổng, nhìn thấy Ninh Thư, lập tức mở cửa xe, nói: “Tiểu thư, lão gia đang chờ cô.”Ninh Thư thoáng nhíu lông mày, quan sát thấy cổng trường đậu đầy xe hơi, thế này mới cảm thấy được căn nguyên vì sao Ace được coi là học viện quý tộc.Trong trí nhớ bới móc ra vị lão gia, thì ra là ba ba cỗ thân thể này, kỳ thật trong lòng Lâm Giai Giai rất tự ti, nhà cô buôn bán nhỏ đi lên, ba ba cũng coi như là phú hào, nhưng trong mắt bao nhiêu hào môn thế gia chân chính, thì chỉ là một gia đình nhà giàu mới nổi, cho nên mới nói, Lâm Giai Giai có thể đi vào học viện Ace, là đi cẩu. Vận phân.Hơn nữa trong mắt thế gia, con cháu nhà giàu ở đây, thì sự tồn tại của cô chẳng khác gì cẩu cả, lại còn khắp nơi đối đầu cùng Nữ Thần, thậm chí còn có tâm tư buồn nôn với Lãnh Ngạo.Những người này hoàn toàn quên rằng xuất thân của Lăng Tuyết còn không bằng Lâm Giai Giai, chỉ cần biết hiện tại sự tồn tại của Lâm Giai Giai làm cho người ta chán ghét là được rồi.Tình cảnh Lâm Giai Giai so với Lăng Tuyết lúc trước khổ sở hơn nhiều, không phải mỗi người đều có thể từ vịt con xấu xí biến thân thành thiên nga xinh đẹp.Cha cỗ thân thể này đưa cô vào học viện Ace chính là để cô cùng những danh môn quý tộc này xây dựng quan hệ tốt, Ace trường học bao gồm giới chính trị, giới kinh doanh, tùy tiện cùng một người có quan hệ tốt, liền có thể hỗ trợ việc làm ăn.Nhưng là Lâm Giai Giai lại trở thành kẻ thù chung của toàn bộ trường học.Ai, thật phức tạp ah, Ninh Thư thở dài.Ninh Thư vừa mới bước vào phòng khách, liền bị một bạt tai đổ ập xuống một bên má cô, lực đạo vô cùng lớn, hiển nhiên là không có một chút lưu tình.Cmn, quá đủ rồi, một ngày này không biết bị đánh bao nhiêu lần ah, trong lòng Ninh Thư bị chọc giận đến bùng cháy rồi, đặc tính của người ở thế giới này là bệnh xà tinh sao, có miệng lại éo biết nói chuyện.“Ánh mắt của mày là sao?” Cha Lâm thấy con gái u ám nhìn mình, sửng sốt một chút, tức thì trong lòng toát ra lửa giận càng lớn, chỉ vào Ninh Thư quát: “Lâm gia cho mày ăn, cho mày ở, hưởng thụ cuộc sống người người mơ ước, cho mày tới trường học dính dấp chút quan hệ, lại đắc tội toàn bộ người trong trường học.”“Mày có biết hay không những người trong trường đều là thân phận gì, trong đầu mày toàn là phân, cũng không không nhìn một chút đức hạnh của mình, mày cảm thấy mày xứng với Lãnh Ngạo sao? Người ta đã nói rồi, không được đến trước mặt hắn nhảy nhót, bởi vì hành động của mày liền ảnh hưởng đến công ty, Lâm Giai Giai, mày náo đủ chưa?”“Tao cho mày đến Ace học không phải là để gây phiền toái cho tao, thứ đồ vật vô dụng, một chút việc cũng làm không được.”Ninh Thư: …Một cơ hội nói chuyện Ninh Thư đều không có, nhìn cha Lâm một mình bô bô nói.Ninh Thư lay lay đầu mình, trong đầu đều là tiếng ong ong, nhất định là đánh cho chấn động não luôn rồi.Quả thực là một ông cha hết sức cặn bã ah.Ninh Thư có chút không hiểu với nguyên chủ, cuộc đời bị thúc giục như vậy, vẫn không quên muốn cứu vớt cái gì Lãnh vương tử, cô có thể hay không rời khỏi cái thế giới này, cô không thể hiểu được những người này nữa rồi.Cha Lâm bô bô nói một hồi, thấy khát nước, liền bâng chén trà lên uống, thấy Ninh Thư day day đầu, cũng không biết nó có nghe ông nói chuyện không, nghĩ đến gần đây công ty không thuận lợi, chính là bị cái đứa con gái xui xẻo này làm hại cho sắp phá sản.Mỗi ngày công ty đều có người đến kiểm tra, lúc thì tiền thuế, lúc thì giấy tờ, dùng đủ loại lý do, khiến cho cha Lâm quả thực muốn phát điên rồi.Ông cầm chén trà hướng Ninh Thư ném tới, vừa rồi không hiểu gì liền trúng một cái tát, vì thế thời thời khắc khắc Ninh Thư đều nhìn chằm chằm vào cử chỉ của đối phương, tức khắc liền tránh ra, chén trà rơi ‘choang’ trên mặt đất, mảnh vỡ bắn tứ tung.Cha Lâm chỉ vào Ninh Thư, ôm ngực, một bộ bệnh tim lại phát tác rồi, cuối cùng trên mặt lộ ra một cỗ thần sắc bất đắc dĩ, mang vẻ mặt đau xót, bộ dáng không biết làm thế nào thống khổ đến cực điểm.Ninh Thư: Hiện tại là cái tình huống gì đây?“Giai Giai, rời khỏi Lâm gia đi, đây chỉ là tính toán tạm thời, đợi qua một đoạn thời gian, những chuyện này trôi qua, ba ba sẽ đón con về nhà.”“Giai Giai, ba ba là thương con, nhưng ba ba lại không có biện pháp nào khác, Giai Giai không nên trách ba ba.”Ninh Thư lắp bắp hỏi: “Cha…Ba ba, đây là ý gì?”Trong nội tâm Ninh Thư nổi lên dự cảm xấu, hi vọng không phải như cô nghĩ.Nhân phẩm của cô không phải kém như vậy a, giá trị may mắn chỉ có 20 có phải hay không quá thấp?“Từ giờ trở đi, con không phải là con gái Lâm gia.” Cha Lâm vẻ mặt đau xót nhìn Ninh Thư, “Con yên tâm, ba ba sẽ đón con trở về.”Nếu như không có cái tát vừa rồi, Ninh Thư thiếu chút nữa là tin lời ông già này rồi, bây giờ là muốn đem cô đuổi ra khỏi nhà, đoạn tuyệt quan hệ?Ninh Thư cảm thấy mình đem sự tình làm cho phức tạp rồi, rõ ràng là đến thay nguyên chủ nghịch tập, hiện tại lại bị đuổi ra khỏi nhà, phải hay không là cô quá yếu?Ninh Thư không do dự nói: “Ba ba, con tin tưởng người.” Tin ông còn không bằng tin heo mẹ leo cây.Cha Lâm thở dài một hơi, thấy Ninh Thư không có gào thét làm loạn, xem ra là một đứa con gái nhu thuận, chỉ tiếc đầu óc có chút ngu xuẩn, học sinh trường Ace ai thân phận cũng cao quý, chọn bất kỳ một người đều là nhân vật thâm tàng bất lộ, lại cứ đi quấy rầy Lãnh Ngạo, Lãnh Ngạo là ai ah.Có dã tâm không sai, nhưng leo cao quá sẽ bị ngã chết.Cha Lâm cũng có dã tâm, nhưng là phải đi từng bước một, hiện tại lại vì con gái, công ty của ông bước đi khó khăn, càng ngày càng đi xuống, thật sự phải sắp đóng cửa rồi.Ninh Thư về phòng Lâm Giai Giai thu thập hành lí, đem tất cả quần áo trong tủ nguyên chủ đóng gói lại hết, một năm quần áo bốn mùa một bộ cũng không bỏ lại.Lời nói của cha Lâm cái lão hồ ly này…, Ninh Thư liền một chữ cũng không tin, về phần còn muốn đón cô trở về, Ninh Thư tin cái rắm á.ở bệnh viện nhiều năm như vậy Ninh Thư đã hiểu quá rõ, con người khi gặp được lợi ích sẽ xé xác lẫn nhau, một đời người, sinh lão bệnh tử đều là trải qua trong bệnh viện.Mặc dù Ninh Thư không có tiến vào xã hội, nhưng ở trong bệnh viện lại thấy được thế gian muôn màu.Lâm gia là vì lợi ích từ bỏ con gái của mình.Ninh Thư cảm thấy khổ sở thay nguyên chủ, trên trán cô băng gạc rõ ràng như vậy, cha Lâm luôn miệng nói ba ba là thương yêu ngươi, nhưng vết thương nổi bật trên mặt như vậy cũng không nhìn thấy, thậm chí càng gây thêm tổn thương, không hỏi rõ nguyên do đã đem cô đuổi ra khỏi nhà.",
         chapterDatePosted: "30 phút trước",
       },
       {
@@ -213,6 +220,7 @@ const storiesData = [
     status: "Full",
     follow: 500,
     favourite: true,
+    history: false,
     chapters: [
       {
         chapterNumber: 1,
@@ -239,6 +247,7 @@ const storiesData = [
     status: "Full",
     follow: 114,
     favourite: false,
+    history: false,
     chapters: [
       {
         chapterNumber: 1,
@@ -259,6 +268,7 @@ const storiesData = [
     status: "Full",
     follow: 155,
     favourite: false,
+    history: false,
     chapters: [
       {
         chapterNumber: 1,
@@ -279,6 +289,7 @@ const storiesData = [
     status: "[Đang cập nhật]",
     follow: 202,
     favourite: false,
+    history: false,
     chapters: [
       {
         chapterNumber: 1,
@@ -294,12 +305,13 @@ const storiesData = [
     title: "Sự tích ông công ông táo",
     description: "Sự tích ông Táo về Trời hay còn gọi sự tích Táo quân là câu chuyện cảm động về tình nghĩ vợ chồng, qua đó giải thích tục lệ cổ truyền của người Việt cúng ông Công, ông Táo vào 23 tháng Chạp hằng năm. Vậy tục lệ cúng Táo quân hằng năm có ý nghĩa gì? Mời các bạn cùng theo dõi bài viết sau đây nhé.",
     datePosted: "2023-10-02",
-    user: "Yến",
+    user: "Sang",
     author: "[Đang cập nhật]",
     category: "Cổ tích",
     status: "Full",
     follow: 350,
     favourite: false,
+    history: false,
     chapters: [
       {
         chapterNumber: 1,
@@ -314,12 +326,13 @@ const storiesData = [
     title: "Chỉ là giết thời gian",
     description: "Thể loại truyện giải trí đã và đang nhận được không ít sự quan tâm của các bạn độc giả, truyện với những tình tiết và nhân vật đem lại không ít sự tò mò, lối kể chuyện lạ, tình tiết không quá đặc sắc nhưng khi dựng thành một câu chuyện thì thực sống động và cuốn hút. Truyện Ngạo Thế Đan Thần là một trong những truyện nổi bật ở thể loại này được tác giả Tịch Tiểu Tặc chắp bút.Năm nay Trầm Tường mười sáu tuổi, thân hình so với bạn cùng lứa tuổi thì cường tráng cao lớn hơn, thân thể này cùng gương mặt tuấn tú mang theo tính trẻ con, nhìn rất là trái ngược, nhưng cặp mắt kia của hắn lại thâm thúy không tương xứng cùng tuổi tác, xem ra nhàn đến muốn thành thục hơn so với bạn cùng lứa tuổi một ít.Lúc này Trầm Tường muốn đi hái thuốc, mặc dù hắn là trưởng tôn tử của Trầm gia tộc, nhưng bởi vì hắn không có linh mạch, không thể trở thành một võ giả lợi hại, bởi vậy, từ nhỏ hắn đã rất chăm chỉ rèn luyện thân thể của mình, thường thường ra ngoài tiến hành các loại huấn luyện bí mật, thậm chí còn tiến hành tranh đấu với Hổ thú, tuy hắn tuổi còn trẻ, nhưng cũng từng có mấy lần trải qua sinh tử, tâm tình cùng ý chí đều hơn xa bạn cùng lứa tuổi.",
     datePosted: "2023-8-02",
-    user: "Yến",
+    user: "Sang",
     author: "Nguyệt Hạ Điệp Ảnh",
     category: "Giải trí",
     status: "[Đang cập nhật]",
     follow: 45,
     favourite: false,
+    history: false,
     chapters: [
       {
         chapterNumber: 1,
@@ -334,12 +347,13 @@ const storiesData = [
     title: "Thần khống thiên hạ",
     description: "Nếu ai đã từng mê mẩn tuyệt phẩm Phong Vân của Mã Vinh Thành và Đan Thanh, đã từng theo bước chân của Tử Thần Bất Khốc Bộ Kinh Vân và Phong Trung Chi Thần Nhiếp Nhong thì tuyệt đối không thể bỏ qua Thần Khống Thiên Hạ.Với những tuyệt kỹ thành danh của Phong Vân như Bài Vân Chưởng, Phong Thần Cước mà khi Lăng Tiếu xuyên việt đến dị giới đã sử dụng chém giết hết thảy trở ngại, thành tựu đỉnh phong trên con đường cường giả. Luyện cường giả Thần giai làm khôi lỗi, bắt thần thú làm tọa kỵ, nạp thần nữ làm thê thiếp tiến lên con đường trở thành Thần Khống Thiên HạĐẳng cấp võ giả: Võ đồ, Huyền giả, Huyền sĩ, Linh sư, Vương giai, Địa hoàng, Thiên tôn, Huyền đế, Thánh cảnh, Thần cảnh.",
     datePosted: "2023-8-05",
-    user: "Yến",
+    user: "Sang",
     author: "Ngã Bản Thuần Khiết",
     category: "Giải trí",
     status: "[Đang cập nhật]",
     follow: 2,
     favourite: false,
+    history: false,
     chapters: [
       {
         chapterNumber: 1,
@@ -354,12 +368,13 @@ const storiesData = [
     title: "Anh đào hổ phách",
     description: "Lâm Kỳ Nhạc là một thiếu nữ ở thị trấn nhỏ. Cô tự thấy hai mươi năm của mình thật sự rất yên bình, mọi việc thuận lợi, xuôi chèo mát mái. Chỉ tiếc nuối duy nhất một điều, chính là chưa trải qua cảm giác yêu đương thuở mới lớn bao giờ.Con cưng của trời Tưởng Kiều Tây, niềm vui nỗi buồn lẫn lộn hai mươi năm, gặp gỡ Lâm Kỳ Nhạc năm ấy, anh tự nhận mình bước vào một hồi đại vận.Trên báo nói rằng, năm 1990 số trẻ em mới sinh ra ở Trung Quốc là hai mươi sáu triệu hai trăm mười ngàn người. Trong số đó có Lâm Kỳ Nhạc, có Dư Tiều, Đỗ Thượng, có Thái Phương Nguyên, có vô số bạn bè cùng lớp, bạn thời để chỏm, cố nhiên cũng có Tưởng Kiều Tây.",
     datePosted: "2023-5-05",
-    user: "Yến",
+    user: "Sang",
     author: "Vân Trụ",
     category: "Giải trí",
     status: "[Đang cập nhật]",
     follow: 28,
     favourite: false,
+    history: false,
     chapters: [
       {
         chapterNumber: 1,
@@ -374,12 +389,13 @@ const storiesData = [
     title: "Người làm chúa muôn loài",
     description: "Nếu như truyền thuyết Sơn Tinh Thủy Tinh thể hiện khát vọng của con người chế ngự được sức mạnh dữ dội của thiên nhiên thì câu chuyện Sự tích người làm chúa muôn loài lại là lời khẳng định vị thế làm chủ của con người trước muôn thú, kể cả những loài vật hung hiểm nhất.Câu chuyện còn muốn đề cao sự thông minh và tấm lòng nhân nghĩa của con người, qua đó giáo dục các bạn nhỏ phải biết giữ lễ nghĩa cũng như đạo lý trong cuộc sống.",
     datePosted: "2023-11-06",
-    user: "Yến",
+    user: "Sang",
     author: "[Đang cập nhật]",
     category: "Cổ tích",
     status: "Full",
     follow: 255,
     favourite: false,
+    history: false,
     chapters: [
       {
         chapterNumber: 1,

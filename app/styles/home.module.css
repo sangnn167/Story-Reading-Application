@@ -45,15 +45,6 @@
   margin-bottom: 10px;
   font-size: 20px;
 }
-.heartButton {
-  background-color: white;
-  border: none;
-  cursor: pointer;
-}
-
-.heartButton.active {
-  background-color: red;
-}
 .chapter {
   display: flex;
   flex-direction: column;
@@ -121,7 +112,38 @@
 .description {
   float: left;
 }
-
+.button button{
+  border: 1px solid orange;
+  background: orange;
+  color: white;
+  font-weight: bold;
+  margin: 0 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.button{
+  display: flex;
+}
+.headerContent{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.button button[disabled] {
+  opacity: 0.7; 
+  cursor: not-allowed;
+}
+.fontsize button{
+  width: 30px; 
+  height: 34px;
+  border-radius: 50%;
+  border: none;
+  background-color: orange; 
+  color: #fff; 
+  cursor: pointer;
+  
+}
 @media screen and (max-width: 1280px) {
   .img {
     flex-direction: column;
@@ -139,6 +161,15 @@
   }
   .author{
     font-size: 15px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
   }
 }
 @media screen and (max-width: 512px){

@@ -4,8 +4,8 @@ import styles from "@/app/styles/categoryy.module.css";
 import Link from "next/link";
 import Image from "next/image";
 import TopViews from "../topviews/page";
-const Fairytale = () => {
-  const filteredStories = storiesData.filter((story) => story.category === "Giải trí");
+const Entertaining = () => {
+  const EntertainingStories = storiesData.filter((story) => story.category.includes("Giải trí"));
   return (
     <div className={styles.container}>
       <div className={styles.containerlist}>
@@ -19,7 +19,7 @@ const Fairytale = () => {
             <div className={styles.itemleft}>
               <div className={styles.ul}>
                 <ul>
-                  {filteredStories.map((story) => (
+                  {EntertainingStories.map((story) => (
                     <li key={story.id}>
                       <div>
                         <div className={styles.card}>
@@ -59,10 +59,10 @@ const Fairytale = () => {
               </div>
             </div>
           </div>
-          <TopViews stories={filteredStories} />
+          <TopViews stories={EntertainingStories} />
         </div>
       </div>
     </div>
   );
 };
-export default Fairytale;
+export default Entertaining;

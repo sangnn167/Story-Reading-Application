@@ -43,6 +43,7 @@
   background-color: orange;
   color: #212121;
 }
+
 .dropdowncontent a:focus {
   background-color: #212121;
   color: white;
@@ -94,7 +95,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 100px;
+    
   }
   .headermenu {
     width: 100%;
@@ -114,9 +115,7 @@
   }
 }
 @media screen and (max-width: 551px) {
-  .header {
-    height: 130px;
-  }
+  
   .headermenu {
     font-size: 17px;
   }
