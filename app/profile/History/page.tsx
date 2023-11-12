@@ -25,6 +25,11 @@ const History = () => {
                                         {story.follow}
                                     </div>
                                 </div>
+                                <div className={styles.textContainerr}>
+                                        <div className={styles.followw}>
+                                            {story.category}
+                                        </div>
+                                    </div>
                             </div>
                             <Link href={`/Home/${story.id}`}>
                                 <div className={styles.title}>{story.title}</div>

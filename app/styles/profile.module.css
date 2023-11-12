@@ -67,6 +67,21 @@
   color: white;
   font-size: 14px;
 }
+.textContainerr {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  background: rgba(100, 99, 99, 0.5); 
+  padding: 6.5px; 
+  text-align: left;
+  border-radius: 5px;
+}
+.followw {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 14px;
+}
 .deletebutton {
   width: 40px;
   height: 40px;

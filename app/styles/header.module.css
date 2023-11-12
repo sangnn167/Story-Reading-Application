@@ -17,6 +17,7 @@
 }
 .headermenu ul {
   display: flex;
+  align-items: center;
 }
 .pastebutton {
   position: relative;
@@ -93,11 +94,11 @@
 .button:hover{
   background: rgb(1, 1, 230);
 }
+
 @media screen and (max-width: 840px) {
   .header {
     display: flex;
     align-items: center;
-    flex-direction: column;
     
   }
   .headermenu {
@@ -118,9 +119,8 @@
   }
 }
 @media screen and (max-width: 551px) {
-  
   .headermenu {
-    font-size: 17px;
+    font-size: 14px;
   }
   .item picture{
     display: none;

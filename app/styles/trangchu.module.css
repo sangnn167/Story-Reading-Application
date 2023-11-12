@@ -97,7 +97,6 @@ tr > .td:last-child {
 }
 .filter{
   width: 85%;
-
   flex-direction: column;
   padding: 5px;
 }
@@ -122,6 +121,15 @@ tr > .td:last-child {
 }
 .card h2:hover{
   text-decoration: underline;
+}
+
+@media screen and (max-width: 512px) {
+  .input input{
+    width: 130px;
+  }
+  .customselect {
+    width: 105px;
+  }
 }
 
 

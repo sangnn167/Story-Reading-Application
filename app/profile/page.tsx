@@ -22,17 +22,16 @@ const Profile = () => {
     <div className={styles.tabcontainer}>
       <Tabs selectedIndex={selectedTabIndex} onSelect={handleTabSelect}>
         <TabList className={styles.tablist}>
-          <Tab className={`${styles.tab} ${selectedTabIndex === 0 ? styles.tabselected : ''}`}>
+          <Tab className={`${styles.tab} ${Object.is(selectedTabIndex, 0) ? styles.tabselected : ''}`}>
             Truyện của bạn
           </Tab>
-          <Tab className={`${styles.tab} ${selectedTabIndex === 1 ? styles.tabselected : ''}`}>
+          <Tab className={`${styles.tab} ${Object.is(selectedTabIndex, 1) ? styles.tabselected : ''}`}>
             Truyện yêu thích
           </Tab>
-          <Tab className={`${styles.tab} ${selectedTabIndex === 2 ? styles.tabselected : ''}`}>
+          <Tab className={`${styles.tab} ${Object.is(selectedTabIndex, 2) ? styles.tabselected : ''}`}>
             Lịch sử đọc
           </Tab>
         </TabList>
-
         <TabPanel className={styles.tabpanel}>
           <StoryPosted/>
         </TabPanel>

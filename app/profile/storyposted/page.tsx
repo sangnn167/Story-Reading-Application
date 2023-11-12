@@ -20,7 +20,14 @@ const StoryPosted = () => {
                                         height={180}
                                     />
                                     <div className={styles.textContainer}>
-                                        <div className={styles.follow}><picture><img src="/icons/eyee.png" alt="" /></picture>{story.follow}</div>
+                                        <div className={styles.follow}>
+                                            <picture><img src="/icons/eyee.png" alt="" /></picture>{story.follow}
+                                        </div>
+                                    </div>
+                                    <div className={styles.textContainerr}>
+                                        <div className={styles.followw}>
+                                            {story.category}
+                                        </div>
                                     </div>
                                 </div>
                                 <Link href={`/Home/${story.id}`}>
