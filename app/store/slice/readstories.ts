@@ -1,12 +1,11 @@
 import { createSlice } from "@reduxjs/toolkit";
-
+import storiesData from "@/app/Data/stories";
 export const ReadStories = createSlice({
   name: "stories",
   initialState: {
     selectedCategory:"1",
-    filteredStories: [],
+    filteredStories: storiesData.slice(0, 8),
     searchKeyword: "",
-    loading:true,
     selectedTabIndex: 0,
   },
   reducers: {
@@ -19,15 +18,12 @@ export const ReadStories = createSlice({
     setSearchKeyword: (state, action) => {
       state.searchKeyword = action.payload;
     },
-    setLoading: (state, action) => {
-      state.loading = action.payload
-    },
     setSelectedTabIndex: (state,action) =>{
       state.selectedTabIndex = action.payload
     }
   },
 });
 
-export const {setSelectedCategory,setFilteredStories,setSearchKeyword,setLoading,setSelectedTabIndex} = ReadStories.actions;
+export const {setSelectedCategory,setFilteredStories,setSearchKeyword,setSelectedTabIndex} = ReadStories.actions;
 
 export default ReadStories.reducer;

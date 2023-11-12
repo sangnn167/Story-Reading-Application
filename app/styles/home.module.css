@@ -12,6 +12,26 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+}
+.header{
+  background: white;
+  width: 80%;
+  text-align: left;
+  padding: 5px;
+  font-size: 14px;
+  color: rgb(96, 95, 95);
+}
+.header{
+  display: flex;
+  align-items: center;
+}
+.header p{
+  display: flex;
+}
+.header p:hover{
+  text-decoration: underline;
+  cursor: pointer;
 }
 .list {
   background: white;
@@ -28,6 +48,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-top: 20px;
 }
 .img {
   margin-top: 20px;
@@ -80,6 +101,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 .content {
   background: white;

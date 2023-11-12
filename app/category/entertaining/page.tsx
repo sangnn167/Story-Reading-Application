@@ -1,9 +1,9 @@
 "use client";
-import storiesData from "../../data/stories";
+import storiesData from "../../Data/stories";
 import styles from "@/app/styles/categoryy.module.css";
 import Link from "next/link";
 import Image from "next/image";
-import TopViews from "../topviews/page";
+import TopViews from "../Topviews/page";
 const Entertaining = () => {
   const EntertainingStories = storiesData.filter((story) => story.category.includes("Giải trí"));
   return (
@@ -31,7 +31,7 @@ const Entertaining = () => {
                               height={180}
                             />
                             <div className={styles.title}>
-                              <Link href={`/home/${story.id}`}>
+                              <Link href={`/Home/${story.id}`}>
                                 <h2>{story.title}</h2>
                               </Link>
                               <div className={styles.author}>

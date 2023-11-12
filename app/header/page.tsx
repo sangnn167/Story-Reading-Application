@@ -9,7 +9,7 @@ const Header = () => {
       <div className={styles.headermenu}>
         <ul>
           <li>
-            <Link href="/home/">
+            <Link href="/Home/">
               <div className={styles.item}>
                 <picture>
                   <img src="/icons/home.png" width={"25px"} alt="" />
@@ -27,17 +27,17 @@ const Header = () => {
                 Thể loại
               </div>
               <div className={styles.dropdowncontent}>
-                <a className={styles.top} href="/category/fairytale">
+                <a className={styles.top} href="/Category/Fairytale">
                   Cổ tích
                 </a>
-                <a className={styles.bottom} href="/category/entertaining">
+                <a className={styles.bottom} href="/Category/Entertaining">
                   Giải trí
                 </a>
               </div>
             </div>
           </li>
           <li>
-            <Link href="/profile/">
+            <Link href="/Profile/">
               <div className={styles.item}>
                 <picture>
                   <img src="/icons/people.png" width={"23px"} alt="" />

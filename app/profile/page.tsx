@@ -2,8 +2,8 @@
 import styles from "@/app/styles/profile.module.css";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
-import Favourite from "./favourite/page";
-import StoryPosted from "./storyposted/page";
+import Favourite from "./Favourite/page";
+import StoryPosted from "./Storyposted/page";
 import { useDispatch, useSelector } from "react-redux";
 import { setSelectedTabIndex } from "../store/slice/readstories";
 import History from "./History/page";

@@ -1,5 +1,5 @@
 "use client";
-import storiesData from "../../data/stories";
+import storiesData from "../../Data/stories";
 import styles from "@/app/styles/profile.module.css";
 import Link from "@/node_modules/next/link";
 import Image from "@/node_modules/next/image";
@@ -34,7 +34,7 @@ const Favourite = () => {
                     </button></div>
                   </div>
                 </div>
-                  <div className={styles.title}><Link href={`/home/${story.id}`}> {story.title}</Link></div>
+                  <div className={styles.title}><Link href={`/Home/${story.id}`}> {story.title}</Link></div>
               </li>
             ))
           }

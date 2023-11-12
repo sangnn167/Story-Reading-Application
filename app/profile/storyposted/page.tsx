@@ -1,5 +1,5 @@
 "use client";
-import storiesData from "../../data/stories";
+import storiesData from "../../Data/stories";
 import styles from "@/app/styles/profile.module.css";
 import Link from "@/node_modules/next/link";
 import Image from "@/node_modules/next/image";
@@ -23,7 +23,7 @@ const StoryPosted = () => {
                                         <div className={styles.follow}><picture><img src="/icons/eyee.png" alt="" /></picture>{story.follow}</div>
                                     </div>
                                 </div>
-                                <Link href={`/home/${story.id}`}>
+                                <Link href={`/Home/${story.id}`}>
                                     <div className={styles.title}> {story.title}</div>
                                 </Link>
                             </li>

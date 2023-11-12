@@ -6,8 +6,14 @@
   justify-content: center;
   flex-direction: column;
 }
-.header{
-  width: 100%;
+
+.headerr{
+  width: 80%;
+  text-align: left;
+  padding: 5px;
+  font-size: 14px;
+  color: rgb(96, 95, 95);
+  background: white;
 }
 .containerlist {
   width: 80%;
@@ -110,6 +116,12 @@ tr > .td:last-child {
   border-radius: 5px;
   border: 2px solid black;
   
+}
+.card h2{
+  font-weight: bold;
+}
+.card h2:hover{
+  text-decoration: underline;
 }
 
 

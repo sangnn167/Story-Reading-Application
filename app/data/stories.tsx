@@ -172,7 +172,7 @@ const storiesData = [
   {
     id: 7,
     title: "Chạy trốn",
-    description: "Nae Yeon, tuy đã mất ký ức nhưng đã chạy trốn được khỏi một thứ gì đó cho đến khi mọi thứ ấp tới, những việc bí ẩn liệu có dần được hé lộ?",
+    description: "Nae Yeon, tuy đã mất ký ức nhưng đã chạy trốn được khỏi một thứ gì đó cho đến khi mọi thứ ấp tới, những việc bí ẩn liệu có dần được hé lộ?Mời các bạn cùng tìm hiểu với chúng tôi",
     datePosted: "2023-11-02",
     user: "Linh",
     follow: 125,

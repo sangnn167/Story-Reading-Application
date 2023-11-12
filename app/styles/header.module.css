@@ -10,6 +10,7 @@
   font-size: 17px;
   font-weight: bold;
   color: aliceblue;
+  
 }
 .headermenu li {
   margin: 0 32px;
@@ -42,11 +43,13 @@
 .dropdowncontent a:hover {
   background-color: orange;
   color: #212121;
+  
 }
 
 .dropdowncontent a:focus {
   background-color: #212121;
   color: white;
+  
 }
 .dropdowncontent .top:hover {
   border-radius: 0px 13px 0px 0px;

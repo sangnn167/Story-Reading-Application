@@ -1,5 +1,5 @@
 "use client";
-import storiesData from "../../data/stories";
+import storiesData from "../../Data/stories";
 import styles from "@/app/styles/home.module.css";
 import Image from "@/node_modules/next/image";
 import Link from "@/node_modules/next/link";
@@ -17,6 +17,9 @@ const StoryPage = ({ params }: { params: { id: String } }) => {
 
   return (
     <div className={styles.container}>
+      <div className={styles.header}>
+          <p className={styles.truyen}><picture><img src="/icons/home.png" width={"18px"} alt="" /></picture> <Link href={`/Home`}>Truyện</Link></p>/<p><Link href={`/Home/${selectedStory.id}`}>{selectedStory.title}</Link></p>
+      </div>
       <div className={styles.list}>
         <div className={styles.card}>
           <h1>{selectedStory.title}</h1>
@@ -65,7 +68,7 @@ const StoryPage = ({ params }: { params: { id: String } }) => {
                   {selectedStory.chapters.map((chapter, index) => (
                     <li key={index}>
                       <Link
-                        href={`/home/${selectedStory.id}/${chapter.chapterNumber}`}>
+                        href={`/Home/${selectedStory.id}/${chapter.chapterNumber}`}>
                         <div className={styles.item}>
                           <strong>
                             Chapter {chapter.chapterNumber}:{" "}

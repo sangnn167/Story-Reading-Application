@@ -1,9 +1,9 @@
 "use client";
-import storiesData from "../../data/stories";
+import storiesData from "../../Data/stories";
 import styles from "@/app/styles/categoryy.module.css";
 import Link from "next/link";
 import Image from "next/image";
-import TopViews from "../topviews/page";
+import TopViews from "../Topviews/page";
 const Fairytale = () => {
   const FairytaleStories = storiesData.filter((story) => story.category.includes("Cổ tích"));
   return (
@@ -31,7 +31,7 @@ const Fairytale = () => {
                               height={180}
                             />
                             <div className={styles.title}>
-                              <Link href={`/home/${story.id}`}>
+                              <Link href={`/Home/${story.id}`}>
                                 <div className={styles.author}>
                                 <picture>
                                   <img src="/icons/bookk.png" width={"18px"} height={"18px"}alt=""/>{" "}
