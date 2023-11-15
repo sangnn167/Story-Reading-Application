@@ -1,8 +1,9 @@
 "use client"
 import React, { useState } from 'react';
 import Link from 'next/link';
-import storiesData from "../../../Data/stories";
+import storiesData from "../../../data/stories";
 import styles from "@/app/styles/home.module.css"
+import Header from '@/app/header/page';
 
 const ChapterPage = ({ params }: { params: { id: string; idchapter: string } }) => {
   const storyId = params.id;
@@ -17,13 +18,14 @@ const ChapterPage = ({ params }: { params: { id: string; idchapter: string } }) 
 
   const previousChapterNumber = chapterNumber - 1;
   const nextChapterNumber = chapterNumber + 1;
-  const previousChapterLink = `/Home/${storyId}/${previousChapterNumber}`;
-  const nextChapterLink = `/Home/${storyId}/${nextChapterNumber}`;
+  const previousChapterLink = `/home/${storyId}/${previousChapterNumber}`;
+  const nextChapterLink = `/home/${storyId}/${nextChapterNumber}`;
 
   return (
     <div className={styles.containerchapter}>
+      <Header/>
       <div className={styles.header}>    
-        <p className={styles.truyen}><picture><img src="/icons/home.png" width={"18px"} alt="" /></picture> <Link href={`/Home`}>Truyện</Link></p>/<p><Link href={`/Home/${selectedStory?.id}`}>{selectedStory?.title}</Link></p>/<p>Chương {selectedChapter?.chapterNumber}</p>
+        <p className={styles.truyen}><picture><img src="/icons/home.png" width={"18px"} alt="" /></picture> <Link href={`/home`}>Truyện</Link></p>/<p><Link href={`/home/${selectedStory?.id}`}>{selectedStory?.title}</Link></p>/<p>Chương {selectedChapter?.chapterNumber}</p>
       </div>
       <div className={styles.content}>
         <div className={styles.headerContent}>

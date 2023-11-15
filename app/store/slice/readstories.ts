@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import storiesData from "@/app/Data/stories";
+import storiesData from "@/app/data/stories";
 export const ReadStories = createSlice({
   name: "stories",
   initialState: {

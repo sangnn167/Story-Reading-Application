@@ -1,20 +1,19 @@
 "use client";
 import React, { useEffect } from "react";
 import Link from "@/node_modules/next/link";
-import storiesData from "../Data/stories";
+import storiesData from "../data/stories";
 import styles from "@/app/styles/trangchu.module.css";
-import Image from "@/node_modules/next/image";
 import { useSelector, useDispatch, } from "@/node_modules/react-redux/es/exports";
 import { setFilteredStories } from "../store/slice/readstories";
-import NewStory from "./Newstory/page";
-import SearchFilter from "./Searchfilter/page";
+import SearchFilter from "@/app/home/searchfilter/page";
+import NewStory from "@/app/home/newstory/page";
+import Header from "../header/page";
 
 const Home = () => {
   const dispatch = useDispatch();
   const { selectedCategory, filteredStories, searchKeyword } = useSelector((state: any) => state.stories);
 
   useEffect(() => {
-    console.log("useEffect is called");
     const updatedStories = storiesData
       .filter((story) => {
         const categoryFilter =
@@ -29,6 +28,7 @@ const Home = () => {
 
   return (
     <div className={styles.container}>
+      <Header/>
       <div className={styles.headerr}>
           <p>Đọc truyện online, đọc truyện chữ, truyện full, truyện hay. Tổng hợp đầy đủ và cập nhật liên tục.</p>
       </div>
@@ -41,13 +41,14 @@ const Home = () => {
                 {filteredStories.map((story: any) => (
                   <li key={story.id}>
                     <div className={styles.card}>
-                      <Image
-                        src="https://vnkings.com/wp-content/uploads/2017/06/19665128_278555815952158_3528244146282740007_n-copy.jpg"
+                      <picture>
+                      <img
+                        src={story.imgUrl}
                         alt={story.title}
-                        width={230}
-                        height={180}
+                        style={{ width: "230px", height: "300px" }}
                       />
-                      <Link href={`/Home/${story.id}`}>
+                      </picture>
+                      <Link href={`/home/${story.id}`}>
                         <h2>{story.title}</h2>
                       </Link>
                     </div>

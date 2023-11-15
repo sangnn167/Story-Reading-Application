@@ -11,6 +11,8 @@ const storiesData = [
     follow: 200,
     user: "Sang",
     history: false,
+    imgUrl: "https://file.vfo.vn/hinh/2018/01/tam-cam.jpg",
+    img:"https://truyencotich.top/ckfinder/userfiles/images/truyenco-tich-tam-cam.jpg",
     chapters: [
       {
         chapterNumber: 1,
@@ -26,6 +28,20 @@ const storiesData = [
         chapterDatePosted: "1 phút trước",
       },
     ],
+    comment: [
+      {
+        iduser: 1,
+        userName: "Sáng",
+        userComment:"Truyện cũng được",
+        avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
+      },
+      {
+        iduser: 2,
+        userName: "Hùng",
+        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
+      }
+    ],
   },
   {
     id: 2,
@@ -39,6 +55,8 @@ const storiesData = [
     status: "[Đang cập nhật]",
     favourite: true,
     history: false,
+    imgUrl: "https://st.nettruyenus.com/data/comics/32/vo-luyen-dinh-phong.jpg",
+    img:"https://thuvienanime.com/wp-content/uploads/2021/11/duong-khai-thuvienanime.jpeg",
     chapters: [
       {
         chapterNumber: 1,
@@ -78,6 +96,8 @@ const storiesData = [
     follow: 110,
     favourite: false,
     history: false,
+    imgUrl: "https://kenosa.vn/app_images/product/2016/7/7/su-tich-chu-cuoi-cung-trang-truyen-tranh-co-tich-86416-500-86416.jpg",
+    img:"https://i.ytimg.com/vi/Oxd8YS9rTGw/maxresdefault.jpg",
     chapters: [
       {
         chapterNumber: 1,
@@ -99,6 +119,8 @@ const storiesData = [
     follow: 114,
     favourite: false,
     history: true,
+    imgUrl: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiL7i43fNMQoaU7nPGJAlrWznVnbuN9sV2gQ9FkSo98Bc6P1QHzanzadHmzun0or0TIsX-jJfdyWzERtkHZjZadDbJbrX0lfsOzMUeBYWkaxiwD8OHck8utt29uPAEcOD34o3bSHu_isd0Zmnl6LZ1ybsaD32aj04g0UYLOzYnbVnSgDpYR137nz3Z1qA/s2000/undead-unluck_poster2.jpg",
+    img:"https://i2.wp.com/aiptcomics.com/wp-content/uploads/2021/04/Undead-Unluck-Vol.-01-Header.png?fit=1400%2C732&ssl=1",
     chapters: [
       {
         chapterNumber: 1,
@@ -133,6 +155,8 @@ const storiesData = [
     status: "[Đang cập nhật]",
     favourite: true,
     history: true,
+    imgUrl: "https://yymedia.codeprime.net/media/fb_img/e626839642.jpg",
+    img:"https://i.ytimg.com/vi/DPl2HuzYcYg/maxresdefault.jpg",
     chapters: [
       {
         chapterNumber: 1,
@@ -160,6 +184,8 @@ const storiesData = [
     follow: 152,
     user: "Nam",
     history: true,
+    imgUrl: "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/cay_khe___truyen_co_tich_viet_nam/2020_06_01_11_45_38_1-390x510.JPG",
+    img:"https://i.ytimg.com/vi/ZDY1Tln-2PY/maxresdefault.jpg",
     chapters: [
       {
         chapterNumber: 1,
@@ -181,6 +207,8 @@ const storiesData = [
     status: "[Đang cập nhật]",
     favourite: true,
     history: true,
+    imgUrl: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGv_NyKIec-grSk7BaDr2zfpx1SOKhQ3pwT0-UtXjtMZ8hamTHefThTMSNY7Z3ogfG73ryTNV37q-GvmixCXY6cqKfFZ2d0cbTGP-6bQkyn84AemlcRQi88pmrFNxPfvthaEjBs69ATOJ0mJHTgLPfzy2yF4o_h0ASPi9w71aDRwvdR5pNl5oyCitMsw/s772/4905f91632b03ca914f3f0763bb93c03.jpg",
+    img:"https://media.voocdn.com/media/image/id/64132defacc399a23b8b4609_720x",
     chapters: [
       {
         chapterNumber: 1,
@@ -221,6 +249,8 @@ const storiesData = [
     follow: 500,
     favourite: true,
     history: false,
+    imgUrl: "https://xemsachhay.com/wp-content/uploads/2018/04/28694_35197.jpg",
+    img:"https://thegioicotich.vn/wp-content/uploads/2020/12/da-trang-xe-cat-bien-dong.jpg",
     chapters: [
       {
         chapterNumber: 1,
@@ -248,6 +278,8 @@ const storiesData = [
     follow: 114,
     favourite: false,
     history: false,
+    imgUrl: "https://salt.tikicdn.com/cache/w1200/media/catalog/product/i/m/img764_2.jpg",
+    img:"https://thegioicotich.vn/wp-content/uploads/2010/11/cay-tre-tram-dot.png",
     chapters: [
       {
         chapterNumber: 1,
@@ -269,6 +301,8 @@ const storiesData = [
     follow: 155,
     favourite: false,
     history: false,
+    imgUrl: "https://img.saostar.vn/w600/2017/11/05/1753793/poster_main2_nonlogo.jpg",
+    img:"https://thegioidienanh.vn/stores/news_dataimages/hath/112017/08/15/2346_Con_RYng_Chau_Tien.jpg",
     chapters: [
       {
         chapterNumber: 1,
@@ -288,8 +322,10 @@ const storiesData = [
     category: "Giải trí",
     status: "[Đang cập nhật]",
     follow: 202,
-    favourite: false,
+    favourite: true,
     history: false,
+    imgUrl: "https://yymedia.codeprime.net/media/ogimg/202206/933566716c.jpg",
+    img:"https://thuvienanime.com/wp-content/uploads/2023/04/dai-quan-gia-la-ma-hoang-thuvienanime-thumb.jpg",
     chapters: [
       {
         chapterNumber: 1,
@@ -312,6 +348,8 @@ const storiesData = [
     follow: 350,
     favourite: false,
     history: false,
+    imgUrl: "https://cdn0.fahasa.com/media/catalog/product/i/m/image_178393.jpg",
+    img:"https://halotravel.vn/wp-content/uploads/2021/12/su-tich-ong-cong-ong-tao-ve-troi.jpg",
     chapters: [
       {
         chapterNumber: 1,
@@ -333,6 +371,8 @@ const storiesData = [
     follow: 45,
     favourite: false,
     history: false,
+    imgUrl: "https://rapchieuphim.com/photos/8925/268163213_4675287362506402_2825456165037815081_n.jpg",
+    img:"https://bilutv.link/film/17994/big.jpg",
     chapters: [
       {
         chapterNumber: 1,
@@ -354,6 +394,8 @@ const storiesData = [
     follow: 2,
     favourite: false,
     history: false,
+    imgUrl: "https://www.nae.vn/ttv/ttv/public/images/story/f336d4321f871ece8d3e41118bb1cbda9b2426b7d0b3629fdc6f053c05a33b64.jpg",
+    img:"https://i.ytimg.com/vi/NSH0GirJiVQ/maxresdefault.jpg",
     chapters: [
       {
         chapterNumber: 1,
@@ -375,6 +417,8 @@ const storiesData = [
     follow: 28,
     favourite: false,
     history: false,
+    imgUrl: "https://www.enwallpaper.com/wp-content/uploads/2021/05/One-Punch-Man-Wallpapers-2-e1621157778598.jpg",
+    img: "https://www.impulsegamer.com/articles/wp-content/uploads/2020/02/onepunchman1.jpg",
     chapters: [
       {
         chapterNumber: 1,
@@ -396,6 +440,8 @@ const storiesData = [
     follow: 255,
     favourite: false,
     history: false,
+    imgUrl: "https://ebooksphucminh.vn/wp-content/uploads/2021/08/sua-bia-con-nguoi-la-chua-muon-loai-691x1024.jpg",
+    img:"https://thegioicotich.vn/wp-content/uploads/2021/06/su-tich-nguoi-lam-chua-muon-loai.jpg",
     chapters: [
       {
         chapterNumber: 1,
@@ -405,7 +451,313 @@ const storiesData = [
       },
     ],
   },
-
+  {
+    id: 17,
+    title: "Chú thuật hồi chiến",
+    description: " Yuuji Itadori là một thiên tài có tốc độ và sức mạnh, nhưng cậu ấy muốn dành thời gian của mình trong Câu lạc bộ Tâm Linh. Một ngày sau cái chết của ông mình, anh gặp Megumi Fushiguro, người đang tìm kiếm vật thể bị nguyền rủa mà các thành viên CLB đã tìm thấy.   Đối mặt với những con quái vật khủng khiếp bị Ám, Yuuji nuốt vật thể bị phong ấn để có được sức mạnh của nó và cứu bạn bè của mình! Nhưng giờ Yuuji là người bị Ám, và cậu ấy sẽ bị kéo vào thế giới ma quỷ ly kỳ của Megumi và những con quái vật độc ác ...",
+    datePosted: "2023-11-02",
+    user: "Linh",
+    author: "Akutami Gege",
+    category: "Trinh thám",
+    status: "[Đang Cập Nhật]",
+    follow: 215,
+    favourite: false,
+    history: false,
+    imgUrl: "https://touchcinema.com/uploads/phim-2021/1200wx180ju0h-22-poster.jpg",
+    img:"https://www.elleman.vn/app/uploads/2022/04/16/213427/Jujutsu-Kaisen-0-elleman.jpg",
+    chapters: [
+      {
+        chapterNumber: 1,
+        chapterTitle: "Chú thuật hồi chiến 1",
+        chapterDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+        chapterDatePosted: "2 ngày trước",
+      },
+    ],
+  },
+  {
+    id: 18,
+    title: "Rùa và thỏ",
+    description: "Đây là câu chuyện ngụ ngôn vô cùng ý nghĩa, nội dung kể về cuộc thi chạy giữa Thỏ và Rùa. Rùa biết rằng mình chậm chạp, nhưng vẫn quyết tâm cố gắng hết sức để hoàn thành cuộc thi chạy. Trong khi đó, Thỏ kiêu ngạo và coi thường Rùa, cho rằng mình sẽ dễ dàng chiến thắng. Tuy nhiên, khi đã đuổi theo Rùa và nhận ra mình đã mắc sai lầm, Thỏ đã nhận được cho mình bài học về sự khiêm tốn và kiên nhẫn.Ngoài bài học về tính khiêm tốn và sự kiên nhẫn, câu chuyện còn giúp chúng ta nhận ra rằng chỉ có sự cần cù, chăm chỉ và kiên trì mới là chìa khóa cho thành công trong cuộc sống.",
+    datePosted: "2021-12-02",
+    user: "Linh",
+    author: "Akutami Gege",
+    category: "Thiếu nhi",
+    status: "[Đang Cập Nhật]",
+    follow: 25,
+    favourite: false,
+    history: false,
+    imgUrl: "https://newshop.vn/public/uploads/products/20107/rua-va-tho-chay-thi-1.jpg",
+    img:"https://1.bp.blogspot.com/-6jlNtnIC4Y4/Xr4psuoZXZI/AAAAAAAAlY8/2UL9XZufDfMDQ-x7YA-VGTQiVFW-2zsaQCLcBGAsYHQ/s1600/Rua-va-Tho%2B%252812%2529.jpg",
+    chapters: [
+      {
+        chapterNumber: 1,
+        chapterTitle: "Rùa và thỏ",
+        chapterDescription: "File TXT là một tài liệu văn bản tiêu chuẩn có chứa văn bản ở dạng plain text. Nó có thể được mở và chỉnh sửa trong bất kỳ chương trình soạn thảo hoặc xử lý văn bản nào. File TXT thường được tạo bởi Microsoft Notepad và Apple TextEdit, đây là những trình soạn thảo văn bản cơ bản đi kèm với Windows và macOS.File TXT là các tài liệu văn bản đơn giản chứa ít hoặc không có định dạng. Chúng được sử dụng để lưu trữ ghi chú, hướng dẫn từng bước, bản thảo và thông tin dựa trên văn bản khác.Cả Windows và macOS đều bao gồm các trình soạn thảo văn bản đơn giản có thể lưu tài liệu văn bản dưới dạng file TXT. Microsoft Notepad lưu tài liệu dưới dạng file TXT theo mặc định, Microsoft WordPad và Apple TextEdit có tùy chọn lưu file dưới dạng file TXT. Khi người dùng WordPad hoặc TextEdit lưu tài liệu dưới dạng file TXT, các chương trình đó sẽ loại bỏ định dạng của tài liệu (in đậm, in nghiêng, kiểu phông chữ, căn chỉnh, v.v...).Người dùng cần tạo các tài liệu văn bản phức tạp hơn, chẳng hạn như sơ yếu lý lịch, báo cáo, thư từ hoặc tờ rơi, thường không lưu các tài liệu đó dưới dạng file TXT. Thay vào đó, hãy sử dụng Microsoft Word hoặc Apple Pages để tạo và lưu tài liệu của mình dưới dạng file .DOCX hoặc .PAGES.Các tài liệu plain text được lưu ở định dạng TXT có thể được tạo, mở và chỉnh sửa bằng nhiều chương trình soạn thảo và xử lý văn bản được phát triển cho hệ thống Linux, máy tính chạy Microsoft Windows và nền tảng Mac.Nội dung của các file .txt này là văn bản ASCII chưa được định dạng, có thể được lưu dưới dạng tài liệu .txt với dung lượng file nhỏ. Hầu hết tất cả điện thoại thông minh đều được tích hợp các ứng dụng hỗ trợ khả năng tương thích để truy cập nội dung của những file TXT này, trong khi thiết bị Kindle của Amazon cũng có thể được sử dụng để mở và xem nội dung được lưu trữ trong tài liệu TXT.Các ứng dụng chỉnh sửa văn bản phổ biến của Microsoft Windows, như Microsoft Notepad, có thể được sử dụng để tạo file TXT và chương trình này thậm chí có thể được sử dụng để lưu các tài liệu văn bản chưa được định dạng này ở định dạng HTML hay JS, v.v... Ứng dụng Apple TextEdit cũng hỗ trợ mở, xem và sửa đổi nội dung của tài liệu văn bản ở định dạng TXT và chương trình này cũng có thể được sử dụng để tạo tài liệu văn bản, sau đó lưu nó ở định dạng có đuôi .txt.Có nhiều ứng dụng được phát triển cho các bản phân phối Linux khác nhau có thể tạo, mở và xem nội dung văn bản của các file .txt này và với sự hỗ trợ tương thích chéo rộng rãi này, người dùng các nền tảng khác nhau có thể chia sẻ tài liệu TXT của mình mà không gặp phải sự cố hoặc bất kỳ rắc rối nào.Hãy khởi chạy file .txt (hoặc bất kỳ file nào khác trên PC) bằng cách nhấp đúp vào file. Nếu các liên kết file được thiết lập đúng cách, ứng dụng dùng để mở file .txt sẽ mở nó. Có thể bạn cần tải xuống hoặc mua đúng ứng dụng. Cũng có thể bạn có đúng ứng dụng trên PC của mình nhưng các file .txt vẫn chưa được liên kết với nó. Trong trường hợp này, khi cố gắng mở file .txt, bạn có thể cho Windows biết ứng dụng nào là ứng dụng chính xác cho file đó. Từ đó trở đi, việc mở file .txt sẽ mở ứng dụng chính xác.Theo nghĩa chung, text file đề cập đến bất kỳ file nào chỉ có văn bản và không có hình ảnh hay các ký tự không phải văn bản khác. Đôi khi chúng sử dụng phần mở rộng file TXT nhưng điều này không nhất thiết. Ví dụ, một tài liệu Word là một bài luận chỉ chứa văn bản có thể ở định dạng file DOCX nhưng vẫn được gọi là text file.Một loại file text khác là file plain text. Đây là file không chứa định dạng (không giống như file RTF), có nghĩa là không có định dạng nào được in đậm, nghiêng, gạch chân, tô màu, sử dụng phông chữ đặc biệt, v.v... Một số ví dụ về định dạng file plain text bao gồm các định dạng kết thúc bằng XML, REG, BAT, PLS, M3U, M3U8, SRT, IES, AIR, STP, XSPF, DIZ, SFM, THEME và TORRENT.Tất nhiên, các file có phần mở rộng .TXT cũng là text file và thường được sử dụng để lưu trữ những thứ có thể dễ dàng mở bằng bất kỳ trình soạn thảo văn bản nào hoặc được ghi vào bằng một script đơn giản. Các ví dụ có thể bao gồm lưu trữ hướng dẫn từng bước về cách sử dụng thứ gì đó, lưu giữ thông tin tạm thời hoặc nhật ký được tạo bởi một chương trình (mặc dù chúng thường được lưu trữ trong file LOG).Plaintext khác với file plain text (có khoảng trắng ở giữa). Nếu tính năng mã hóa lưu trữ hoặc truyền file không được sử dụng, dữ liệu có thể được coi là tồn tại ở dạng plaintext. Điều này có thể được áp dụng cho bất kỳ thứ gì cần được bảo mật nhưng không được áp dụng các biện pháp cần thiết, chẳng hạn như email, tin nhắn, file plain text, mật khẩu, v.v..., nhưng nó thường được sử dụng để tham chiếu đến mật mã.Điều khác cần hiểu ở đây là bất kỳ file nào cũng có thể được mở dưới dạng tài liệu văn bản ngay cả khi nó không chứa văn bản có thể đọc được. Làm điều này rất hữu ích khi bạn không chắc nó thực sự ở định dạng file nào, chẳng hạn như nếu file thiếu phần mở rộng hoặc bạn nghĩ rằng nó đã được xác định bằng một phần mở rộng file không chính xác.Ví dụ, bạn có thể mở file âm thanh MP3 dưới dạng file văn bản bằng cách đưa file đó vào trình soạn thảo văn bản như Notepad++. Bạn không thể phát MP3 theo cách này, nhưng bạn có thể xem nó được tạo thành từ dạng văn bản nào vì trình soạn thảo văn bản chỉ có thể hiển thị dữ liệu dưới dạng văn bản.Với MP3 nói riêng, dòng đầu tiên phải bao gồm ID3 để cho biết rằng đó là container siêu dữ liệu có thể lưu trữ thông tin như nghệ sĩ, album, số track, v.v...Một ví dụ khác là định dạng file PDF; mọi file đều bắt đầu bằng văn bản %PDF trên dòng đầu tiên mặc dù phần còn lại của tài liệu hoàn toàn không thể đọc được.",
+        chapterDatePosted: "2 ngày trước",
+      },
+    ],
+  },
+  {
+    id: 19,
+    title: "FANTASIES",
+    description: "Akira, một họa sĩ tài năng nhưng sau khi bị bệnh ung thư anh đã nhận ra xung quanh mình chẳng còn gì ngoại trừ cái danh hiệu thành công của mình. không có người đi cùng mình đến bệnh viện, người mẹ, người thân duy nhất của anh cũng đòi anh đưa tiền mới chịu đi cùng anh. trong cơn giận anh đã vô tình gây tai nạn và được chuyển sinh sang thế giới khác. một thế giới mới với một cuộc sống mới anh quyết định sống một cách bình thường và giữ gìn hạnh phúc gia đình nhỏ nhoi của mình,and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages",
+    datePosted: "2021-12-02",
+    user: "Linh",
+    author: "Osuka Gen",
+    category: "One shot",
+    status: "[Đang Cập Nhật]",
+    follow: 16,
+    favourite: false,
+    history: false,
+    imgUrl: "https://chuuniotaku.com/wp-content/uploads/2021/02/battle-through-the-heavens-banner-manhua.jpg",
+    img:"https://i.pinimg.com/originals/bf/dc/94/bfdc94fa4ff7ae22dc74db98d7955296.png",
+    chapters: [
+      {
+        chapterNumber: 1,
+        chapterTitle: "FANTASIES",
+        chapterDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+        chapterDatePosted: "4 ngày trước",
+      },
+    ],
+  },
+  {
+    id: 20,
+    title: "Truyền Kỳ Ký Chủ Quang Thánh",
+    description: "Câu chuyện của Evangelion bắt đầu sau năm 2000 với sự kiện Va Chạm Thứ Hai, một biến cố lớn đã hoàn toàn phá hủy hoàn toàn Nam Cực và một nửa xóa sổ dân số Thế giới. Biến cố này được dư luận và ngay cả đa số thành viên thuộc tổ chức NERV cho là tác động của một thiên thạch rơi xuống Nam Cực, gây ra những cơn đại hồng thủy và làm thay đổi khí hậu Trái đất cùng với những cuộc khủng hoảng chính trị, chiến tranh hạt nhân và suy thoái kinh tế... Vào năm 2015, sau khi nhận được thư của của cha, Ikari Shinji đã rời nhà cô chú mình lên đường đến Neo Tokyo-3. Tại đó, Shinji đã chứng kiến cuộc chiến vô vọng của quân đội Liên Hiệp Quốc chống lại một sinh vật khổng lồ bí ẩn đang tấn công thành phố...",
+    datePosted: "2021-12-02",
+    user: "Linh",
+    author: "Osuka Gen",
+    category: "Mecha",
+    status: "[Đang Cập Nhật]",
+    follow: 1,
+    favourite: false,
+    history: false,
+    imgUrl: "https://i.pinimg.com/originals/f8/77/15/f8771575f6470867ecdfb95f63b1ac0d.jpg",
+    img:"https://media.nichegamer.com/wp-content/uploads/2018/05/31235154/srwx_banner.jpg",
+    chapters: [
+      {
+        chapterNumber: 1,
+        chapterTitle: "ĐẶC NHIỆM KHÔNG GIAN",
+        chapterDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+        chapterDatePosted: "5 ngày trước",
+      },
+    ],
+  },
+  {
+    id: 21,
+    title: "NĂNG LỰC TÂM LINH - AKIRA",
+    description: "Năm 1992 . Neo-Tokyo , thủ đô Nhật Bản hứng chịu sự hủy diệt của 1 loại bom mới, mở đầu cho Thế Chiến Thứ 3 . Nhiều năm sau , Tetsuo , trong 1 lần tham quan thành phố đổ nát, vô tình đã bị cuốn vào 1 thí nghiệm bí mật của chính phủ nhằm thức tỉnh năng lực tâm linh. Họ đang chuẩn bị cho 1 cái gì đó đáng sợ , thứ mà những tổ chức khủng bố đang truy lùng - Akira ...... Cốt truyện đặc sắc , kịch tính , đạt được nhiều giải thưởng , siêu phẩm này là 1 chuẩn mực mà tác giả dragon ball cũng như nhiều thế hệ khác tham khảo nét vẽ.Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+    datePosted: "2021-4-02",
+    user: "Linh",
+    author: "Neo-Tokyo",
+    category: "Manga",
+    status: "[Đang Cập Nhật]",
+    follow: 1,
+    favourite: false,
+    history: false,
+    imgUrl: "https://truyenz.info/wp-content/uploads/2019/07/Naruto-Full-Color-Edition-Truyenz.info_.jpg",
+    img:"https://img.thuthuatphanmem.vn/uploads/2018/09/20/anh-naruto-truyen_105003397.jpg",
+    chapters: [
+      {
+        chapterNumber: 1,
+        chapterTitle: "NĂNG LỰC TÂM LINH - AKIRA",
+        chapterDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+        chapterDatePosted: "5 ngày trước",
+      },
+    ],
+  },
+  {
+    id: 22,
+    title: "THẤT HOÀNG TỬ QUỶ JILBAGIAS",
+    description: "Truyện tranh Ta, Người Chỉ Cần Nhìn Thấy Thanh Máu, Có Thể Trừng Phạt Thần Linh được cập nhật nhanh và đầy đủ nhất tại NetTruyenLive. Bạn đọc đừng quên để lại bình luận và chia sẻ, ủng hộ NetTruyenLive ra các chương mới nhất của truyện Ta, Người Chỉ Cần Nhìn Thấy Thanh Máu, Có Thể Trừng Phạt Thần Linh.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    datePosted: "2021-4-02",
+    user: "Linh",
+    author: "Fiok Lee",
+    category: "Harem",
+    status: "[Đang Cập Nhật]",
+    follow: 1,
+    favourite: false,
+    history: false,
+    imgUrl: "https://manhuamix.com/wp-content/uploads/2023/01/Moon-Shadow-Sword-Emperor-manhwa-manga-.jpg",
+    img:"https://vedc.com.vn/wp-content/uploads/2022/09/Aphelios-Nguyet-Da-Song-Sinh.jpg",
+    chapters: [
+      {
+        chapterNumber: 1,
+        chapterTitle: "Anh hùng chuyển sinh",
+        chapterDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+        chapterDatePosted: "6 ngày trước",
+      },
+    ],
+  },
+  {
+    id: 23,
+    title: "NHÀ TRỌ Á NHÂN",
+    description: "Sau khi cùng với toàn bộ lớp học chết oan vì tai nạn khi đi trên một chuyến đi thực tế, Odamori đã chấp nhận lời đề nghị từ một người đàn ông bí ẩn và được tái sinh cùng công việc mới. Tuy vậy công việc mới của anh hóa ra là một Chủ nô với sức mạnh khống chế tâm trí người khác và biến họ thành đồ chơi của mình, dần theo thời gian những việc xấu xa của anh ấy đã bị phác giác và một Hiệp sĩ Công chúa được cử đi để bắt anh, nhưng trớ trêu thay cô nàng Hiệp sĩ Công chúa ấy là một người bạn cùng lớp rất nổi tiếng của anh lúc trước. Rồi mọi chuyện sẽ ra sao mời đọc sẽ biết",
+    datePosted: "2021-4-22",
+    user: "Linh",
+    author: "Asazuki Norito",
+    category: "Ecchi",
+    status: "[Đang Cập Nhật]",
+    follow: 1,
+    favourite: false,
+    history: false,
+    imgUrl: "https://i.pinimg.com/originals/df/d4/35/dfd43530b12a6dfec0472ea1cb613794.png",
+    img:"https://nld.mediacdn.vn/2020/11/27/13-banner-truyen-tranh-online-16064944282141952425197.jpg",
+    chapters: [
+      {
+        chapterNumber: 1,
+        chapterTitle: "Anh Chấp Nhận Được Sao",
+        chapterDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+        chapterDatePosted: "6 ngày trước",
+      },
+    ],
+  },
+  {
+    id: 24,
+    title: "GIA ĐÌNH VUI VẺ - MẸ THUÊ BÁO OÁN",
+    description: "Một Thể Loại Xuyên Không Nhưng Là Xuyên Không Từ Thế Giới Fantasy Sang Thế Giới Hiện Đại. Một Trò Chơi Hại Não Và Kinh Dị Bắt Đầu,Odamori đã chấp nhận lời đề nghị từ một người đàn ông bí ẩn và được tái sinh cùng công việc mới. Tuy vậy công việc mới của anh hóa ra là một Chủ nô với sức mạnh khống chế tâm trí người khác và biến họ thành đồ chơi của mình, dần theo thời gian những việc xấu xa của anh ấy đã bị phác giác và một Hiệp sĩ Công chúa được cử đi để bắt anh, nhưng trớ trêu thay cô nàng Hiệp sĩ Công chúa ấy là một người bạn cùng lớp rất nổi tiếng của anh lúc trước. Rồi mọi chuyện sẽ ra sao mời đọc sẽ biết",
+    datePosted: "2021-4-22",
+    user: "Linh",
+    author: "Funaki Ryosuke",
+    category: "Psychological",
+    status: "[Đang Cập Nhật]",
+    follow: 1001,
+    favourite: false,
+    history: false,
+    imgUrl: "https://vignette.wikia.nocookie.net/doblaje/images/b/b3/Kakegurui.jpg/revision/latest?cb=20180128080051&path-prefix=es",
+    img:"https://ptanime.com/wp-content/uploads/2017/05/Kakegurui-anime-novo-poster-promocional-destaque.jpg",
+    chapters: [
+      {
+        chapterNumber: 1,
+        chapterTitle: "MẸ THUÊ BÁO OÁN",
+        chapterDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+        chapterDatePosted: "6 ngày trước",
+      },
+    ],
+  },
+  {
+    id: 25,
+    title: "7 NÀNG CÔNG CHÚA NGỦ SAY",
+    description: "Khi tôi đến đánh thức công chúa ngủ say bởi lời nguyền của phù thủy thì... CÓ TẬN 7 NGƯỜI! Tuy không hiểu tại sao nhưng có vẻ như để đánh thức họ, tôi cần phải trao nụ hôn... CHO TẬN 7 NGƯỜI!? Thật tốt khi các nàng công chúa đã tỉnh lại, nhưng tại sao những người khác vẫn chưa thức giấc...Là vì lý do gì!? Liệu có bí mật nào đang ẩn dấu sau nụ hôn? Hay là một cái gì đó vẫn còn thiếu...? Alex - Đệ Tam Hoàng Tử của Rudbeckia, người muốn cứu Vương Quốc nhỏ bé và 7 Công Chúa của Amaryllis. Ở một Vương Quốc chỉ có họ còn thức, một cuộc sống với những tình huống dở khóc dở cười để tìm cách cứu người dân khỏi lời nguyền. Bắt Đầu!",
+    datePosted: "2020-4-22",
+    user: "Linh",
+    author: "Nemuri Hime",
+    category: "Seinen",
+    status: "[Đang Cập Nhật]",
+    follow: 101,
+    favourite: false,
+    history: false,
+    imgUrl: "https://mangaclash.com/wp-content/uploads/2023/02/Serial-Killer-Isekai-ni-Oritatsu.jpg",
+    img:"https://tse3.mm.bing.net/th?id=OIP.BYyUI6ELnpKnY66tM2jcUAHaEK&pid=Api&P=0&h=180",
+    chapters: [
+      {
+        chapterNumber: 1,
+        chapterTitle: "Dẫu Biết Điều Đó Thật Sai Trái",
+        chapterDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+        chapterDatePosted: "6 ngày trước",
+      },
+    ],
+  },
+  {
+    id: 26,
+    title: "TỰ DO TRONG MƠ",
+    description: "Choi Jung Min bị bạn bè bắt nạt, cô lập ở trường học vì mối quan hệ tồi tệ với Ha Joo Hyun khi còn nhỏ. Hai cô gái đã từng là bạn bè thân thiết lúc còn học cấp 1, nhưng vì cái tính khí kỳ lạ của Joo Hyun mà sau đó hai người đã tuyệt giao với nhau. Khi lên cấp 3, Jung Min gặp lại Joo Hyun, và cũng là lúc chuỗi bi kịch bắt đầu. Joo Hyun chính là người đã khởi xướng để bạn bè trong lớp tẩy chay Jung Min. Niềm an ủi duy nhất của Jung Min, giúp cô ấy có thể giải tỏa những ức chế, ám ảnh trong suốt thời gian dài của mình, là lợi dụng “Giấc mơ sáng suốt”. Trong mơ cô ấy hoán đổi vị trí của mình với Joo Hyun, cho Joo Hyun nếm trải thử những cảm giác mà cô ấy đã phải chịu. Sau đó vào một ngày nọ, khi đi vào giấc mơ sáng suốt, cô ấy gặp một người đàn ông bí ẩn. Và anh ta đề nghị Jung Min hãy trả thù tất cả những ai từng bắt nạt cô ấy…",
+    datePosted: "2020-4-22",
+    user: "Linh",
+    author: "Jung Min",
+    category: "Tragedy",
+    status: "[Đang Cập Nhật]",
+    follow: 868,
+    favourite: false,
+    history: false,
+    imgUrl: "https://media.funhub.net/media/image/id/6291a663acc3992b1d8b467b?type=raw",
+    img:"https://cdn.sforum.vn/sforum/wp-content/uploads/2023/06/banner-moi-honkai-star-rail-6.jpg",
+    chapters: [
+      {
+        chapterNumber: 1,
+        chapterTitle: "Tự do",
+        chapterDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+        chapterDatePosted: "6 ngày trước",
+      },
+    ],
+  },
+  {
+    id: 27,
+    title: "LỘNG LẪY PHÚT LÌA ĐỜI",
+    description: "Từ trước tới nay, mình đã hé môi cười trên gương mặt xấu xí này thật sao? Suốt bấy lâu nay, mình ra ngoài dạo bước với cơ thể cục mịch này mà chẳng mảy may hổ thẹn ư?  Houryuuji Mirei (học sinh lớp 12) là một nàng lợn con xấu xí luôn cảm thấy tự ti về ngoại hình của mình. Cô chơi thân với Miyama Kousei, một cậu con trai tốt tính, ân cần, chưa từng đánh giá ngoại hình của cô lấy chỉ một chốc. Song, vì một biến cố đau lòng mà cô quyết định đắp lên mình một gương mặt khác xinh đẹp hơn, đồng thời bỏ Kousei lại quê nhà để bắt đầu một cuộc sống mới ở Fukuoka.  Đây là chuyện tình buồn của cô gái cố gắng rũ bỏ quá khứ đau khổ lại phía sau để kiếm tìm hạnh phúc nơi xứ người.",
+    datePosted: "2023-11-13",
+    user: "Linh",
+    author: "Jun Vun",
+    category: "Sliceoflife",
+    status: "[Đang Cập Nhật]",
+    follow: 340,
+    favourite: false,
+    history: false,
+    imgUrl: "https://truyenvnhay.net/wp-content/uploads/2023/08/truyen-long-lay-phut-lia-doi.jpg",
+    img:"https://storage-ct.lrclib.net/file/cuutruyen/uploads/manga/910/panorama/processed-7a8c70e44d70c1159029deeaa5b92522.jpg",
+    chapters: [
+      {
+        chapterNumber: 1,
+        chapterTitle: "Thêm Một Lần Từ Biệt",
+        chapterDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+        chapterDatePosted: "6 ngày trước",
+      },
+    ],
+  },
+  {
+    id: 28,
+    title: "NGUỒN KHỞI SINH",
+    description: "Thích khách nổi danh Cẩn Huyên, biệt danh Diêm La, một ngày nọ nhận được một đơn hàng kếch xù, người ủy thác thế nhưng lại chính là hoàng đế Huyền Cảnh của Thịnh Quốc? Mà nội dung chính là tiến cung để sắm vai sủng phi, làm mồi nhử gian tế... Cẩn Huyên: Lúc ấy ta có ý cự tuyệt, nhưng tiền chàng ấy đưa lại quá nhiều... có điều, mồi câu có thể ăn thịt người đó nha~ Hoàng đế Huyền Cảnh: Ái phi... lúc nói chuyện chúng ta có thể cất đao đi được không?",
+    datePosted: "2023-10-26",
+    user: "Linh",
+    author: "Linh Miêu Nhóm - NetTruyen",
+    category: "Smut",
+    status: "[Đang Cập Nhật]",
+    follow: 953,
+    favourite: false,
+    history: false,
+    imgUrl: "https://s2.anhvip.xyz/comics/nguon-khoi-sinh-1648221092.jpg",
+    img:"https://kocr.net/wp-content/uploads/2021/07/HTKS-2.jpg",
+    chapters: [
+      {
+        chapterNumber: 1,
+        chapterTitle: "ÁI PHI, DAO CỦA NÀNG RƠI RỒI",
+        chapterDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+        chapterDatePosted: "6 ngày trước",
+      },
+    ],
+  },
+  {
+    id: 29,
+    title: "ĐẶC NHIỆM THÁM TỬ",
+    description: "Tỉnh lại sau giấc ngủ, thế giới đại biến. Quen thuộc cao trung truyền thụ chính là phép thuật, nói cho mọi người muốn trở thành một tên xuất sắc Ma Pháp Sư. Ở lại đô thị ở ngoài du đãng tập kích nhân loại ma vật yêu thú, mắt nhìn chằm chằm. Tôn trọng khoa học thế giới đã biến thành tôn trọng phép thuật, một mực có như nhau lấy học tra đối xử giáo viên của chính mình, như nhau ánh mắt dị dạng bạn học, như nhau xã hội tầng dưới chót giãy dụa ba ba, như nhau thuần mỹ nhưng không thể bước đi không phải huyết thống muội muội… Bất quá, Mạc Phàm phát hiện tuyệt đại đa số người đều chỉ có thể chủ tu nhất hệ phép thuật, chính mình nhưng là toàn hệ toàn năng pháp sư!",
+    datePosted: "2023-11-09",
+    user: "Linh",
+    author: "Asagiri Kafuka",
+    category: "Supernatural",
+    status: "[Đang Cập Nhật]",
+    follow: 953,
+    favourite: false,
+    history: false,
+    imgUrl: "https://lh3.googleusercontent.com/h3AxidpaUWs9qaWaMXqlj6V3rxYVoGBfVmE3LF6gdoKyH2xwoy_I2IkVlm01HDEVEkZHjA1Jvim0f2iKm2hiUriJJ39X_v1Rq6sax7TgHVh2e_T9QGwSDlki1yjN85O_iBP-OeikvQ=w2400",
+    img:"https://storage-ct.lrclib.net/file/cuutruyen/uploads/manga/910/panorama/processed-7a8c70e44d70c1159029deeaa5b92522.jpg",
+    chapters: [
+      {
+        chapterNumber: 1,
+        chapterTitle: "Thiên thần răm",
+        chapterDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+        chapterDatePosted: "6 ngày trước",
+      },
+    ],
+    comment: [
+      {
+        iduser: 1,
+        userName: "Sáng",
+        userComment:"Truyện cũng được",
+      }
+    ]
+  },
+  
 ];
 
 export default storiesData;

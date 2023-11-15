@@ -19,7 +19,7 @@ const TopViews = ({ stories }: any) => {
                   <div className={styles.item}>
                     <div className={styles.img}>
                       <Image
-                        src="https://cdnimg.vietnamplus.vn/uploaded/lepz/2020_01_03/oneepiece.jpg"
+                        src={story.img}
                         alt={story.title}
                         width={320}
                         height={150}

@@ -4,12 +4,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 .containerlist {
   width: 79.1vw;
   background: #ffffff;
   text-align: left;
   padding: 20px;
+  min-height: 100vh;
 }
 .list {
   max-width: 100%;

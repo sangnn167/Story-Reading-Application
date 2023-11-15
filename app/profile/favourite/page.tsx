@@ -1,5 +1,5 @@
 "use client";
-import storiesData from "../../Data/stories";
+import storiesData from "../../data/stories";
 import styles from "@/app/styles/profile.module.css";
 import Link from "@/node_modules/next/link";
 import Image from "@/node_modules/next/image";
@@ -7,7 +7,7 @@ import { useState } from 'react';
 const Favourite = () => {
   const [favoriteStories, setFavoriteStories] = useState(storiesData.filter((story) => story.favourite));
 
-  const handleDelete = (storyId:number) => {
+  const handleDelete = (storyId: number) => {
     const updatedStories = favoriteStories.filter((story) => story.id !== storyId);
     setFavoriteStories(updatedStories);
   };
@@ -20,12 +20,13 @@ const Favourite = () => {
             favoriteStories.map((story) => (
               <li key={story.id}>
                 <div className={styles.storyContainer}>
-                  <Image
-                    src="https://vnkings.com/wp-content/uploads/2017/06/19665128_278555815952158_3528244146282740007_n-copy.jpg"
-                    alt={story.title}
-                    width={230}
-                    height={180}
-                  />
+                  <picture>
+                    <img
+                      src={story.imgUrl}
+                      alt={story.title}
+                      style={{ width: "230px", height: "300px" }}
+                    />
+                  </picture>
                   <div className={styles.buttonContainer}>
                     <div className={styles.delete}><button className={styles.deletebutton} onClick={() => handleDelete(story.id)}>
                       <svg className={styles.deletesvgIcon} viewBox="0 0 448 512">
@@ -34,7 +35,7 @@ const Favourite = () => {
                     </button></div>
                   </div>
                 </div>
-                  <div className={styles.title}><Link href={`/Home/${story.id}`}> {story.title}</Link></div>
+                <div className={styles.title}><Link href={`/home/${story.id}`}> {story.title}</Link></div>
               </li>
             ))
           }

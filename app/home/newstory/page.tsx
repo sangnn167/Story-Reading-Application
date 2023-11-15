@@ -1,5 +1,5 @@
 import Table from "react-bootstrap/Table";
-import storiesData from "@/app/Data/stories";
+import storiesData from "@/app/data/stories";
 import styles from "@/app/styles/trangchu.module.css";
 import Link from "@/node_modules/next/link";
 const NewStory = () => {
@@ -14,15 +14,15 @@ const NewStory = () => {
         </tr>
       </thead>
       <tbody>
-        {storiesData.map((story) => (
+        {storiesData.slice(0, 15).map((story) => (
           <tr key={story.id}>
             <td className={styles.td}>
-              <Link href={`/Home/${story.id}`}>{story.title}</Link>
+              <Link href={`/home/${story.id}`}>{story.title}</Link>
             </td>
             <td className={styles.td}>{story.category}</td>
             <td className={styles.td}>
               <Link
-                href={`/Home/${story.id}/${
+                href={`/home/${story.id}/${
                   story.chapters.slice(-1)[0].chapterNumber
                 }`}
               >
