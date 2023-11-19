@@ -17,7 +17,6 @@ const HistoryStory = () => {
     <div className={styles.itemHistory}>
       <div className={styles.titleHistory}>
         <p>Lịch sử đọc truyện</p>
-        <a href="">Xem tất cả</a>
       </div>
       <div className={styles.inline}></div>
       <ul>

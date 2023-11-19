@@ -918,7 +918,7 @@ const storiesData = [
     favourite: false,
     history: false,
     favorites: "2,205",
-    imgUrl: "https://manhuamix.com/wp-content/uploads/2023/01/Moon-Shadow-Sword-Emperor-manhwa-manga-.jpg",
+    imgUrl: "https://media.funhub.net/media/image/id/6291a663acc3992b1d8b467b?type=raw",
     img:"https://vedc.com.vn/wp-content/uploads/2022/09/Aphelios-Nguyet-Da-Song-Sinh.jpg",
     chapters: [
       {
