@@ -34,14 +34,19 @@
   color: #0070f3;
 }
 .list ul{
-  display: flex;
-  text-align: left;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  margin-bottom: 20px;
+  max-width: 100%;
+  gap: 10px;
+  padding: 5px; 
+  text-align: left; 
+  list-style: none;
 }
 .list ul li{
-  margin: 0 20px 20px 0;
+  width: 230px;
+  display: grid;
+  align-items: center;
 }
 .tab1{
   background: white;
@@ -51,45 +56,32 @@
 }
 .storyContainer {
   position: relative;
-  display: inline-block; 
 }
 
-.textContainer {
+.follow {
   position: absolute;
-  bottom: 5px;
-  right: 5px;
-  background: rgba(100, 99, 99, 0.5); 
-  padding: 5px; 
-  text-align: right;
-  border-radius: 5px;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  color: #fff; 
+  background-color: rgba(0, 0, 0, 0.7); 
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 230px;
+  gap: 10px;
 }
 .title {
   font-weight: bold;
 }
 .title:hover{
-  text-decoration: underline;
+  color: blue;
   cursor: pointer;
 }
-.follow {
-  display: flex;
-  align-items: center;
-  color: white;
-  font-size: 14px;
-}
-.textContainerr {
-  position: absolute;
-  bottom: 5px;
-  left: 5px;
-  background: rgba(100, 99, 99, 0.5); 
-  padding: 6.5px; 
-  text-align: left;
-  border-radius: 5px;
-}
-.followw {
-  display: flex;
-  align-items: center;
-  color: white;
-  font-size: 14px;
+.storyContainer img {
+  width: 230px;
+  height: 300px;
 }
 .deletebutton {
   width: 40px;
@@ -153,10 +145,14 @@
   transition-duration: 0.3s;
 }
 .buttonContainer {
-  position: absolute;
-  bottom: 5px;
-  right: 5px;
-  padding: 5px; 
+  align-items: center;
+  justify-content: space-between;
   text-align: right;
-  border-radius: 5px;
+  display: flex;
+  margin-top: 5px;
+}
+.icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

@@ -1,5 +1,5 @@
 import Table from "react-bootstrap/Table";
-import storiesData from "@/app/data/stories";
+import storiesData from "@/app/Mock/stories";
 import styles from "@/app/styles/trangchu.module.css";
 import Link from "@/node_modules/next/link";
 const NewStory = () => {

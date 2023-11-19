@@ -2,10 +2,10 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import styles from "@/app/styles/categoryy.module.css";
-
+import { FaPencil } from "react-icons/fa6";
+import { FaBook } from "react-icons/fa";
 const StoryList = ({ stories }) => {
   return (
-    <div className={styles.itemleft}>
       <div className={styles.ul}>
         <ul>
           {stories.map((story) => (
@@ -21,17 +21,12 @@ const StoryList = ({ stories }) => {
                     />
                     <div className={styles.title}>
                       <Link href={`/home/${story.id}`}>
-                        <h2>{story.title}</h2>
+                      <div className={styles.author}>
+                      <FaBook  /><h2>{story.title}</h2>
+                      </div>
                       </Link>
                       <div className={styles.author}>
-                        <picture>
-                          <img
-                            src="/icons/penn.png"
-                            width={"20px"}
-                            height={"20px"}
-                            alt=""
-                          />{" "}
-                        </picture>
+                      <FaPencil />
                         <i>{story.author}</i>
                       </div>
                     </div>
@@ -45,8 +40,7 @@ const StoryList = ({ stories }) => {
             </li>
           ))}
         </ul>
-      </div>
-    </div>
+      </div>  
   );
 };
 

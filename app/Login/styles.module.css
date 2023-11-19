@@ -73,4 +73,10 @@
     cursor: pointer;
     font-weight: bold;
   }
+  .tab1{
+    background: white;
+    padding: 10px;
+    min-height: 100vh;
+    min-width: 79vw;
+  }
   

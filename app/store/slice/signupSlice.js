@@ -8,6 +8,7 @@ const signupSlice = createSlice({
     password: '',
     email: '',
     loading: false,
+    isLoggedIn: false,
   },
   reducers: {
     setYearold: (state, action) => {
@@ -25,6 +26,9 @@ const signupSlice = createSlice({
     setLoading: (state, action) => {
       state.loading = action.payload;
     },
+    logoutUser: (state) => {
+      state.isLoggedIn = false;
+    }
   },
 });
 
@@ -34,6 +38,7 @@ export const {
   setPassword,
   setEmail,
   setLoading,
+  logoutUser,
 } = signupSlice.actions;
 
 export default signupSlice.reducer;

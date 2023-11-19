@@ -1,5 +1,5 @@
 "use client";
-import storiesData from "../../data/stories";
+import storiesData from "../../Mock/stories";
 import styles from "@/app/styles/categoryy.module.css";
 import TopViews from "@/app/category/topviews/page";
 import Header from "@/app/header/page";

@@ -6,11 +6,14 @@ const storiesData = [
     datePosted: "2023-11-02",
     author: "[Đang cập nhật]",
     status: "Full",
-    category: "Cổ tích",
+    category: "Cổ tích,Giải trí,Thiếu nhi",
     favourite: false,
     follow: 200,
     user: "Sang",
     history: false,
+    favorites: "725",
+    Numberofreviews:"53423",
+    Ratings: "4.5/5",
     imgUrl: "https://file.vfo.vn/hinh/2018/01/tam-cam.jpg",
     img:"https://truyencotich.top/ckfinder/userfiles/images/truyenco-tich-tam-cam.jpg",
     chapters: [
@@ -31,14 +34,14 @@ const storiesData = [
     comment: [
       {
         iduser: 1,
-        userName: "Sáng",
+        userName: "Linh",
         userComment:"Truyện cũng được",
         avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
       },
       {
         iduser: 2,
         userName: "Hùng",
-        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        userComment:"Cuộc sống",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
       }
     ],
@@ -51,10 +54,11 @@ const storiesData = [
     user: "Sang",
     author: "Bán Nguyệt Thần Quang",
     follow: 952,
-    category: "Giải trí",
+    category: "Giải trí,Thiếu nhi,Smut",
     status: "[Đang cập nhật]",
     favourite: true,
     history: false,
+    favorites: "225",
     imgUrl: "https://st.nettruyenus.com/data/comics/32/vo-luyen-dinh-phong.jpg",
     img:"https://thuvienanime.com/wp-content/uploads/2021/11/duong-khai-thuvienanime.jpeg",
     chapters: [
@@ -72,15 +76,35 @@ const storiesData = [
       },
       {
         chapterNumber: 3,
-        chapterTitle: "Nửa đường nhảy ra một Trình Giảo Kim",
+        chapterTitle: "Trình Giảo Kim",
         chapterDescription: "Trên đời này làm gì có chuyện dễ dàng được như ý nguyện? Lâm Giai Thụy tuy đã có chút say mèm, gương mặt cũng đã đỏ hồng, khi nói chuyện đều toát ra mùi nhàn nhạt của rượu Hạnh Hoa thôn. Nhưng hắn không hề có ý để Long Hoằng Văn đưa về nhà, mà còn dựa vào ghế, lôi điện thoại ra, khẽ hé đôi mắt lờ mờ gọi điện thoại.Còn Long Hoằng Văn sớm đã bị kinh ngạc bởi vẻ đẹp không sao tả xiết làm cho trợn tròn cả mắt: Lâm Giai Thụy gỡ bỏ hai cúc áo trên chiếc áo sơ mi bạc màu, để lộ ra hai bên xương quai xanh vừa trắng trẻo vừa tinh xảo, có thể thấy rõ hai điểm lờ mờ trước ngực, khuôn mặt ửng đỏ dưới ánh đèn càng quyến rũ đến mê người. Một tay cầm điện thoại, khi nói chuyện điện thoại đôi môi đỏ mọng trau chuốt khi hé khi mở, tay còn lại tự nhiên đặt trên ghế, những ngón tay thon dài với những khớp xương rõ ràng thuận theo giọng nói điện thoại của chủ nhân mà khẽ động. Mà những cái khe khẽ như thế dường như đang cào xé nội tâm Long Hoằng Văn, anh cảm thấy trong tim như đang bị cái gì đó cắn xé, rất khó chịu, còn liều thuốc giải duy nhất tuy đang ở trước mặt nhưng lại hoàn toàn thơ ơ. Không, hắn căn bản không biết được ý đồ của mình, hoặc giả như biết rồi mà lại làm ngơ. Anh nhìn đôi môi đỏ hồng của người trước mặt mà ngọn lửa trong lòng càng ngày càng bừng lên, căn bản không nghe được người trước mặt đang nói gì. Trong lòng đang diễn tập làm thế nào để … môi của đối phương, hoàn toàn không để ý đối phương đã gọi điện thoại xong, đang nói chuyện với anh.Lâm Giai Thụy nhìn người đối diện đang ngây ra, có chút không nói nên lời, đành quơ quơ tay trước mặt anh ta gọi một tiếng: “Này, Long Hoằng Văn! Hay là anh về trước đi, không cần đợi tôi đâu, bạn tôi lát nữa sẽ đến đón.”Long Hoằng Văn lần này mới thật sự ngẩn người, anh còn nghĩ sẽ có cơ hội tiễn đối phương về tận nhà. Ôi trời, kế hoạch hôn trộm tan vỡ rồi… Trong lòng anh lặng lẽ buồn bã. Nghĩ một lúc lại hỏi: “Hay là để tôi đưa anh về nhà, tôi có xe, hơn nữa cũng không xa lắm.”Lâm Giai Thụy lạnh lùng liếc anh một cái, không nói lời nào, chỉ mím chặt môi.Lần này Long Hoằng văn càng thêm buồn bã, trong lòng thầm mắng chính mình: “Tại mày nhiều chuyện, có xe thì hay lắm sao! Bây giờ xe chạy đầy đường! Không có xe mới ngầu chứ!” Sau đó vội lên tiếng gạt bỏ chủ đề: “A, không sao đâu, anh uống say rồi tôi cũng có chút không yên tâm, tôi ở lại đợi cùng anh!”Lâm Giai Thụy âm thầm ân hận về sự nhạy cảm của bản thân mình, tuy chỉ mới quen biết chưa đến hai ngày, nhưng mấy tháng trước đây cũng có thể xem là quen thuộc rồi. Vả lại cũng đã đồng ý làm bạn với người ta, đối phương cũng rất chân thành, thậm chí còn có hơi kinh sợ, bản thân cũng nên thành tâm đối xử với anh ta như bạn bè mới đúng. Giống như Tiểu Triết vậy. Ngay sau đó liền mỉm cười áy náy với Long Hoằng Văn một cái.Long Hoằng Văn thấy Lâm Giai Thụy không so đo nữa, còn cười với mình, tảng đá trong lòng liền rơi xuống, nhưng cũng thầm tự tát bản thân mấy bạt tai: “Không phải mày trước mặt người khác đều thích giả vờ lạnh lùng không nói chuyện sao! Sao hôm nay trước mặt cậu ta lại mồm miệng như vậy hả! Lần sau xem mày còn dám mồm miệng nữa không!”Thấy sắc mặt của Lâm Giai Thụy đã dịu hẳn xuống, Long Hoằng Văn lại chọn một chủ đề khác để nói tiếp. Nói chuyện được một lúc lâu, bỗng dưng Lâm Giai Thụy cười đến sáng lạn, còn vẫy vẫy tay. Long Hoằng Văn quay đầu nhìn, một người đàn ông ăn mặc nhàn nhã, dáng người thon dài đã bước đến trước bàn. Chỉ có thể dùng hai từ để miêu tả con người này – “Yêu nghiệt”. Cặp mắt hoa đào thanh mảnh dường như lúc nào cũng đang phát điện, lúc hắn ta đưa mắt nhìn bạn, bạn sẽ cảm thấy dường như hắn ta đang yêu bạn rất sâu đậm. Hắn ta khác với Lâm Giai Thụy tuấn tú nhã nhặn, cả người đều toát lên một loại cảm giác mị hoặc. Ngũ quan tinh xảo, nhưng khi hợp lại với nhau không tạo cảm giác nữ tính, ngược lại toát lên vẻ mạnh mẽ nam tính.. Long Hoằng Văn lập tức cảm thấy có nguy hiểm, người đàn ông này là ai? Dường như giao tình với Tiểu Thụy rất tốt. Đừng là tình địch nha!Chỉ thấy hắn ta đi thẳng đến trước mặt Lâm Giai Thụy, nhéo nhéo mũi của Lâm Giai Thụy: “Biết rõ không uống được còn cố uống ở ngoài, lỡ có ngày bị người sống bán mất thì sao đây?”Lâm Giai Thụy lắc lắc đầu nói: “Không phải có Tiểu Triết cậu ở đây sao!” nói rồi day day trán, nói: “Có hơi choáng, lắc đầu một chút càng thêm choáng.”Lữ Triết Minh lắc lắc đầu, bước tới trước, Lâm Giai Thụy giang tay, Lữ Triết Minh cứ thế ôm lấy Lâm Giai Thụy đứng lên hệt như một nàng công chúa. Long Hoằng Văn bên cạnh trợn đỏ cả mắt. Đây… Sao có thể vậy được… Hủ giấm chua trong lòng đổ nhào, toàn thân như tỏa ra mùi giấm nồng nặc. Mắt anh trợn trừng nhìn hai tay Lữ Triết Minh ôm lấy Lâm Giai Thụy, trợn đến sắp tóe ra lửa rồi. Trong lòng quyết định từ rày về sau sẽ căm ghét con người này, ngay cả một góc áo của Tiểu Thụy bản thân còn chưa chạm tới, ấy thế mà kẻ kia đã có thể ôm Tiểu Thụy, Tiểu Thụy lại còn ngoan ngoãn không chút bài trừ. Hừ, phải chi có thể gặp Tiểu Thụy sớm hơn chút nữa thì tốt rồi… Lòng anh vừa xoắn xuýt lại vừa lặng lẽ thở than.Nhưng Lữ Triết Minh hoàn toàn không để tâm đến, ngược lại chỉ cúi đầu nói với Lâm Giai Thụy: “Sao lúc nào cũng nhẹ như vậy? Cơm ăn vào đi đâu hết rồi? Hử?”Còn Lâm Giai Thụy đã hơi buồn ngủ rồi. Đầu cũng tự động dựa vào vai Lữ Triết Minh, bình thản say giấc.Lữ Triết Minh cười bất đắc dĩ, ngẩng đầu nói với Long Hoằng Văn: “A, thật ngại quá, phiền ngài phải trông nom Tiểu Thụy nhà chúng tôi rồi, Tiểu Thụy bình thường rất hiếm khi ra ngoài uống say như vậy, hiếm khi cậu ấy có thể thoải mái thế, thật sự cảm kích vô cùng.”Long Hoằng Văn đè nén từng cơn sóng trong lòng, cũng nặn ra một nụ cười: “Đâu có đâu có, tôi rất ngưỡng mộ Tiểu Thụy, chăm sóc cậu ấy là lẽ đương nhiên.”“Ồ? Đã vậy càng phải nhờ ngài bao dung hơn rồi, Tiểu Thụy nhà tôi đối với người trước giờ đều lạnh nhạt, nếu có đắc tội vẫn mong ngài đừng để bụng.” Lữ Triết Minh mỉm cười, quả nhiên lại là kẻ theo đuổi Tiểu Thụy, chẳng trách có thể được Tiểu Thụy nhưng vẫn nên cảnh cáo một chút. Mấy lời này bóng gió rằng muốn theo đuổi Tiểu Thụy không có dễ đến thế, bị từ chối thì đừng có mà thẹn quá hóa giận, từ yêu thành hận, dù sao loại chuyện như vậy không phải chưa từng xảy ra.Long Hoằng Văn nghe thấy nhưng cũng không thấy khó mà lùi, ngược lại còn nói: “Không đâu, Tiểu Thụy rất tốt. Dù có thế nào tôi cũng sẽ không bỏ cuộc.”“Ồ? Thật hiếm thấy. Đúng rồi, đồ ngốc Tiểu Thụy uống say rồi quên mất giới thiệu chúng ta với nhau, tôi xin tự giới thiệu trước vậy, tôi tên là Lữ Triết Minh, là đồng nghiệp cũng là bạn thân lâu năm, anh cũng có thể như Tiểu Thụy gọi tôi là Tiểu Triết.”Long Hoằng Văn cũng đưa danh thiếp ra: “Tôi tên là Long Hoằng Văn, là người ngưỡng mộ Tiểu Thụy.”Lữ Triết Minh nhận lấy danh thiếp nhìn một cái, ồ, không tệ nha, còn là ông chủ nữa, lúc giới thiệu cũng chỉ nói là người ngưỡng mộ Tiểu Thụy, ừm, cũng được.Lữ Triết Minh cười cười: “Chào ông chủ Long. Tiểu Thụy nhà chúng tôi được anh ưu ái rồi. Tiểu Thụy đã ngủ, tôi cũng xin phép về trước. Tạm biệt.”Long Hoằng Văn cũng cười: “Tạm biệt.” Nhưng khi nhìn thấy cảnh người kia sải bước ôm lấy Lâm Giai Thụy rời đi lại nghiến răng nghiến lợi, không sai, anh chính là đang ghen đấy. Phải chi có quen biết với Tiểu Thụy sớm hơn một chút thì tốt biết chừng nào! Long Hoằng Văn lại một lần nữa cảm thán. Nói không chừng người hôm nay ôm lấy Tiểu Thụy là mình rồi…",
         chapterDatePosted: "5 phút trước",
       },
       {
         chapterNumber: 4,
-        chapterTitle: "Bạn thân Lữ Triết Minh và trúc mã",
+        chapterTitle: "Bạn thân Lữ Triết",
         chapterDescription: "Lúc Lâm Giai Thụy tỉnh lại có chút đau đầu, quả nhiên không nên uống rượu, hắn nghĩ. Lữ Triết Minh từ bên ngoài bước vào, trên tay cầm một bát canh giải rượu, thấy hắn tỉnh rồi, bước tới đặt bát canh xuống, ngồi bên mép giường, hung hăn nhéo mũi Lâm Giai Thụy một cái, nói: “Sao? Thích cái tên hôm qua rồi hả? Sao lại uống thành thế này?”Lâm Giai Thụy liền đấm vào lồng ngực Lữ Triết Minh nói: “Không, chỉ là nói chuyện hợp thôi. Đau đầu…”Lữ Triết Minh vỗ nhẹ đầu hắn, vờ giận dữ: “Đáng đời! Uống cho chết cậu luôn đi! Nhanh đi rửa mặt, đợi chút nữa còn uống canh giải rượu.”Lâm Giai Thụy lắc lư đứng dậy, ném cho Lữ Triết Minh một cái nhìn mị hoặc, cười đùa nói: “A Triết à, cậu thật là hiền hậu nha ~” nói rồi liền chạy trốn vào phòng rửa tay.Để lại Lữ Triết Minh vừa nghiến răng ken két vừa không thể làm gì. Gặp được một người bạn tốt như vậy đúng thật là… Hắn nhớ lại lúc mới gặp Lâm Giai Thụy, cậu ta vẫn còn là một thanh niên 18, 19 tuổi nghênh ngang chí lớn, tràn ngập lý tưởng hoài bão. Lâm Giai Thụy cầm bức ảnh chụp chạy đến bên cạnh, đắc ý nói với mình: “Thế nào? Tôi chụp có đẹp không?” gương mặt vô cùng đắc ý. Lữ Triết Minh khi đó vẫn còn là một vận động viên nhảy cầu, tinh thần phấn chấn hệt như nhau. Trong ảnh là khoảnh khắc hắn đang từ trên không nhảy xuống,  giữa hàng chân mày có thể nhìn thấy chí khí hăng hái, đôi chân thon dài thẳng tắp hướng lên trên, động tác đẹp đẽ tràn đầy sức lực, là một tấm ảnh chụp nhanh, thật sự là một bức ảnh đẹp hiếm có. Cả hai người mới gặp đã thân, con đường bè bạn đi đến nay đã được bảy tám năm. Trong thời gian đó mỗi người đều trải qua những sóng gió riêng, trước là tuyệt vời sau là chán nản, cũng có lúc nghèo khổ đến không ngờ tới, cuối cùng quay lại cuộc sống bình lặng như bây giờ.Sau khi xuất ngũ, Lữ Triết Minh quay về thành phố này, hắn đã sống ở nơi đây mười mấy năm, cũng có thể xem là quê nhà. Lúc sa sút, ở lại quê nhà vẫn là thiết thực nhất, hiện tại tìm được việc làm ở công viên thủy sinh, về sau, những tháng ngày Lâm Giai Thụy bị ép đến khốn cùng, cũng như thoát khỏi mọi thứ trước kia, đi đến nơi này. Cả hai người trước nay vẫn thân thiết, sau khi đã trải qua nhiều thứ, trừ bạn thân từ nhỏ An Chí Hằng ra, người duy nhất hắn luôn quan tâm tín nhiệm là Lâm Giai Thụy.Còn Lâm Giai Thụy cũng vậy, đối với người ngoài luôn hết mực đề phòng, phủ lên tầng tầng lớp lớp vỏ bọc. Chỉ khi trước mặt bạn bè thật sự mới không để tâm đến mà lộ ra một phần tính cách nghịch ngợm của bản thân. Lữ Triết Minh lớn hơn hắn vài tuổi, hiển nhiên cũng tự nguyện bao dung hắn. Xu hướng tính dục của cả hai đều khác với người thường, vả lại trước nay đều nghiêm túc kiềm chế bản thân, bọn họ thậm chí đã hẹn ước với nhau nếu sau này đều không tìm được một nửa sẽ sống cùng nhau. Sự từng trải của họ đều không khác biệt, về mặt tình cảm cũng tương tự, nhiều năm như vậy, có là ai cũng không thể hiểu đối phương bằng họ.Lữ Triết Minh không kiềm được mà cảm thán, thời gian trôi qua thật nhanh, chớp mắt một cái, những gì đã từng cho là vĩnh cửu nay đã biến thành hư không, mà sau khi phồn hoa đi qua trong nháy mắt, cũng quay lại cuộc sống bình lặng thật lâu. Những vẻ vang, ngạo mạn đã đi qua, tất cả đều bị tháng năm vùi lấp mất, liệu có ai còn nhớ đến?Lúc này Lâm Giai Thụy rửa mặt xong bước ra, nhìn thấy Lữ Triết Minh đang ngẩn ngơ, một chân đạp tới: “Tự nhiên ngây ra làm gì đấy?”Lữ Triết Minh phục hồi tinh thần, cười cười: “Cảm khái một tí ấy mà, thời gian trôi qua thật nhanh. Chúng ta quen biết nhau đã tám năm trời, mà cậu vẫn còn chưa gả đi. Tôi vẫn không có cơ hội chuẩn bị của hồi môn.”Lâm Giai Thụy “xùy” một tiếng, nói: “Có thời gian cảm khái chuyện này không bằng nghĩ cậu đến lúc nào mới tìm ra một nửa, bằng không tới lúc đó hai chúng ta phải sống cùng nhau thật, phải nhìn cậu cả đời, mắt tôi sẽ mỏi mệt lắm.” Lâm Giai Thụy nói xong thì le lưỡi.Lâm Giai Thụy cũng cười, một lát sau cũng nghiêm mặt nói với hắn: “Lại nói, tôi thật sự cảm thấy tên trúc mã kia có ý đồ với cậu. Ánh mắt của anh ta mỗi lần nhìn thấy tôi như muốn giết tôi vậy, hệt như hận tôi không thể chết ngay trước mặt anh ta.”Lữ Triết Minh vỗ đầu hắn, nói: “Nào! Là cậu nghĩ nhiều quá rồi! Người ta là trai thẳng, gần đây bác gái còn hối thúc hắn đi xem mắt đó.”“Cậu biết anh ta đi xem mắt là tự nguyện sao? Ánh mắt anh ấy nhìn cậu tuyệt đối không lầm được đâu.” Lâm Giai Thụy liếc mắt một cái, cái tên ngu đần về tình cảm này!“Cút! Thẳng là thẳng, có biết dây vào trai thẳng là tự đào hố chôn mình không? Hơn nữa hắn ta còn là hàng xóm của tôi, dù sao tôi cũng không muốn kéo hắn xuống nước.” Lữ Triết Minh nhéo nhéo mặt Lâm Giai Thụy “Vả lại cậu mới là gu của tôi, hửm? Cười với bố một cái nào?”Lâm Giai Thụy hất tay anh ra, mặt chán ghét đáp: “Biến biến biến, ai là gu của cậu? Bố đây chả thèm!”Lúc này phòng khách có tiếng động, hình như là có người bước vào phòng, Lữ Triết Minh mới chợt nhớ ra lúc sáng ra ngoài mua đồ ăn vẫn chưa đóng cửa. Hắn dặn dò Lâm Giai Thụy uống canh giải rượu xong thì chạy ra ngoài, trong phòng khách quả nhiên là An Chí Hằng đang ngồi trên sofa, sắc mặt tái nhợt, ánh mắt mông lung nhìn lên trần nhà, không biết là đang nghĩ những gì. Lữ Triết Minh gọi mấy tiếng anh mới phản ứng lại, đôi mắt vô định chầm chầm nhìn đăm đăm vào Lữ Triết Minh, bên trong như chất chứa buồn phiền cùng thống khổ. Lữ Triết Minh giật mình, trong lòng nghĩ mấy lời tên Tiểu Thụy đó nói chẳng lẽ là thật?Lữ Triết Minh mỉm cười ôn hòa: “Tiểu Hằng? Sao hôm nay lại có thời gian đến đây vậy? Có chuyện gì sao?”Bấy giờ An Chí Hằng như lấy lại tinh thần, cúi thấp đầu, nhỏ giọng ừm ừm đáp: “Không có việc thì không được đến?” liền sau đó lại trưng ra bộ mặt tươi cười: “Không có, chỉ là đến thăm cậu thôi, hôm nay cuối tuần thời tiết rất đẹp, muốn hỏi cậu có hứng không cùng ra ngoài đi đạp thanh ấy mà.”Lữ Triết Minh mắt sáng lên, công việc ở công viên thủy sinh căn bản không có ngày nghỉ, bởi vì du khách rất đông thế nên khó mà có được một ngày nghỉ ngơi, thật sự rất muốn có thể ra ngoài vui vẻ dạo chơi. Thế nên hắn liền vui vẻ nói: “Được đó, gọi cả Tiểu Thụy cùng đi chơi đi, lâu lắm rồi cậu ấy không ra ngoài chắc cũng bứt rứt lắm rồi.”An Chí Hằng mặt mày tối sầm, nụ cười trên môi cũng vụt tắt, nhưng không lâu sau đó cũng miễn cưỡng nặn ra một nụ cười khó coi, nói: “Vậy cũng được!” lại Tiểu Thụy Tiểu Thụy Tiểu Thụy! An Chí Hằng thầm buồn trong lòng. Chỉ mới xa cách vài năm, bạn thân nhất của đối phương giờ đây không phải là mình, nhưng vẫn muốn vị trí của bản thân cao hơn người kia. Anh không cong, ngoài Lữ Triết Minh ra anh chưa từng động lòng với bất kì người đàn ông nào. Khi ấy phát hiện ra suy nghĩ của bản thân, anh cực kì hoảng sợ, sau đó cũng vì thế mà trốn chạy khỏi đối phương mấy năm trời, trong những năm đó cũng không ngờ đối phương không những công khai mà còn kết thêm bạn trai, bản thân thật sự hối cũng không kịp. Nét mặt của An Chí Hằng đã biến đổi, cuối cùng đổi thành một vẻ mặt kiên định, A Triết là của anh, ai cũng đừng hòng cướp đi. An Chí Hằng cố chấp nghĩ.Còn Lữ Triết Minh thì đang vui vẻ sắp đặt kế hoạch đi chơi trong đầu, hoàn toàn không để ý đến sắc mặt thay đổi của đối phương.Lúc này Lâm Giai Thụy bước ra, trên tay đang cầm điện thoại nói gì đó. Ngay cả khuy áo cũng không cài kĩ càng, Lữ Triết Minh nhìn thấy, thở dài một hơi, cái tên Tiểu Thụy này đôi lúc lại như vậy, quá sức trẻ con, chăm sóc tốt bản thân mình? Hoàn toàn không thể. Vậy nên đôi khi Lữ Triết Minh nghĩ bản thân anh đã trở thành bảo mẫu của hắn ta rồi. Cơ mà ai bảo Lữ Triết Minh là anh lớn cơ chứ, vì thế nên liền tiến tới giúp hắn cài khuy áo lại, rồi hỏi: “Sớm vậy? Ai thế?” Lâm Giai Thụy che điện thoại đáp lời: “Long Hoằng Văn, anh ấy hẹn tôi đi đạp thanh!”“Vừa khéo tụi tôi cũng dự định đi, gọi anh ta tới đi chung đi.” Lữ Triết Minh giúp hắn cài khuy áo xong, sửa quần áo cho chỉnh tề rồi nói. Lâm Giai Thụy gật gật đầu, bước tới phía bên kia sofa ngồi xuống tiếp tục nói chuyện điện thoại.Còn kẻ phải chứng kiến cảnh ban nãy là An Chí Hằng trong lòng như muốn bùng nổ, bầu không khí tự nhiên sống cùng nhau ban nãy giữa hai người họ dường như người ngoài không thể chen vào được, điều đó khiến anh phát điên. Bỏ lỡ mất vài năm quan trọng, An Chí Hằng cảm thấy anh đã sai hoàn toàn, lúc đó dù có sợ hãi cách mấy cũng không nên chạy trốn, những năm đó rốt cuộc lại bỏ lỡ không ít thứ từ A Triết! Tại sao cậu ấy lại gắng gượng trở về chốn thành thị mà ban đầu khăng khăng rời bỏ, tại sao cậu ấy không kiên trì với lý tưởng của mình mà lại cam tâm bơi lội ở một bể thủy sinh bé xíu đó cho người người quan sát?An Chí Hằng điều gì cũng không biết, còn A Triết thì dường như cố ý không nhắc đến, cái gì cũng không nói với anh. Từ lúc nào giữa họ đã bắt đầu có khoảng cách đến nhường này? Đã vậy người cùng ở cạnh cậu ta mấy năm qua lại không phải là anh, mà là Lâm Giai Thụy. Cái gã đàn ông đã quen thân với Lữ Triết Minh dần dần thay thế vị trí của anh. An Chí Hằng cảm thấy tầm quan trọng của anh trong sinh mệnh của Lữ Triết minh càng ngày càng nhẹ dần đi, nhẹ đến nỗi bản thân cũng phải bàng hoàng, càng ngày càng bất an. Chẳng lẽ sẽ có một ngày anh ngay cả người đàn ông này cũng mất đi sao?Mặc dù An Chí Hằng không muốn thừa nhận, nhưng thật sự trong lòng anh đang điên cuồng căm ghét Lâm Giai Thụy, căm ghét tất cả mọi thứ thuộc về hắn ta, mặc dù hắn đã sa sút cùng cực, nhưng lại thân cận nhất với Lữ Triết Minh, bất kể là những gì đã trải qua, hay là… trái tim đó. An Chí Hằng nhắm hai mắt lại, không đành lòng nghĩ tiếp, dù cho thế nào anh cũng phải cướp A Triết về lại bên mình, bất kể phải cho thủ đoạn nào đi chăng nữa.Lữ Triết Minh đi chuẩn bị đồ đạc, đeo trên lưng bản vẽ và một số bút vẽ, hắn và Lâm Giai Thụy đều thích vẽ vời, đây là sở thích chung của cả hai, chỉ là bình thường Lâm Giai Thụy thích đem máy ảnh theo hơn. Còn một bên là An Chí Hằng đang vừa đố kỵ vừa ganh ghét nhìn Lâm Giai Thụy nói chuyện điện thoại xong đang lười biếng nằm trên sofa, bọn họ đều biết vẽ, đã từng muốn học nhưng vì trước sau đều không có năng khiếu nên không thể không bỏ cuộc",
         chapterDatePosted: "10 phút trước",
+      },
+    ],
+    comment: [
+      {
+        iduser: 1,
+        userName: "Ánh",
+        userComment:"Truyện cũng được",
+        avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
+      },
+      {
+        iduser: 2,
+        userName: "Trang",
+        userComment:"Truyện hay nên đọc",
+        avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
+      },
+      {
+        iduser: 3,
+        userName: "Nhung",
+        userComment:"Top 1",
+        avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
       },
     ],
   },
@@ -91,11 +115,12 @@ const storiesData = [
     datePosted: "2023-11-02",
     user: "Sang",
     author: "[Đang cập nhật]",
-    category: "Cổ tích",
+    category: "Cổ tích,Smut,Mecha,Manga",
     status: "Full",
     follow: 110,
     favourite: false,
-    history: false,
+    history: true,
+    favorites: "242",
     imgUrl: "https://kenosa.vn/app_images/product/2016/7/7/su-tich-chu-cuoi-cung-trang-truyen-tranh-co-tich-86416-500-86416.jpg",
     img:"https://i.ytimg.com/vi/Oxd8YS9rTGw/maxresdefault.jpg",
     chapters: [
@@ -106,6 +131,26 @@ const storiesData = [
         chapterDatePosted: "11 phút trước",
       },
     ],
+    comment: [
+      {
+        iduser: 1,
+        userName: "Quang",
+        userComment:"Truyện cũng được",
+        avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
+      },
+      {
+        iduser: 2,
+        userName: "Hoàng",
+        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
+      },
+      {
+        iduser: 3,
+        userName: "Hân",
+        userComment:"Tuyệt",
+        avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
+      }
+    ],
   },
   {
     id: 4,
@@ -114,11 +159,12 @@ const storiesData = [
     datePosted: "2023-11-02",
     user: "Yến",
     author: "Đông Thiên Đích Liễu Diệp",
-    category: "Giải trí",
+    category: "Giải trí,Smut,Mecha,Manga",
     status: "[Đang cập nhật]",
     follow: 114,
     favourite: false,
     history: true,
+    favorites: "952",
     imgUrl: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiL7i43fNMQoaU7nPGJAlrWznVnbuN9sV2gQ9FkSo98Bc6P1QHzanzadHmzun0or0TIsX-jJfdyWzERtkHZjZadDbJbrX0lfsOzMUeBYWkaxiwD8OHck8utt29uPAEcOD34o3bSHu_isd0Zmnl6LZ1ybsaD32aj04g0UYLOzYnbVnSgDpYR137nz3Z1qA/s2000/undead-unluck_poster2.jpg",
     img:"https://i2.wp.com/aiptcomics.com/wp-content/uploads/2021/04/Undead-Unluck-Vol.-01-Header.png?fit=1400%2C732&ssl=1",
     chapters: [
@@ -141,6 +187,26 @@ const storiesData = [
         chapterDatePosted: "15 phút trước",
       },
     ],
+    comment: [
+      {
+        iduser: 1,
+        userName: "Quang",
+        userComment:"Truyện cũng được",
+        avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
+      },
+      {
+        iduser: 2,
+        userName: "Ngọc Quang",
+        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
+      },
+      {
+        iduser: 3,
+        userName: "Quang",
+        userComment:"Haha",
+        avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
+      },
+    ],
   },
   
   {
@@ -150,26 +216,41 @@ const storiesData = [
     datePosted: "2023-11-02",
     user: "Nam",
     author: "Lê Hạnh",
-    category: "Giải trí",
+    category: "Giải trí,Mecha,Manga",
     follow: 990,
     status: "[Đang cập nhật]",
     favourite: true,
     history: true,
+    favorites: "587",
     imgUrl: "https://yymedia.codeprime.net/media/fb_img/e626839642.jpg",
     img:"https://i.ytimg.com/vi/DPl2HuzYcYg/maxresdefault.jpg",
     chapters: [
       {
         chapterNumber: 1,
-        chapterTitle: "Tình cờ gặp lại nhau phần 1",
+        chapterTitle: "Tình cờ phần 1",
         chapterDescription: "Em mà bỏ anh, anh sẽ đi tu.Trời trời, gì vậy cha nội, tưởng chỉ bà Lan bã mới đi tu, ông là đàn ông sao nói ghê vậy cha. Phạt cái tội nói bậy phải cõng em xuống núi.Nói chơi vậy mà anh cúi xuống cõng thiệt , mặc cho em đấm vào lưng anh thình thịch vì sợ té, đường hẹp, dốc sỏi và tối, trăng khuyết trên đỉnh trời không đủ sáng bước chân anh.Đó cũng là lần đầu tiên và lần cuối cùng em đi chùa với anh, dù rằng trước Đức Phật anh đã cầu mong em và anh mãi mãi bên nhau.Nha Trang nơi kết nối tụi mình. Khi đó em đang chạy trốn khỏi quá khứ không vui sau một lần đổ vỡ ở tuổi 23. Anh đã đến với em như một định mệnh. Em đã khổ sở đắn đo, giằng xé trước việc có nên nhận lời thương anh, khi anh còn quá trẻ để đủ sức cùng em vượt lên định kiến xã hội và rào cản gia đình. Rốt cuộc em đã thua trước sự kiên trì của anh. Em nhắm mắt yêu và bất chấp.Ngày đầu tiên anh dẫn em về gia đình ra mắt, anh biểu tạm thời mình lấy lòng ba má rồi từ từ anh nói sau. Chắc ba má sẽ thương em thôi. Tin anh đi. Dù rất khó chịu khi ba má hỏi về hoàn cảnh mà em không dám nói, nhưng em không biết làm gì khác. Ba má rất quý mến em, sau vài lần ba má đòi mang trầu cau tới rước em về. Tụi mình cứ hẹn lần hẹn lựa tới ba năm sau.Anh làm nghề biển. Lênh đênh đêm ngày trên sóng nước . Em ở đất liền đi làm và chờ đợi. Sợ em buồn đêm nào anh cũng gọi và hát cho em nghe, tới khi em giả vờ ngủ anh mới tắt máy và không quên nói câu vợ anh ngủ ngon, ráng đợi anh thêm thời gian nữa, nếu ba má không chấp nhận, mình cũng đủ sức nâng đỡ nhau lúc ra riêng, anh thương em rất nhiều, sẽ cố gắng hết sức để bù đắp cho em.Em đã khóc vì thương, vì vui sướng, cái cảm giác đó sau này và mãi mãi em sẽ không tìm thấy được bất cứ nơi đâu.Mỗi chuyến đi xa về tụi mình cùng rong ruổi bên nhau, buổi chiều anh nấu những món em thích hai đứa ăn, rồi rủ em ngồi trên thúng cho anh chèo đi lanh quanh trên biển, anh chở em tới chỗ mấy anh em nuôi tôm hùm, em tựa đầu trên mạn thúng và cảm nhận hạnh phúc. Đêm khuya gối đầu bên vai anh ngồi trên cầu cảng nhìn trăng trên biển, và nghe tiếng sóng vỗ dưới chân sau buổi nhậu cùng với bạn bè. Ba năm chưa khi nào anh khiến em đau lòng, chỉ có em thỉnh thoảng hay kiếm chuyện hờn giận vu vơ cho anh dỗ. Ví như em không cho anh đi lặn vì có lần anh suýt ngột vì bị trục trặc ống dẫn khí mà anh cũng lén làm vì muốn kiếm thiệt nhiều tiền nuôi dưỡng tương lai. Anh hay nói cuộc đời có bao nhiêu không đủ để mình thương sao còn hoang phí hả em. Dường như mỗi phút giây anh đều trân trọng.Người ta nói vợ chồng với nhau là duyên là nợ, vậy mình gặp nhau thương nhau là cái gì. Đó là câu hỏi mà cả đời này em không có câu trả lời cho vừa lòng, để lúc không còn nhau thế này em có cái lí do để mà thôi dằn vặt.Tám năm trời em lánh xa anh, tám năm trời anh mòn mỏi kiếm tìm, đợi chờ, hi vọng. Em là người đàn bà tàn nhẫn nhất thế gian. Em muốn anh nghĩ thế cho anh bớt đau, bớt hận.Sau cái đêm liên hoan ở công ty về em đã mượn hơi men mà thú nhận với má anh sau những ngày giằng vặt và lừa dối. Mà cũng ngộ thiệt, đã say mà phải uống lưỡi cả trăm lần mới thốt ra nổi cái câu:má ơi, con xin lỗi, con là người đã từng có một lần dang dở và có một đứa con riêng, con không dám nói với má, con lừa dối má và cả gia đình, dòng họ.Giây phút đó em nghe má chết lặng, cái đoạn im lặng khủng khiếp đó như dài vô tận. Em đã cấu nát đùi mình để lấy hết dũng khí nói ra.Rồi em bật khóc, khóc đến không thở nổi. Bên kia má cũng khóc. Má nói:sao con lại thế, sao tụi mày lừa dối ba má. Giờ cả họ hàng, cô bác ai cũng biết rồi, sao má đối diện với họ, và má phải ăn nói với bên nội nó ra sao đây hả con, còn ba mày nữa, nghĩ tới đó thôi má đã không thể. Còn thằng Hải nữa, tương lai nó nữa, sao có thể... Tới đó thì em im lặng , cái kiểu không thể mở miệng ra nói thêm , giải thích thêm nữa, nó dồn nén lại như cái cây bị sợi dây quấn chặt, teo dần, bức bối và ức nghẹn.Má lại nói:Má rất thương con, nhưng má xin lỗi con, nếu con cũng thương má xin con hãy chia tay với nó. Thêm bữa má coi thầy rồi , thầy nói hai đứa lấy nhau thằng Hải sẽ chết con ơi, nếu không chết sẽ sống với nhau trầy trật cả đời. Má nói thì nó gạt lời má, nó nói nó không bỏ được. Má biết nó thương con giờ nói sao nó cũng không bỏ được, má chỉ trông vào con thôi.Em lại im lặng, nỗi im lặng chìm sâu trong vũng nước mắt của sự tuyệt vọng. Giây phút đó lòng tự trọng và cả tình thương dành cho má cho anh đã khiến em đồng ý.Em quên anh bằng cách ngu ngốc và trẻ con nhất, em chọn những cơn say, và nhí nhố với bạn bè, rồi đêm về tự khinh bỉ, nguyền rủa mình tồi tệ.Em đã nói lời chia tay cụt ngủn và tàn nhẫn đến mức khiến anh không thể để mình tỉnh rượu trong suốt một tháng trời. Anh tìm em trốn, anh gọi em khóa máy. Em chỉ nói mình không hợp em lỡ thương người khác rồi.Lí do đó sao làm thỏa mãn một trái tim yêu và tin tưởng em nhiều như thế.Em im lặng, bỏ số, và bỏ đi nơi khác lập nghiệp. Những ngày quá nhớ anh em đã dùng số lạ gọi tới, chỉ cần nghe giọng anh alo ngắn ngủn và bực bội tắt máy khi em nín thở và im lặng vì sợ bị anh phát hiện. Chỉ vậy thôi mà em vui biết chừng nào. Đêm thèm anh ca cho em nghe, thèm những câu anh nhắc nhở mỗi tối đến cháy ruột ganTây Nguyên mùa mưa dai dẳng và buồn đứt ruột. Người ta nói thời gian làm tình yêu phôi phai mà em bao nhiêu năm rồi vẫn thế, chỉ là nổi nhớ đè xuống sau những bộn bề cơm áo, rồi tới khi bắt gặp một hình ảnh thân quen, một ánh mắt hay tướng người giông giống, hoặc một bài hát ngày xưa anh hay hát, nổi nhớ lại trỗi dậy da diết và bần thần cả ngày.",
         chapterDatePosted: "1 tháng trước",
       },
       {
         chapterNumber: 2,
-        chapterTitle: "Tình cờ gặp lại nhau phần 2",
+        chapterTitle: "Tình cờ phần 2",
         chapterDescription: "Có lần em gặp đứa bạn của anh ở Sài Gòn , nó nói anh vẫn ở vậy, ít nói ít cười, dù má và mấy đứa em mai mối bao nhiêu người anh cũng lắc đầu bỏ đi. Em xót lắm, nhưng dặn lòng không được mềm yếu, chắc anh cần thêm thời gian nữa. Em bấm bụng thương anh.Khánh Hòa năm trước mùa mưa bão, nghe đài báo có ghe thuyền mất tích, mấy người đi biển bị bão nhấn chìm, em đứng ngồi không yên suốt ngày chờ tin báo đăng coi thử có chút manh mối gì về anh không, em gọi số máy anh không có ai trả lời.Ruột gan em như lửa đốt. Em quyết định ra đảo tìm anh. Má đứng phía trong cầu cảng với mấy cô trong xóm, thấy em má sửng sốt nhìn, em ngại ngùng chào. Má dẫn em vào nhà nghe tiếng khóc trẻ con từ ngoài sân. Em chưa kịp hỏi gì thì thấy anh ngoài giếng loay hoay phơi tã con nít. Phía trong nhà có tiếng cô gái trẻ chào em, em cố mỉm cười trước tình cảnh đó.Nước mắt một thằng đàn ông lăn xuống má, anh khóc và ôm em trước mặt má và cô ấy. Em khóc, má khóc. Em đã đến muộn mất rồi. Anh đã cưới cô ấy được 1 năm, trong lần đi dạo và tình cờ gặp, bởi cô ấy có nụ cười giống em nên quen nhau chưa tới 1 tháng anh vội vã cưới liền vì sợ tỉnh ra anh đổi ý.Tự nhiên em thấy giận mình ghê gớm, em đã sai khi trở lại chuyến này, lẽ ra em nên vĩnh viễn biến mất. Em quay về bến đò đợi chuyến muộn trở lui. Gió biển thốc vào lòng nghe mặn đắng. Má tiễn em bằng một cái ôm , má nói con rất tốt, má hi vọng con tìm được người yêu con và lo cho con. Lòng má vẫn thương con rất nhiều. Em chưa bao giờ giận má. Chỉ buồn vì mình gặp nhau luôn sai thời điểm. Anh hứa sẽ sống có trách nhiệm với vợ con, để sự hi sinh của em trọn vẹn sau khi nghe má nói hết chuyện của ngày xưa.Chuyến đò lẫn vào hoàng hôn đỏ quạch như đôi mắt em lúc này. Đó cũng là chuyến đò cuối cùng vùi chuyện tình tụi mình theo bọt sóng. Rồi mình sẽ sống với sự lựa chọn của mình cho xứng đáng phải không anh. Em xin gởi tình này ở lại. Để bước về phía bờ, lòng nhẹ tênh như con thuyền vừa đi qua giông bão.Người đàn ông khẽ mỉm cười, anh ta nói rằng: “Trước khi kết hôn, có rất nhiều chàng trai muốn theo đuổi cô ấy, có rất nhiều chàng trai đối xử tốt với cô ấy, tôi chỉ có thể đối xử tốt hơn mới có thể chinh phục được cô ấy. Sau khi kết hôn, những chàng trai đó không còn đối xử tốt với cô ấy nữa, tôi chỉ có thể đối xử với cô ấy tốt hơn để cô ấy không cảm thấy cô đơn lạc lõng. Tất cả những gì tôi làm chỉ để khiến cô ấy được hạnh phúc.Ngôi nhà dù sang trọng đến đâu, bạn vẫn chỉ ngủ trên một chiếc giường. Ô tô dù có tốt đến đâu, vượt quá tốc độ vẫn bị phạt tiền. Túi xách dù đắt tiền đến đâu, cũng chỉ nhiều công dụng hơn một cái túi bóng. Đừng vì mù quáng theo đuổi những thứ không thuộc về mình , mà quên đi hạnh phúc hiện tại. Biết bao nhiêu là đủ! Nếu như bạn ốm đi 20 kg thịt để đổi lấy mười năm tuổi thọ của bố mẹ bạn. Liệu bạn có sẵn sàng đánh đổi?Cô dâu chú rể nhìn nhau gật đầu. Mọi người ở hội trường vỗ tay hồi lâu chúc mừng. Đại đa số chúng ta đi đến hết cuộc đời, không ngừng khát vọng, không ngừng truy cầu, không ngừng tranh giành, nhưng lại không biết trân quý hạnh phúc ngay bên cạnh mình, kết quả là vẫn hai bàn tay trắng. Đừng để đến khi mất rồi mới biết trân trọng! Mà hãy trân trọng những gì bạn đang có.Có một cô gái ở phương Nam và một anh người miền Bắc lấy nhau, khẩu vị của cô gái thanh đạm, còn anh chồng thì ngược lại, không có ớt thì anh không nuốt được cơm. Cô gái thường đi đến nhà bố mẹ đẻ ăn cơm. Một hôm, bố cô gái nấu thức ăn hơi mặn, nhưng mẹ cô không nói gì, chỉ mang đến một cốc nước, khi gắp thức ăn bà nhúng vào cốc nước trước mặt sau đó mới cho lên miệng.Vì tình yêu, cũng vì bản thân mình, hai vợ chồng 1 người giữ một đĩa ớt, 1 người giữ một cốc nước, nhưng quan trọng hơn, họ hiểu được thế nào để ôm giữ được một tình yêu vĩnh cửu. Hy vọng rằng đọc xong hai cậu chuyện này rồi các bạn sẽ biết trân trọng người bạn đời và nuôi dưỡng tình yêu của mình hơn.Yêu nhau năm năm. Hắn tàn nhẫn nói lời chia tay với cô. Cô thề sẽ hận hắn cả đời. Một ngày, cô bước vào một ngõ nhỏ lại thấy hắn đang bị người ta ẩu đả. Cô như phát điên, nhặt lấy tảng đá, gậy gộc liều mạng đánh về phía mấy người kia. Mấy người kia bị kinh sợ, chạy trối chết. Bạn bè hỏi cô, đã thề căm thù đến tận xương tuỷ, vì sao lại ra tay cứu giúp hắn? Cô chạm khẽ trái tim vẫn đang run rẩy nói, bởi vì yêu nhiều hơn so với hận.Một ngày, cô trễ hẹn, hắn tức giận với cô không thôi. Cô một mạch nói lời chia tay. Lại suốt ngày ở nhà ảo não hối hận không thôi. Cô đem mật khẩu đổi thành “Thực xin lỗi”, mỗi ngày khi mở cửa đều nhỏ giọng nói “Thực xin lỗi” với cánh cửa. Dường như làm như vậy có thể giảm bớt sự bất an cùng mong nhớ trong lòng.Cô cười cười, ôm lấy mèo con đi vào phòng. Rồi sau đó con mèo nhỏ kia thường xuyên xuất hiện đáng thương hề hề, lý do giống như trên. Hôm nay, cô nghe được tiếng gõ cửa, mở cửa. Lại thấy soái ca kia nháy đôi mắt hoa đào nói: Mèo đi công tác, có thể chăm sóc anh không?Cô thích ăn táo. Hắn mỗi ngày đều gọt hai quả táo, mỗi người một quả, cô thích cảm giác ấm áp lãng mạn này. Chỉ là cô phát hiện hắn luôn cắn một miếng ở cả hai quả táo trước, sau đó mới đưa cho cô một quả. Vì thế, cô buồn bực đã lâu. Rốt cục có một ngày. Thừa dịp lúc hắn ra ngoài nghe điện thoại, cô cầm quả táo của hắn cắn một miếng. Cảm giác không ngon ngọt bằng quả táo của mình. Nước mắt không tiếng động nháy mắt lướt qua khuôn mặt.Con chó nhỏ nói với con mèo nhỏ: Ngươi đoán xem trong cái túi trước mặt ta có mấy khối đường? Con mèo nhỏ nói: Đoán đúng rồi ngươi sẽ cho ta ăn sao? Con chó nhỏ gật gật đầu: Uhm, đoán đúng rồi tất cả đều cho ngươi! Con mèo nhỏ nuốt nuốt nước miếng nói: Ta đoán năm khối! Sau đó, con chó nhỏ cười đặt đường vào tay con mèo nhỏ, nói: Ta còn thiếu ngươi ba khối.Một hôm bà nói với ông rằng muốn một chiếc lược mới vì cái cũ đã gãy, thế nhưng ông lại bảo rằng chiếc đồng hồ cũ của ông vừa đứt dây nê chưa có đủ tiền mua cho bà. Nghe vậy, bà không nói gì thêm.Có hai nhóm du lịch cùng đi đến bán đảo Izo của Nhật Bản. Khi cùng đi qua một con đường đầy hố lồi lõm, hướng dẫn viên của nhóm một thái độ bực mình: Con đường hệt như gương mặt đầy nốt rỗ của một ai đó. Còn hướng dẫn viên của nhóm hai đầy hóm hĩnh: Con đường mà chúng ta đang đi là quốc lộ Izo vang danh với những má lúm đồng tiền duyên dáng",
         chapterDatePosted: "20 phút trước",
       },
+    ],
+    comment: [
+      {
+        iduser: 1,
+        userName: "Hiển",
+        userComment:"Truyện cũng được",
+        avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
+      },
+      {
+        iduser: 2,
+        userName: "Hưng",
+        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
+      }
     ],
   },
   {
@@ -178,12 +259,13 @@ const storiesData = [
     description: "Gia đình nọ có hai anh em, cha mẹ mất sớm và để lại cho anh em một khối gia tài. Vợ chồng người anh tham lam giành hết chỉ chừa lại cho người em một túp lều lụp xụp, trước cửa có một cây khế ngọt. Vợ chồng người em chăm chỉ làm ăn và chăm sóc cây khế chu đáo. Đến mùa khế ra rất nhiều quả. Bỗng một hôm có con chim lạ đến ăn khế. Vợ người em than khóc, chim lạ liền bảo may túi ba gang để chim trả ơn. Chim đưa người em ra đảo lấy vàng và từ đó gia đình người em trở nên giàu có nhất vùng. Người anh hay tin, lân la đến dò hỏi và đổi cả gia tài của mình để lấy túp lều và cây khế. Đến mùa khế chín, chim đại bàng lại đến và cũng ngỏ ý sẽ trả ơn.Người anh vì tham lam nên đã may túi to để dựng được nhiều vàng. Trên đường đi lấy vàng về vì quá nặng nên người anh đã bị rơi xuống biển và chết.",
     datePosted: "2023-11-02",
     author: "[Đang cập nhật]",
-    category: "Cổ tích",
+    category: "Cổ tích,Mecha,Manga",
     status: "Full",
     favourite: false,
     follow: 152,
     user: "Nam",
     history: true,
+    favorites: "1,022",
     imgUrl: "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/cay_khe___truyen_co_tich_viet_nam/2020_06_01_11_45_38_1-390x510.JPG",
     img:"https://i.ytimg.com/vi/ZDY1Tln-2PY/maxresdefault.jpg",
     chapters: [
@@ -194,6 +276,20 @@ const storiesData = [
         chapterDatePosted: "30 phút trước",
       },
     ],
+    comment: [
+      {
+        iduser: 1,
+        userName: "Nam",
+        userComment:"Truyện cũng được",
+        avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
+      },
+      {
+        iduser: 2,
+        userName: "Huy",
+        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
+      }
+    ],
   },
   {
     id: 7,
@@ -203,10 +299,11 @@ const storiesData = [
     user: "Linh",
     follow: 125,
     author: "Đam Mỹ",
-    category: "Giải trí",
+    category: "Giải trí,Mecha,Manga",
     status: "[Đang cập nhật]",
     favourite: true,
-    history: true,
+    history: false,
+    favorites: "789",
     imgUrl: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGv_NyKIec-grSk7BaDr2zfpx1SOKhQ3pwT0-UtXjtMZ8hamTHefThTMSNY7Z3ogfG73ryTNV37q-GvmixCXY6cqKfFZ2d0cbTGP-6bQkyn84AemlcRQi88pmrFNxPfvthaEjBs69ATOJ0mJHTgLPfzy2yF4o_h0ASPi9w71aDRwvdR5pNl5oyCitMsw/s772/4905f91632b03ca914f3f0763bb93c03.jpg",
     img:"https://media.voocdn.com/media/image/id/64132defacc399a23b8b4609_720x",
     chapters: [
@@ -236,10 +333,30 @@ const storiesData = [
       },
       
     ],
+    comment: [
+      {
+        iduser: 1,
+        userName: "Cảnh",
+        userComment:"Truyện cũng được",
+        avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
+      },
+      {
+        iduser: 2,
+        userName: "Hưng",
+        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
+      },
+      {
+        iduser: 3,
+        userName: "Man",
+        userComment:"Truyện không hay",
+        avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
+      },
+    ],
   },
   {
     id: 8,
-    category: "Cổ tích",
+    category: "Cổ tích,Harem",
     title: "Dã tràng",
     description: "Hẳn ai cũng biết dã tràng là một loài thuộc bộ giáp xác, sống gần biển, có tập tính vê cát thành viên nhỏ để kiếm ăn. Loài động vật này còn có tên gọi khác là “còng”, “còng gió”. Về tên gọi “dã tràng” của loài động vật này, có lẽ ai cũng nghĩ nguồn gốc từ tiếng Việt…Thật ra, “dã tràng” là một từ gốc Hán. Âm Hán Việt hiện đại của “dã tràng” là “dã trường”. “Dã tràng” là do đọc chệch “dã trường” mà thành. Vì như đã biết, hiện tượng biến âm /ương/ – /ang/ khá phổ biến trong tiếng Việt, như lên đường – lên đàng, đường hoàng – đàng hoàng, cầu Trường Tiền – cầu Tràng Tiền,…Liên quan đến loài giáp xác họ hàng với cua, cáy này, trong tiếng Việt có thành ngữ “dã tràng xe cát”, “công dã tràng”. Chúng được dùng với nghĩa “những việc khó nhọc mà vô ích”. Không ít người cho rằng, ý nghĩa trên bắt nguồn từ thực tế tập tính vê cát tìm thức ăn của loài dã tràng (vì gần bờ biển nên những viên cát mà dã tràng vê chưa xong đã bị sóng đánh vỡ hết).",
     datePosted: "2023-11-02",
@@ -249,6 +366,7 @@ const storiesData = [
     follow: 500,
     favourite: true,
     history: false,
+    favorites: "554",
     imgUrl: "https://xemsachhay.com/wp-content/uploads/2018/04/28694_35197.jpg",
     img:"https://thegioicotich.vn/wp-content/uploads/2020/12/da-trang-xe-cat-bien-dong.jpg",
     chapters: [
@@ -265,6 +383,32 @@ const storiesData = [
         chapterDatePosted: "50 phút trước",
       },
     ],
+    comment: [
+      {
+        iduser: 1,
+        userName: "Tuấn",
+        userComment:"Truyện cũng được",
+        avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
+      },
+      {
+        iduser: 2,
+        userName: "Lùn",
+        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
+      },
+      {
+        iduser: 3,
+        userName: "Cao",
+        userComment:"Tạm",
+        avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
+      },
+      {
+        iduser: 4,
+        userName: "Thấp",
+        userComment:"Được",
+        avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
+      }
+    ],
   },
   {
     id: 9,
@@ -273,11 +417,12 @@ const storiesData = [
     datePosted: "2023-11-02",
     user: "Yến",
     author: "Lê Thế Song",
-    category: "Cổ tích",
+    category: "Cổ tích,Harem",
     status: "Full",
     follow: 114,
     favourite: false,
     history: false,
+    favorites: "659",
     imgUrl: "https://salt.tikicdn.com/cache/w1200/media/catalog/product/i/m/img764_2.jpg",
     img:"https://thegioicotich.vn/wp-content/uploads/2010/11/cay-tre-tram-dot.png",
     chapters: [
@@ -288,19 +433,34 @@ const storiesData = [
         chapterDatePosted: "1 giờ trước",
       },
     ],
+    comment: [
+      {
+        iduser: 1,
+        userName: "Hoàng",
+        userComment:"Truyện cũng được",
+        avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
+      },
+      {
+        iduser: 2,
+        userName: "Hùng",
+        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
+      }
+    ],
   },
   {
     id: 10,
-    title: "Sự tích con rồng cháu tiên",
+    title: "Con rồng cháu tiên",
     description: "Ngày xưa, ở miền đất Lạc Việt có một vị thần nòi rồng, sống ở dưới nước gọi là Lạc Long Quân. Thần giúp dân trồng trọt, chăn nuôi và diệt trừ yêu quái. Ở vùng núi cao, có nàng Âu Cơ xinh đẹp tuyệt trần, nghe tiếng miền đất đã đến tìm thăm. Hai người gặp nhau và trở thành vợ chồng. Âu Cơ có mang sinh ra bọc trăm trứng, nở ra một trăm người con hồng hào, đẹp đẽ, không cần bú mớm mà lớn nhanh như thổi. Vì không quen sống trên cạn nên Lạc Long Quân đem 50 con xuống biển, Âu Cơ đem 50 con lên núi. Hai người dặn nhau và hứa hẹn nếu có việc gì thì gọi nhau giúp đỡ. Người con trưởng theo Âu Cơ lên làm vua lấy hiệu là Hùng Vương, đặt tên nước là Văn Lang, mười mấy đời truyền nối không thay đổi. Bởi sự tích này, người Việt ta từ đó thường xưng là con Rồng cháu Tiên.",
     datePosted: "2023-11-05",
     user: "Yến",
     author: "Trần Trọng Kim",
-    category: "Cổ tích",
+    category: "Cổ tích,Harem",
     status: "Full",
     follow: 155,
     favourite: false,
     history: false,
+    favorites: "954",
     imgUrl: "https://img.saostar.vn/w600/2017/11/05/1753793/poster_main2_nonlogo.jpg",
     img:"https://thegioidienanh.vn/stores/news_dataimages/hath/112017/08/15/2346_Con_RYng_Chau_Tien.jpg",
     chapters: [
@@ -311,6 +471,20 @@ const storiesData = [
         chapterDatePosted: "2 giờ trước",
       },
     ],
+    comment: [
+      {
+        iduser: 1,
+        userName: "Tuấn",
+        userComment:"Truyện cũng được",
+        avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
+      },
+      {
+        iduser: 2,
+        userName: "Hùng",
+        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
+      }
+    ],
   },
   {
     id: 11,
@@ -319,11 +493,12 @@ const storiesData = [
     datePosted: "2023-4-02",
     user: "Yến",
     author: "Kim Họa",
-    category: "Giải trí",
+    category: "Giải trí,Harem",
     status: "[Đang cập nhật]",
     follow: 202,
     favourite: true,
     history: false,
+    favorites: "822",
     imgUrl: "https://yymedia.codeprime.net/media/ogimg/202206/933566716c.jpg",
     img:"https://thuvienanime.com/wp-content/uploads/2023/04/dai-quan-gia-la-ma-hoang-thuvienanime-thumb.jpg",
     chapters: [
@@ -334,29 +509,58 @@ const storiesData = [
         chapterDatePosted: "3 giờ trước",
       },
     ],
+    comment: [
+      {
+        iduser: 1,
+        userName: "Lam",
+        userComment:"Truyện cũng được",
+        avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
+      },
+      {
+        iduser: 2,
+        userName: "Linh",
+        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
+      }
+    ],
   },
   
   {
     id: 12,
-    title: "Sự tích ông công ông táo",
-    description: "Sự tích ông Táo về Trời hay còn gọi sự tích Táo quân là câu chuyện cảm động về tình nghĩ vợ chồng, qua đó giải thích tục lệ cổ truyền của người Việt cúng ông Công, ông Táo vào 23 tháng Chạp hằng năm. Vậy tục lệ cúng Táo quân hằng năm có ý nghĩa gì? Mời các bạn cùng theo dõi bài viết sau đây nhé.",
+    title: "Ông công ông táo",
+    description: "Sự tích ông Táo về Trời hay còn gọi sự tích Táo quân là câu chuyện cảm động về tình nghĩ vợ chồng, qua đó giải thích tục lệ cổ truyền của người Việt cúng ông Công, ông Táo vào 23 tháng Chạp hằng năm. Vậy tục lệ cúng Táo quân hằng năm có ý nghĩa gì? Mời các bạn cùng theo dõi bài viết sau đây nhé.Họ đều sinh nhai bằng nghề làm thuê làm mướn. Tuy nghèo nhưng họ rất yêu nhau. Thường buổi tối sau khi đi làm về, hai vợ chồng ngồi bên bếp lửa hay dưới ánh trăng kể cho nhau những chuyện xa gần mới nghe được, hay hát những câu tình duyên.Một năm trời làm mất mùa, hạt gạo kiếm rất khó khăn. Tình trạng đói kém diễn ra khắp mọi miền. Hai vợ chồng theo lệ cũ đi tìm việc ở các nhà giàu nhưng chả mấy ai thuê nữa. Người vay công lĩnh nợ thì đông mà gạo rất khan hiếm nên khó chen vào lọt. Hơn nữa, cổng mấy lão trọc phú lại thường đóng chặt vì chúng không muốn cho ai quấy nhiễu. Túng thế hai vợ chồng phải đi mò cua bắt ốc, hoặc đào củ, hái rau về ăn. Tuy có đỡ phần nào nhưng tình thế vẫn không mảy may sáng sủa. Cái chết luôn luôn đe dọa họ vì trận đói còn kéo dài.",
     datePosted: "2023-10-02",
     user: "Sang",
     author: "[Đang cập nhật]",
-    category: "Cổ tích",
+    category: "Cổ tích,Supernatural,One shot",
     status: "Full",
     follow: 350,
     favourite: false,
     history: false,
+    favorites: "705",
     imgUrl: "https://cdn0.fahasa.com/media/catalog/product/i/m/image_178393.jpg",
     img:"https://halotravel.vn/wp-content/uploads/2021/12/su-tich-ong-cong-ong-tao-ve-troi.jpg",
     chapters: [
       {
         chapterNumber: 1,
-        chapterTitle: "Sự tích ông công ông táo",
-        chapterDescription: "Ngày xưa, có hai vợ chồng son nhà nghèo. Họ đều sinh nhai bằng nghề làm thuê làm mướn. Tuy nghèo nhưng họ rất yêu nhau. Thường buổi tối sau khi đi làm về, hai vợ chồng ngồi bên bếp lửa hay dưới ánh trăng kể cho nhau những chuyện xa gần mới nghe được, hay hát những câu tình duyên.Một năm trời làm mất mùa, hạt gạo kiếm rất khó khăn. Tình trạng đói kém diễn ra khắp mọi miền. Hai vợ chồng theo lệ cũ đi tìm việc ở các nhà giàu nhưng chả mấy ai thuê nữa. Người vay công lĩnh nợ thì đông mà gạo rất khan hiếm nên khó chen vào lọt. Hơn nữa, cổng mấy lão trọc phú lại thường đóng chặt vì chúng không muốn cho ai quấy nhiễu. Túng thế hai vợ chồng phải đi mò cua bắt ốc, hoặc đào củ, hái rau về ăn. Tuy có đỡ phần nào nhưng tình thế vẫn không mảy may sáng sủa. Cái chết luôn luôn đe dọa họ vì trận đói còn kéo dài. Một buổi chiều, sau khi húp vội mấy bát canh rau má, chồng bảo vợ:Tôi phải đi một nơi khác kiếm ăn, không thể ở nhà được.Nghe chồng nói, người đàn bà đòi đi theo để sống chết cho có bạn. Nhưng người chồng bảo:Tôi chưa biết sẽ đi đến đâu và sẽ phải làm những gì. Nàng ở nhà dễ sống hơn tôi, không nên theo làm gì cho vất vả. Chưa biết chừng tôi sẽ nằm lại dọc đường để cho loài chim đến than khóc. Nhưng cũng chưa biết chừng tôi lại mang những quan tiền tốt bó mo về đây nuôi nàng cũng nên! Chao ôi! Số mệnh! Nàng hãy chờ tôi trong ba năm, nghe! Hết ba năm không thấy tôi trở về ấy là tôi đã bỏ xác quê người. Nàng cứ việc đi lấy chồng khác.Người vợ khóc lóc thảm thiết như đứng trước cảnh tang tóc thực sự. Nhưng không biết làm thế nào cả, nàng đành phải để chồng ra đi. Sau khi tiễn chồng, người đàn bà kiếm được việc làm ở một nhà kia. Nhà họ không giàu gì nhưng thương cảnh ngộ nàng, có ý giúp đỡ cho qua những ngày thảm đạm. Ở đây, người đàn bà kiếm mỗi ngày hai bữa, trong đó có một bữa cháo bữa khoai. Nhờ lanh lẹn và xinh xắn nên nàng lấy được cảm tình của chủ. Nhưng hình dáng người chồng thân yêu không bao giờ phai nhạt trong tâm trí nàng.Thời gian trôi nhanh như nước chảy. Người ta đã bớt nhắc đến trận đói khốc liệt vừa qua. Nàng thì ngày ngày hồi hộp chờ đợi chồng. Nhưng cây bưởi trước sân đã ba lần trổ hoa mà chồng nàng vẫn không thấy tăm dạng. Giữa lúc ấy người chủ đã từng bao bọc nàng trong lúc đói, vừa chết vợ. Sẵn có cảm tình với nàng, người ấy ngỏ ý muốn được nối duyên cùng nàng. Nhưng người ấy đâu có hiểu được lòng của người thiếu phụ. Câu trả lời của nàng là:Chồng tôi hẹn tôi trong ba năm sẽ về. Đến bây giờ tôi mới tin là chồng tôi đã chết. Vậy cho tôi để tang chồng trong ba năm cho trọn đạo.Ba năm nữa lại trôi qua một cách chóng vánh. Không một nét chữ, một lời đồn về người xấu số. Hàng ngày, những buổi chiều tà, nàng vẫn đăm đăm nhìn bóng người đi lại trên con đường cái quan. Và rồi nàng khóc cạn cả nước mắt. Người đàn ông kia giục nàng quyết định:Một là chồng nàng đã chết, hai là còn sống nhưng đã lập một gia đình khác ở một nơi xa xôi hẻo lánh. Đằng nào nàng cũng khó mong tái hợp. Âu là cùng tôi lập một gia đình mới. Sức của tôi và của của tôi đủ bảo đảm cho nàng sung sướng trọn đời.Nàng sửa lại vành khăn trắng đã ngả màu, cảm ơn hậu tình của anh ta và xin rốn chờ cho một năm nữa. Một năm nữa lại trôi qua không mang lại một tin tức gì mới mẻ. Lần này nàng mới tin là chồng mình chết thật. Sau một bữa rượu cúng chồng và đãi họ hàng làng xóm, nàng đến ở cùng người chồng mới.Đột nhiên sau đó ba tháng, người chồng cũ xách khăn gói trở về quê hương. Chàng không có vẻ gì khấm khá hơn trước. Chàng chỉ ôm một hy vọng là được gặp lại người vợ yêu. Nhưng vườn cũ nay đã thuộc về chủ mới. Chàng lẩm bẩm:Thế là hết. Bởi số cả!.Việc người đàn ông đột ngột trở về làm cho mọi người ngơ ngác. Nhất là đôi vợ chồng mới cưới không biết ăn nói làm sao bây giờ. Người đàn bà xấu hổ không dám dàn mặt. Nhưng người chồng cũ đã tìm đến họ và an ủi họ.Tôi đi vắng lâu quá. Cái đó hoàn toàn là lỗi ở tôi. Nàng xử sự như thế rất đúng. Tôi chỉ cần về gặp nàng một chút. Thế là đủ. Bây giờ tôi sẽ đi khỏi nơi này mãi mãi.Mặc dầu người vợ nài nỉ hết sức, mặc dầu người chồng mới đoan xin trả lại vợ, nhưng chàng nhất quyết dứt áo ra đi. Chàng không nỡ phá hạnh phúc của họ. Mà chàng cũng không có gan đi đâu xa vì không thể quên được vợ cũ. Băn khoăn dằn vặt hành hạ tâm trí chàng. Đầu óc rối như mớ bòng bong. Chàng nghĩ đến cái chết và trong một lúc cuồng loạn, chàng tự treo cổ lên cây đa đầu làng.Cái chết kinh khủng đó như một tiếng sét nổ vào đầu người đàn bà. Nàng cảm thấy chính mình là thủ phạm gây ra cái chết của người chồng cũ. Tại sao ta chờ chồng được bảy năm trời mà không rán chờ thêm ít lâu nữa? Tại sao thấy chồng trở về, ta không dám giáp mặt? Nàng không tự chủ được nữa. Tất cả những câu hỏi như lên án một cách âm thầm nhưng kịch liệt trong đầu óc nàng.Thế rồi buổi sáng hôm sau, trong khi người ta sắp sửa cất đám người đàn ông bạc mệnh thì người ta lại hoảng hốt kéo nhau đi vớt tử thi người đàn bà dưới cái ao bên cạnh nhà. Người chồng mới sau khi làm ma cho vợ, trở nên như người mất trí. Hai cái chết đánh mạnh vào đầu óc mọi người, riêng đối với chàng chưa bao giờ có một sự xúc động dữ dội đến như thế. Chàng luôn miệng kêu to:Tại sao ta cố ý cướp vợ của người khác. Rồi một hôm, sau khi đem hết gia sản chia cho họ hàng và cúng vào chùa, chàng uống thuốc độc tự tử.Lúc xuống đến thế giới bên kia, cả ba người đều được đưa tới trước tòa án của Diêm vương để định công luận tội. Tất cả mọi người một khi đã đến đây đều phải khai rõ sự thật ôm ấp trong lòng. Theo lời khai của người chồng cũ thì chàng không thể nào xa lìa vợ cũ. Chàng sở dĩ chết ở làng là chỉ mong luôn luôn được gần gũi nàng. Người chồng mới cũng khai rằng chàng có cảm tình rất sâu xa đối với người vợ mới mặc dầu mới chính thức lấy nhau chỉ có ba tháng. Khi Diêm vương hỏi tình của chàng đối với người vợ cũ như thế nào thì chàng giơ ngón tay so sánh rằng một bên mười, một bên chưa được một. Đến lượt người đàn bà thì nàng thú thật rằng cái tình của nàng đối với chồng cũ choán một chỗ rộng rãi trong lòng mình, đồng thời đối với người chồng mới, nàng cũng không thể nào quên được tình cảm nồng nhiệt của chàng.Diêm vương ngồi nghe rất cảm động. Những người như thế này cũng thật hiếm có. Cần phải làm cho bộ ba ấy sống gần nhau mãi mãi. Sau một hồi lâu suy nghĩ, Diêm vương cho ba người hóa thành ba ông đầu rau để cho họ khỏi lìa nhau và để cho ngọn lửa luôn luôn đốt nóng tình yêu của họ. Đồng thời vua còn phong cho họ chức Táo quân trông nom từng bếp một, nghĩa là từng gia đình một trên trần thế.",
+        chapterTitle: "Ông công ông táo",
+        chapterDescription: "Ngày xưa, có hai vợ chồng son nhà nghèo. Họ đều sinh nhai bằng nghề làm thuê làm mướn. Tuy nghèo nhưng họ rất yêu nhau. Thường buổi tối sau khi đi làm về, hai vợ chồng ngồi bên bếp lửa hay dưới ánh trăng kể cho nhau những chuyện xa gần mới nghe được, hay hát những câu tình duyên.Một năm trời làm mất mùa, hạt gạo kiếm rất khó khăn. Tình trạng đói kém diễn ra khắp mọi miền. ",
         chapterDatePosted: "4 giờ trước",
       },
+    ],
+    comment: [
+      {
+        iduser: 1,
+        userName: "Minh",
+        userComment:"Truyện cũng được",
+        avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
+      },
+      {
+        iduser: 2,
+        userName: "Huyền",
+        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
+      }
     ],
   },
   {
@@ -366,11 +570,12 @@ const storiesData = [
     datePosted: "2023-8-02",
     user: "Sang",
     author: "Nguyệt Hạ Điệp Ảnh",
-    category: "Giải trí",
+    category: "Giải trí,Supernatural,One shot",
     status: "[Đang cập nhật]",
     follow: 45,
     favourite: false,
     history: false,
+    favorites: "122",
     imgUrl: "https://rapchieuphim.com/photos/8925/268163213_4675287362506402_2825456165037815081_n.jpg",
     img:"https://bilutv.link/film/17994/big.jpg",
     chapters: [
@@ -381,6 +586,20 @@ const storiesData = [
         chapterDatePosted: "10 giờ trước",
       },
     ],
+    comment: [
+      {
+        iduser: 1,
+        userName: "Hiển",
+        userComment:"Truyện cũng được",
+        avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
+      },
+      {
+        iduser: 2,
+        userName: "Hùng",
+        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
+      }
+    ],
   },
   {
     id: 14,
@@ -389,11 +608,12 @@ const storiesData = [
     datePosted: "2023-8-05",
     user: "Sang",
     author: "Ngã Bản Thuần Khiết",
-    category: "Giải trí",
+    category: "Giải trí,Supernatural,One shot",
     status: "[Đang cập nhật]",
     follow: 2,
     favourite: false,
     history: false,
+    favorites: "254",
     imgUrl: "https://www.nae.vn/ttv/ttv/public/images/story/f336d4321f871ece8d3e41118bb1cbda9b2426b7d0b3629fdc6f053c05a33b64.jpg",
     img:"https://i.ytimg.com/vi/NSH0GirJiVQ/maxresdefault.jpg",
     chapters: [
@@ -404,6 +624,20 @@ const storiesData = [
         chapterDatePosted: "12 giờ trước",
       },
     ],
+    comment: [
+      {
+        iduser: 1,
+        userName: "Huy",
+        userComment:"Truyện cũng được",
+        avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
+      },
+      {
+        iduser: 2,
+        userName: "Hùng",
+        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
+      }
+    ],
   },
   {
     id: 15,
@@ -412,11 +646,12 @@ const storiesData = [
     datePosted: "2023-5-05",
     user: "Sang",
     author: "Vân Trụ",
-    category: "Giải trí",
+    category: "Giải trí,Supernatural,Tragedy",
     status: "[Đang cập nhật]",
     follow: 28,
     favourite: false,
     history: false,
+    favorites: "302",
     imgUrl: "https://www.enwallpaper.com/wp-content/uploads/2021/05/One-Punch-Man-Wallpapers-2-e1621157778598.jpg",
     img: "https://www.impulsegamer.com/articles/wp-content/uploads/2020/02/onepunchman1.jpg",
     chapters: [
@@ -427,19 +662,34 @@ const storiesData = [
         chapterDatePosted: "15 giờ trước",
       },
     ],
+    comment: [
+      {
+        iduser: 1,
+        userName: "Sang",
+        userComment:"Truyện cũng được",
+        avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
+      },
+      {
+        iduser: 2,
+        userName: "Hùng",
+        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
+      }
+    ],
   },
   {
     id: 16,
-    title: "Người làm chúa muôn loài",
+    title: "Chúa muôn loài",
     description: "Nếu như truyền thuyết Sơn Tinh Thủy Tinh thể hiện khát vọng của con người chế ngự được sức mạnh dữ dội của thiên nhiên thì câu chuyện Sự tích người làm chúa muôn loài lại là lời khẳng định vị thế làm chủ của con người trước muôn thú, kể cả những loài vật hung hiểm nhất.Câu chuyện còn muốn đề cao sự thông minh và tấm lòng nhân nghĩa của con người, qua đó giáo dục các bạn nhỏ phải biết giữ lễ nghĩa cũng như đạo lý trong cuộc sống.",
     datePosted: "2023-11-06",
     user: "Sang",
     author: "[Đang cập nhật]",
-    category: "Cổ tích",
+    category: "Cổ tích,Supernatural,Tragedy",
     status: "Full",
     follow: 255,
     favourite: false,
     history: false,
+    favorites: "122",
     imgUrl: "https://ebooksphucminh.vn/wp-content/uploads/2021/08/sua-bia-con-nguoi-la-chua-muon-loai-691x1024.jpg",
     img:"https://thegioicotich.vn/wp-content/uploads/2021/06/su-tich-nguoi-lam-chua-muon-loai.jpg",
     chapters: [
@@ -450,6 +700,20 @@ const storiesData = [
         chapterDatePosted: "1 ngày trước",
       },
     ],
+    comment: [
+      {
+        iduser: 1,
+        userName: "Sáng",
+        userComment:"Truyện cũng được",
+        avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
+      },
+      {
+        iduser: 2,
+        userName: "Tuấn",
+        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
+      }
+    ],
   },
   {
     id: 17,
@@ -458,11 +722,12 @@ const storiesData = [
     datePosted: "2023-11-02",
     user: "Linh",
     author: "Akutami Gege",
-    category: "Trinh thám",
+    category: "Trinh thám,Ecchi,Supernatural,",
     status: "[Đang Cập Nhật]",
     follow: 215,
     favourite: false,
     history: false,
+    favorites: "102",
     imgUrl: "https://touchcinema.com/uploads/phim-2021/1200wx180ju0h-22-poster.jpg",
     img:"https://www.elleman.vn/app/uploads/2022/04/16/213427/Jujutsu-Kaisen-0-elleman.jpg",
     chapters: [
@@ -473,6 +738,20 @@ const storiesData = [
         chapterDatePosted: "2 ngày trước",
       },
     ],
+    comment: [
+      {
+        iduser: 1,
+        userName: "Nam",
+        userComment:"Truyện cũng được",
+        avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
+      },
+      {
+        iduser: 2,
+        userName: "Phan",
+        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
+      }
+    ],
   },
   {
     id: 18,
@@ -481,11 +760,12 @@ const storiesData = [
     datePosted: "2021-12-02",
     user: "Linh",
     author: "Akutami Gege",
-    category: "Thiếu nhi",
+    category: "Thiếu nhi,Ecchi,One shot",
     status: "[Đang Cập Nhật]",
     follow: 25,
     favourite: false,
     history: false,
+    favorites: "400",
     imgUrl: "https://newshop.vn/public/uploads/products/20107/rua-va-tho-chay-thi-1.jpg",
     img:"https://1.bp.blogspot.com/-6jlNtnIC4Y4/Xr4psuoZXZI/AAAAAAAAlY8/2UL9XZufDfMDQ-x7YA-VGTQiVFW-2zsaQCLcBGAsYHQ/s1600/Rua-va-Tho%2B%252812%2529.jpg",
     chapters: [
@@ -496,41 +776,71 @@ const storiesData = [
         chapterDatePosted: "2 ngày trước",
       },
     ],
+    comment: [
+      {
+        iduser: 1,
+        userName: "Tiên",
+        userComment:"Truyện cũng được",
+        avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
+      },
+      {
+        iduser: 2,
+        userName: "Hoàng",
+        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
+      }
+    ],
   },
   {
     id: 19,
-    title: "FANTASIES",
+    title: "Fantasies",
     description: "Akira, một họa sĩ tài năng nhưng sau khi bị bệnh ung thư anh đã nhận ra xung quanh mình chẳng còn gì ngoại trừ cái danh hiệu thành công của mình. không có người đi cùng mình đến bệnh viện, người mẹ, người thân duy nhất của anh cũng đòi anh đưa tiền mới chịu đi cùng anh. trong cơn giận anh đã vô tình gây tai nạn và được chuyển sinh sang thế giới khác. một thế giới mới với một cuộc sống mới anh quyết định sống một cách bình thường và giữ gìn hạnh phúc gia đình nhỏ nhoi của mình,and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages",
     datePosted: "2021-12-02",
     user: "Linh",
     author: "Osuka Gen",
-    category: "One shot",
+    category: "One shot,Ecchi,Tragedy,Psychological",
     status: "[Đang Cập Nhật]",
     follow: 16,
     favourite: false,
     history: false,
+    favorites: "3,200",
     imgUrl: "https://chuuniotaku.com/wp-content/uploads/2021/02/battle-through-the-heavens-banner-manhua.jpg",
     img:"https://i.pinimg.com/originals/bf/dc/94/bfdc94fa4ff7ae22dc74db98d7955296.png",
     chapters: [
       {
         chapterNumber: 1,
-        chapterTitle: "FANTASIES",
+        chapterTitle: "Fantasies",
         chapterDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
         chapterDatePosted: "4 ngày trước",
       },
     ],
+    comment: [
+      {
+        iduser: 1,
+        userName: "Không tên",
+        userComment:"Truyện cũng được",
+        avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
+      },
+      {
+        iduser: 2,
+        userName: "Có tên",
+        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
+      }
+    ],
   },
   {
     id: 20,
-    title: "Truyền Kỳ Ký Chủ Quang Thánh",
+    title: "Truyền quang thánh",
     description: "Câu chuyện của Evangelion bắt đầu sau năm 2000 với sự kiện Va Chạm Thứ Hai, một biến cố lớn đã hoàn toàn phá hủy hoàn toàn Nam Cực và một nửa xóa sổ dân số Thế giới. Biến cố này được dư luận và ngay cả đa số thành viên thuộc tổ chức NERV cho là tác động của một thiên thạch rơi xuống Nam Cực, gây ra những cơn đại hồng thủy và làm thay đổi khí hậu Trái đất cùng với những cuộc khủng hoảng chính trị, chiến tranh hạt nhân và suy thoái kinh tế... Vào năm 2015, sau khi nhận được thư của của cha, Ikari Shinji đã rời nhà cô chú mình lên đường đến Neo Tokyo-3. Tại đó, Shinji đã chứng kiến cuộc chiến vô vọng của quân đội Liên Hiệp Quốc chống lại một sinh vật khổng lồ bí ẩn đang tấn công thành phố...",
     datePosted: "2021-12-02",
     user: "Linh",
     author: "Osuka Gen",
-    category: "Mecha",
+    category: "Mecha,Ecchi,Tragedy,Psychological",
     status: "[Đang Cập Nhật]",
-    follow: 1,
+    follow: 178,
     favourite: false,
+    favorites: "1,400",
     history: false,
     imgUrl: "https://i.pinimg.com/originals/f8/77/15/f8771575f6470867ecdfb95f63b1ac0d.jpg",
     img:"https://media.nichegamer.com/wp-content/uploads/2018/05/31235154/srwx_banner.jpg",
@@ -542,42 +852,72 @@ const storiesData = [
         chapterDatePosted: "5 ngày trước",
       },
     ],
+    comment: [
+      {
+        iduser: 1,
+        userName: "Hiiii",
+        userComment:"Truyện cũng được",
+        avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
+      },
+      {
+        iduser: 2,
+        userName: "Haaa",
+        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
+      }
+    ],
   },
   {
     id: 21,
-    title: "NĂNG LỰC TÂM LINH - AKIRA",
+    title: "Năng lực tâm linh",
     description: "Năm 1992 . Neo-Tokyo , thủ đô Nhật Bản hứng chịu sự hủy diệt của 1 loại bom mới, mở đầu cho Thế Chiến Thứ 3 . Nhiều năm sau , Tetsuo , trong 1 lần tham quan thành phố đổ nát, vô tình đã bị cuốn vào 1 thí nghiệm bí mật của chính phủ nhằm thức tỉnh năng lực tâm linh. Họ đang chuẩn bị cho 1 cái gì đó đáng sợ , thứ mà những tổ chức khủng bố đang truy lùng - Akira ...... Cốt truyện đặc sắc , kịch tính , đạt được nhiều giải thưởng , siêu phẩm này là 1 chuẩn mực mà tác giả dragon ball cũng như nhiều thế hệ khác tham khảo nét vẽ.Lorem Ipsum is simply dummy text of the printing and typesetting industry",
     datePosted: "2021-4-02",
     user: "Linh",
     author: "Neo-Tokyo",
-    category: "Manga",
+    category: "Manga,Ecchi,Tragedy,Psychological",
     status: "[Đang Cập Nhật]",
-    follow: 1,
+    follow: 102,
     favourite: false,
     history: false,
+    favorites: "1,520",
     imgUrl: "https://truyenz.info/wp-content/uploads/2019/07/Naruto-Full-Color-Edition-Truyenz.info_.jpg",
     img:"https://img.thuthuatphanmem.vn/uploads/2018/09/20/anh-naruto-truyen_105003397.jpg",
     chapters: [
       {
         chapterNumber: 1,
-        chapterTitle: "NĂNG LỰC TÂM LINH - AKIRA",
+        chapterTitle: "AKIRA",
         chapterDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
         chapterDatePosted: "5 ngày trước",
       },
     ],
+    comment: [
+      {
+        iduser: 1,
+        userName: "Yến",
+        userComment:"Truyện cũng được",
+        avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
+      },
+      {
+        iduser: 2,
+        userName: "Thảo",
+        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
+      }
+    ],
   },
   {
     id: 22,
-    title: "THẤT HOÀNG TỬ QUỶ JILBAGIAS",
+    title: "Thất hoàng tử quỷ",
     description: "Truyện tranh Ta, Người Chỉ Cần Nhìn Thấy Thanh Máu, Có Thể Trừng Phạt Thần Linh được cập nhật nhanh và đầy đủ nhất tại NetTruyenLive. Bạn đọc đừng quên để lại bình luận và chia sẻ, ủng hộ NetTruyenLive ra các chương mới nhất của truyện Ta, Người Chỉ Cần Nhìn Thấy Thanh Máu, Có Thể Trừng Phạt Thần Linh.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     datePosted: "2021-4-02",
     user: "Linh",
     author: "Fiok Lee",
-    category: "Harem",
+    category: "Harem,Ecchi,Sliceoflife",
     status: "[Đang Cập Nhật]",
-    follow: 1,
+    follow: 185,
     favourite: false,
     history: false,
+    favorites: "2,205",
     imgUrl: "https://manhuamix.com/wp-content/uploads/2023/01/Moon-Shadow-Sword-Emperor-manhwa-manga-.jpg",
     img:"https://vedc.com.vn/wp-content/uploads/2022/09/Aphelios-Nguyet-Da-Song-Sinh.jpg",
     chapters: [
@@ -588,65 +928,110 @@ const storiesData = [
         chapterDatePosted: "6 ngày trước",
       },
     ],
+    comment: [
+      {
+        iduser: 1,
+        userName: "Quỳnh",
+        userComment:"Truyện cũng được",
+        avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
+      },
+      {
+        iduser: 2,
+        userName: "Nam bé",
+        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
+      }
+    ],
   },
   {
     id: 23,
-    title: "NHÀ TRỌ Á NHÂN",
+    title: "Nhà trọ á nhân",
     description: "Sau khi cùng với toàn bộ lớp học chết oan vì tai nạn khi đi trên một chuyến đi thực tế, Odamori đã chấp nhận lời đề nghị từ một người đàn ông bí ẩn và được tái sinh cùng công việc mới. Tuy vậy công việc mới của anh hóa ra là một Chủ nô với sức mạnh khống chế tâm trí người khác và biến họ thành đồ chơi của mình, dần theo thời gian những việc xấu xa của anh ấy đã bị phác giác và một Hiệp sĩ Công chúa được cử đi để bắt anh, nhưng trớ trêu thay cô nàng Hiệp sĩ Công chúa ấy là một người bạn cùng lớp rất nổi tiếng của anh lúc trước. Rồi mọi chuyện sẽ ra sao mời đọc sẽ biết",
     datePosted: "2021-4-22",
     user: "Linh",
     author: "Asazuki Norito",
-    category: "Ecchi",
+    category: "Ecchi,Thiếu nhi,Sliceoflife",
     status: "[Đang Cập Nhật]",
-    follow: 1,
+    follow: 100,
     favourite: false,
     history: false,
+    favorites: "1,720",
     imgUrl: "https://i.pinimg.com/originals/df/d4/35/dfd43530b12a6dfec0472ea1cb613794.png",
     img:"https://nld.mediacdn.vn/2020/11/27/13-banner-truyen-tranh-online-16064944282141952425197.jpg",
     chapters: [
       {
         chapterNumber: 1,
-        chapterTitle: "Anh Chấp Nhận Được Sao",
+        chapterTitle: "Anh chấn nhận được sao",
         chapterDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
         chapterDatePosted: "6 ngày trước",
       },
     ],
+    comment: [
+      {
+        iduser: 1,
+        userName: "Tùng",
+        userComment:"Truyện cũng được",
+        avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
+      },
+      {
+        iduser: 2,
+        userName: "Duy",
+        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
+      }
+    ],
   },
   {
     id: 24,
-    title: "GIA ĐÌNH VUI VẺ - MẸ THUÊ BÁO OÁN",
+    title: "Gia đình vui vẻ",
     description: "Một Thể Loại Xuyên Không Nhưng Là Xuyên Không Từ Thế Giới Fantasy Sang Thế Giới Hiện Đại. Một Trò Chơi Hại Não Và Kinh Dị Bắt Đầu,Odamori đã chấp nhận lời đề nghị từ một người đàn ông bí ẩn và được tái sinh cùng công việc mới. Tuy vậy công việc mới của anh hóa ra là một Chủ nô với sức mạnh khống chế tâm trí người khác và biến họ thành đồ chơi của mình, dần theo thời gian những việc xấu xa của anh ấy đã bị phác giác và một Hiệp sĩ Công chúa được cử đi để bắt anh, nhưng trớ trêu thay cô nàng Hiệp sĩ Công chúa ấy là một người bạn cùng lớp rất nổi tiếng của anh lúc trước. Rồi mọi chuyện sẽ ra sao mời đọc sẽ biết",
     datePosted: "2021-4-22",
     user: "Linh",
     author: "Funaki Ryosuke",
-    category: "Psychological",
+    category: "Psychological,Thiếu nhi,Sliceoflife",
     status: "[Đang Cập Nhật]",
     follow: 1001,
     favourite: false,
     history: false,
+    favorites: "5,400",
     imgUrl: "https://vignette.wikia.nocookie.net/doblaje/images/b/b3/Kakegurui.jpg/revision/latest?cb=20180128080051&path-prefix=es",
     img:"https://ptanime.com/wp-content/uploads/2017/05/Kakegurui-anime-novo-poster-promocional-destaque.jpg",
     chapters: [
       {
         chapterNumber: 1,
-        chapterTitle: "MẸ THUÊ BÁO OÁN",
+        chapterTitle: "Mẹ thuê báo án",
         chapterDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
         chapterDatePosted: "6 ngày trước",
       },
     ],
+    comment: [
+      {
+        iduser: 1,
+        userName: "Hữu",
+        userComment:"Truyện cũng được",
+        avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
+      },
+      {
+        iduser: 2,
+        userName: "Đạo",
+        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
+      }
+    ],
   },
   {
     id: 25,
-    title: "7 NÀNG CÔNG CHÚA NGỦ SAY",
+    title: "Công chúa ngủ say",
     description: "Khi tôi đến đánh thức công chúa ngủ say bởi lời nguyền của phù thủy thì... CÓ TẬN 7 NGƯỜI! Tuy không hiểu tại sao nhưng có vẻ như để đánh thức họ, tôi cần phải trao nụ hôn... CHO TẬN 7 NGƯỜI!? Thật tốt khi các nàng công chúa đã tỉnh lại, nhưng tại sao những người khác vẫn chưa thức giấc...Là vì lý do gì!? Liệu có bí mật nào đang ẩn dấu sau nụ hôn? Hay là một cái gì đó vẫn còn thiếu...? Alex - Đệ Tam Hoàng Tử của Rudbeckia, người muốn cứu Vương Quốc nhỏ bé và 7 Công Chúa của Amaryllis. Ở một Vương Quốc chỉ có họ còn thức, một cuộc sống với những tình huống dở khóc dở cười để tìm cách cứu người dân khỏi lời nguyền. Bắt Đầu!",
     datePosted: "2020-4-22",
     user: "Linh",
     author: "Nemuri Hime",
-    category: "Seinen",
+    category: "Seinen,Thiếu nhi",
     status: "[Đang Cập Nhật]",
     follow: 101,
     favourite: false,
     history: false,
+    favorites: "5,500",
     imgUrl: "https://mangaclash.com/wp-content/uploads/2023/02/Serial-Killer-Isekai-ni-Oritatsu.jpg",
     img:"https://tse3.mm.bing.net/th?id=OIP.BYyUI6ELnpKnY66tM2jcUAHaEK&pid=Api&P=0&h=180",
     chapters: [
@@ -657,19 +1042,34 @@ const storiesData = [
         chapterDatePosted: "6 ngày trước",
       },
     ],
+    comment: [
+      {
+        iduser: 1,
+        userName: "Bình",
+        userComment:"Truyện cũng được",
+        avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
+      },
+      {
+        iduser: 2,
+        userName: "Trâu",
+        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
+      }
+    ],
   },
   {
     id: 26,
-    title: "TỰ DO TRONG MƠ",
+    title: "Tự do trong mơ",
     description: "Choi Jung Min bị bạn bè bắt nạt, cô lập ở trường học vì mối quan hệ tồi tệ với Ha Joo Hyun khi còn nhỏ. Hai cô gái đã từng là bạn bè thân thiết lúc còn học cấp 1, nhưng vì cái tính khí kỳ lạ của Joo Hyun mà sau đó hai người đã tuyệt giao với nhau. Khi lên cấp 3, Jung Min gặp lại Joo Hyun, và cũng là lúc chuỗi bi kịch bắt đầu. Joo Hyun chính là người đã khởi xướng để bạn bè trong lớp tẩy chay Jung Min. Niềm an ủi duy nhất của Jung Min, giúp cô ấy có thể giải tỏa những ức chế, ám ảnh trong suốt thời gian dài của mình, là lợi dụng “Giấc mơ sáng suốt”. Trong mơ cô ấy hoán đổi vị trí của mình với Joo Hyun, cho Joo Hyun nếm trải thử những cảm giác mà cô ấy đã phải chịu. Sau đó vào một ngày nọ, khi đi vào giấc mơ sáng suốt, cô ấy gặp một người đàn ông bí ẩn. Và anh ta đề nghị Jung Min hãy trả thù tất cả những ai từng bắt nạt cô ấy…",
     datePosted: "2020-4-22",
     user: "Linh",
     author: "Jung Min",
-    category: "Tragedy",
+    category: "Tragedy,Thiếu nhi",
     status: "[Đang Cập Nhật]",
     follow: 868,
     favourite: false,
     history: false,
+    favorites: "10,200",
     imgUrl: "https://media.funhub.net/media/image/id/6291a663acc3992b1d8b467b?type=raw",
     img:"https://cdn.sforum.vn/sforum/wp-content/uploads/2023/06/banner-moi-honkai-star-rail-6.jpg",
     chapters: [
@@ -680,56 +1080,100 @@ const storiesData = [
         chapterDatePosted: "6 ngày trước",
       },
     ],
+    comment: [
+      {
+        iduser: 1,
+        userName: "Lâm",
+        userComment:"Truyện cũng được",
+        avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
+      },
+      {
+        iduser: 2,
+        userName: "Tùng Lâm",
+        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
+      }
+    ],
   },
   {
     id: 27,
-    title: "LỘNG LẪY PHÚT LÌA ĐỜI",
+    title: "Lộng lẫy",
     description: "Từ trước tới nay, mình đã hé môi cười trên gương mặt xấu xí này thật sao? Suốt bấy lâu nay, mình ra ngoài dạo bước với cơ thể cục mịch này mà chẳng mảy may hổ thẹn ư?  Houryuuji Mirei (học sinh lớp 12) là một nàng lợn con xấu xí luôn cảm thấy tự ti về ngoại hình của mình. Cô chơi thân với Miyama Kousei, một cậu con trai tốt tính, ân cần, chưa từng đánh giá ngoại hình của cô lấy chỉ một chốc. Song, vì một biến cố đau lòng mà cô quyết định đắp lên mình một gương mặt khác xinh đẹp hơn, đồng thời bỏ Kousei lại quê nhà để bắt đầu một cuộc sống mới ở Fukuoka.  Đây là chuyện tình buồn của cô gái cố gắng rũ bỏ quá khứ đau khổ lại phía sau để kiếm tìm hạnh phúc nơi xứ người.",
     datePosted: "2023-11-13",
     user: "Linh",
     author: "Jun Vun",
-    category: "Sliceoflife",
+    category: "Sliceoflife,Thiếu nhi",
     status: "[Đang Cập Nhật]",
     follow: 340,
     favourite: false,
     history: false,
+    favorites: "2,400",
     imgUrl: "https://truyenvnhay.net/wp-content/uploads/2023/08/truyen-long-lay-phut-lia-doi.jpg",
     img:"https://storage-ct.lrclib.net/file/cuutruyen/uploads/manga/910/panorama/processed-7a8c70e44d70c1159029deeaa5b92522.jpg",
     chapters: [
       {
         chapterNumber: 1,
-        chapterTitle: "Thêm Một Lần Từ Biệt",
+        chapterTitle: "Thêm một lần từ biệt",
         chapterDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
         chapterDatePosted: "6 ngày trước",
       },
     ],
+    comment: [
+      {
+        iduser: 1,
+        userName: "Nam",
+        userComment:"Truyện cũng được",
+        avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
+      },
+      {
+        iduser: 2,
+        userName: "Lâm",
+        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
+      }
+    ],
   },
   {
     id: 28,
-    title: "NGUỒN KHỞI SINH",
+    title: "Nguồn khởi sinh",
     description: "Thích khách nổi danh Cẩn Huyên, biệt danh Diêm La, một ngày nọ nhận được một đơn hàng kếch xù, người ủy thác thế nhưng lại chính là hoàng đế Huyền Cảnh của Thịnh Quốc? Mà nội dung chính là tiến cung để sắm vai sủng phi, làm mồi nhử gian tế... Cẩn Huyên: Lúc ấy ta có ý cự tuyệt, nhưng tiền chàng ấy đưa lại quá nhiều... có điều, mồi câu có thể ăn thịt người đó nha~ Hoàng đế Huyền Cảnh: Ái phi... lúc nói chuyện chúng ta có thể cất đao đi được không?",
     datePosted: "2023-10-26",
     user: "Linh",
     author: "Linh Miêu Nhóm - NetTruyen",
-    category: "Smut",
+    category: "Smut,Thiếu nhi,Supernatural",
     status: "[Đang Cập Nhật]",
     follow: 953,
     favourite: false,
-    history: false,
+    history: true,
+    favorites: "1,420",
     imgUrl: "https://s2.anhvip.xyz/comics/nguon-khoi-sinh-1648221092.jpg",
     img:"https://kocr.net/wp-content/uploads/2021/07/HTKS-2.jpg",
     chapters: [
       {
         chapterNumber: 1,
-        chapterTitle: "ÁI PHI, DAO CỦA NÀNG RƠI RỒI",
+        chapterTitle: "ÁI phi, dao của nàng rơi rồi",
         chapterDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
         chapterDatePosted: "6 ngày trước",
       },
     ],
+    comment: [
+      {
+        iduser: 1,
+        userName: "Huyy",
+        userComment:"Truyện cũng được",
+        avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
+      },
+      {
+        iduser: 2,
+        userName: "Lùn",
+        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
+      }
+    ],
   },
   {
     id: 29,
-    title: "ĐẶC NHIỆM THÁM TỬ",
+    title: "Đặc nhiệm thám tử",
     description: "Tỉnh lại sau giấc ngủ, thế giới đại biến. Quen thuộc cao trung truyền thụ chính là phép thuật, nói cho mọi người muốn trở thành một tên xuất sắc Ma Pháp Sư. Ở lại đô thị ở ngoài du đãng tập kích nhân loại ma vật yêu thú, mắt nhìn chằm chằm. Tôn trọng khoa học thế giới đã biến thành tôn trọng phép thuật, một mực có như nhau lấy học tra đối xử giáo viên của chính mình, như nhau ánh mắt dị dạng bạn học, như nhau xã hội tầng dưới chót giãy dụa ba ba, như nhau thuần mỹ nhưng không thể bước đi không phải huyết thống muội muội… Bất quá, Mạc Phàm phát hiện tuyệt đại đa số người đều chỉ có thể chủ tu nhất hệ phép thuật, chính mình nhưng là toàn hệ toàn năng pháp sư!",
     datePosted: "2023-11-09",
     user: "Linh",
@@ -738,7 +1182,8 @@ const storiesData = [
     status: "[Đang Cập Nhật]",
     follow: 953,
     favourite: false,
-    history: false,
+    history: true,
+    favorites: "1,120",
     imgUrl: "https://lh3.googleusercontent.com/h3AxidpaUWs9qaWaMXqlj6V3rxYVoGBfVmE3LF6gdoKyH2xwoy_I2IkVlm01HDEVEkZHjA1Jvim0f2iKm2hiUriJJ39X_v1Rq6sax7TgHVh2e_T9QGwSDlki1yjN85O_iBP-OeikvQ=w2400",
     img:"https://storage-ct.lrclib.net/file/cuutruyen/uploads/manga/910/panorama/processed-7a8c70e44d70c1159029deeaa5b92522.jpg",
     chapters: [
@@ -752,7 +1197,7 @@ const storiesData = [
     comment: [
       {
         iduser: 1,
-        userName: "Sáng",
+        userName: "Không tên",
         userComment:"Truyện cũng được",
       }
     ]

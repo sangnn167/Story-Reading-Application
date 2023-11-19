@@ -1,17 +1,19 @@
 import { createSlice } from "@reduxjs/toolkit";
-import storiesData from "@/app/data/stories";
+import storiesData from "@/app/Mock/stories";
 export const ReadStories = createSlice({
   name: "stories",
   initialState: {
-    selectedCategory:"1",
     filteredStories: storiesData.slice(0, 8),
     searchKeyword: "",
     selectedTabIndex: 0,
+    suggestions: [],
+    showSuggestions: true,
+    currentSearchTerm: '',
+    historyStories: storiesData.filter((story) => story.history),
+    
   },
   reducers: {
-    setSelectedCategory: (state, action) => {
-      state.selectedCategory = action.payload;
-    },
+    
     setFilteredStories: (state, action) => {
       state.filteredStories = action.payload;
     },
@@ -20,10 +22,26 @@ export const ReadStories = createSlice({
     },
     setSelectedTabIndex: (state,action) =>{
       state.selectedTabIndex = action.payload
-    }
+    },
+    setSuggestions: (state, action) => {
+      state.suggestions = action.payload;
+    },
+    setShowSuggestions: (state, action) => {
+      state.showSuggestions = action.payload;
+    },
+    setCurrentSearchTerm: (state, action) => {
+      state.currentSearchTerm = action.payload;
+    },
+    setHistoryStories(state, action) {
+      state.historyStories = action.payload;
+    },
+    deleteHistoryStory(state, action) {
+      const storyId = action.payload;
+      state.historyStories = state.historyStories.filter((story:any) => story.id !== storyId);
+    },
   },
 });
 
-export const {setSelectedCategory,setFilteredStories,setSearchKeyword,setSelectedTabIndex} = ReadStories.actions;
+export const {setFilteredStories,setSearchKeyword,setSelectedTabIndex,setSuggestions,setShowSuggestions,setCurrentSearchTerm,setHistoryStories, deleteHistoryStory} = ReadStories.actions;
 
 export default ReadStories.reducer;

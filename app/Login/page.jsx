@@ -1,5 +1,4 @@
 "use client";
-import InputField from "../Common/InputField/page";
 import { Button } from "@nextui-org/react";
 import styles from "./styles.module.css";
 import Link from "next/link";

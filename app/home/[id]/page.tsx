@@ -1,33 +1,38 @@
 "use client";
 import Header from "@/app/header/page";
-import storiesData from "../../data/stories";
+import storiesData from "../../Mock/stories";
 import styles from "@/app/styles/home.module.css";
 import Link from "@/node_modules/next/link";
 import { useState } from "react";
+import StoryInformation from "./StoryInformation/page";
+import Chapters from "./Chapters/page";
+import Description from "./Description/page";
+import Comments from "./Comment/page";
+import StoryGenre from "../storygenre/page";
+import HistoryStory from "../historyStory/page";
 
 const StoryPage = ({ params }: { params: { id: String } }) => {
-  const { id } = params;
-  const selectedStory = storiesData.find((story) => story.id.toString() === id);
+  const selectedStory = storiesData.find((story:any) => story.id.toString() === params.id);
   const [newComment, setNewComment] = useState("");
   const [comments, setComments] = useState(selectedStory?.comment ?? []);
-
-  if (!selectedStory) {
-    return <div>Truyện không tồn tại.</div>;
-  }
-  const isFavourite = selectedStory.favourite;
-  const buttonContent = isFavourite ? "Đã yêu thích" : "Yêu thích";
-  const buttonColor = isFavourite ? "red" : "gray";
+  const [commentCount, setCommentCount] = useState(selectedStory?.comment?.length || 0);
 
   const handleAddComment = () => {
     const newCommentObject = {
       iduser: comments.length + 1,
-      userName: "Sáng", 
+      userName: "You",
       userComment: newComment,
-      avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg", 
+      avatar: "https://tse1.mm.bing.net/th?id=OIP.bq8ahErktvpu62_xf0aMwAHaHa&pid=Api&P=0&h=180",
     };
-    setComments([...comments, newCommentObject]);
+    const updatedComments = [...comments, newCommentObject];
+    setComments(updatedComments);
+    setCommentCount(updatedComments.length);
     setNewComment("");
   };
+  if (!selectedStory) {
+    return <div>Truyện không tồn tại.</div>;
+  }
+
   return (
     <div className={styles.container}>
       <Header />
@@ -37,121 +42,24 @@ const StoryPage = ({ params }: { params: { id: String } }) => {
       <div className={styles.list}>
         <div className={styles.card}>
           <h1>{selectedStory.title}</h1>
-          <div className={styles.img}>
-            <div>
-              <picture>
-                <img
-                  src={selectedStory.imgUrl}
-                  alt={selectedStory.title}
-                  style={{ width: "230px", height: "300px" }}
-                />
-              </picture>
-            </div>
-            <div>
-              <div className={styles.thongtin}>
-                <div className={styles.author}>
-                  <p>Tác giả:</p> <p>{selectedStory.author}</p>
-                </div>
-                <div className={styles.author}>
-                  <p>Thể loại</p> <p>{selectedStory.category}</p>
-                </div>
-                <div className={styles.author}>
-                  <p>Trạng thái:</p> <p>{selectedStory.status}</p>
-                </div>
-
-                <div className={styles.author}>
-                  <p className={styles.date}>
-                    Ngày đăng: {selectedStory.datePosted}
-                  </p>
-                </div>
-                <button
-                  style={{
-                    background: buttonColor,
-                    borderRadius: "5px",
-                    padding: "3px",
-                    color: "#ffffff",
-                  }}>
-                  {buttonContent}
-                </button>
-              </div>
-            </div>
+          <div className={styles.author}>
+            <p className={styles.date}>Ngày đăng: {selectedStory.datePosted}</p>
           </div>
-          <div className={styles.chapter}>
-            {selectedStory.chapters && selectedStory.chapters.length > 0 && (
-              <div className={styles.chapterr}>
-                <ul>
-                  {selectedStory.chapters.map((chapter, index) => (
-                    <li key={index}>
-                      <Link
-                        href={`/home/${selectedStory.id}/${chapter.chapterNumber}`}>
-                        <div className={styles.item}>
-                          <strong>
-                            Chapter {chapter.chapterNumber}:{" "}
-                            {chapter.chapterTitle}
-                          </strong>
-                          <p>
-                            {chapter.chapterDatePosted}{"⮞"}
-                          </p>
-                        </div>
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            )}
-            <div className={styles.containerdescription}>
-              <div className={styles.inline}></div>
-              <div className={styles.description}>
-                <p>
-                  <strong>Mô tả:</strong> {selectedStory.description}
-                </p>
-              </div>
-            </div>
-            <div className={styles.containerdescription}>
-              <div className={styles.inline}></div>
-              <div className={styles.comment}>
-                <p>
-                  <strong>{(selectedStory.comment?.length || 0).toString()} comments</strong>
-                </p>
-                <div className={styles.inputcomment}>
-                  <input
-                    type="text"
-                    value={newComment}
-                    onChange={(e) => setNewComment(e.target.value)}
-                  />
-                  <button onClick={handleAddComment}>Save</button>
-                </div>
-                <div>
-                  {(comments.length > 0 && (
-                    <div className={styles.comments}>
-                      <ul>
-                        {comments.map((comment: any) => (
-                          <li key={comment.iduser}>
-                            <div className={styles.itemcomment}>
-                              <div>
-                                <picture>
-                                  <img
-                                    src={comment.avatar}
-                                    alt=""
-                                    width={"50px"}
-                                    height={"50px"}
-                                  />
-                                </picture>
-                              </div>
-                              <div className={styles.titlecomment}>
-                                <strong>{comment.userName}</strong>
-                                {comment.userComment}
-                              </div>
-                            </div>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  )) || <p>No comments yet.</p>}
-                </div>
-              </div>
-            </div>
+          <StoryInformation selectedStory={selectedStory}/>
+          <div className={styles.contentChapter}>
+            <Chapters selectedStory={selectedStory} />
+            <Description description={selectedStory.description} />
+            <Comments
+              commentCount={commentCount}
+              newComment={newComment}
+              comments={comments}
+              handleAddComment={handleAddComment}
+              setNewComment={setNewComment}/>
           </div>
+        </div>
+        <div className={styles.cardRight}>
+         <StoryGenre/>
+          <HistoryStory/>
         </div>
       </div>
     </div>

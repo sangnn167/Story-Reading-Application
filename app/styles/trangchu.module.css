@@ -6,8 +6,7 @@
   justify-content: center;
   flex-direction: column;
 }
-
-.headerr{
+.headerr {
   width: 80%;
   text-align: left;
   padding: 5px;
@@ -15,75 +14,88 @@
   color: rgb(96, 95, 95);
   background: white;
 }
-.containerlist {
+.containerContent {
   width: 80%;
   background: #ffffff;
   min-height: 100vh;
-  flex-direction: column;
+  flex-direction: row;
   overflow-y: auto;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  
+}
+.containerLeft {
+  width: 72%;
+}
+.containerRight {
+  width: 26.7%;
+  margin-top: 30px;
+}
+.itemHistory {
+  border: 1px solid gray;
+  padding: 5px;
+}
+.itemHistory ul li {
+  margin-bottom: 10px;
+}
+.itemHistory > * {
+  margin-bottom: 10px;
+}
+.itemGenre {
+  border: 1px solid gray;
+  padding: 5px;
+}
+.itemGenre ul li {
+  margin-bottom: 10px;
+}
+.itemGenre > * {
+  margin-bottom: 10px;
+}
+.historyItem {
+  margin-bottom: 10px;
+}
+.historyItem .inline {
+  border: 0.5px solid gray;
 }
 .list {
   text-align: left;
   padding: 10px;
-  width: 80%;
+  width: 100%;
 }
 .item ul {
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
-  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
   margin-bottom: 20px;
-  width: 100%;
+  max-width: 100%;
+  gap: 10px;
+  padding: 5px;
 }
-.item ul li{
+.item ul li {
   display: grid;
-  align-items: center;
-  justify-content: center;
 }
 .list h1 {
   font-weight: bold;
   font-size: 20px;
 }
-.slice{
-  width: 100%;
-  max-height: 40vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.img{
+.img {
   width: 500px;
   height: 200px;
 }
-.customselect {
-  background-color: orange;
-  padding: 8px;
-  margin-top: 19px;
-  border-radius: 5px;
-  width: 8vw;
-  color: white;
-}
-.customselect option {
-  background-color: black;
-  color: white;
-}
-
-.newStoryUpdate{
+.newStoryUpdate {
   width: 100%;
   display: flex;
-  align-items: center;
-  justify-content: center;
   margin-bottom: 20px;
-  margin-top: 15px;
 }
-.itemStoryUpdate{
-  width: 80.5%;
-  text-align: left; 
+.itemStoryUpdate {
+  width: 100%;
+  text-align: left;
+  padding: 10px;
 }
-.inline{
+.itemStoryUpdate h1 {
+  color: cornflowerblue;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+.inline {
   border: 1px solid grey;
 }
 .table {
@@ -101,80 +113,210 @@ tr > .td:first-child {
 tr > .td:last-child {
   border-right: none;
 }
-.filter{
-  width: 85%;
-  flex-direction: column;
-  padding: 5px;
-}
-.filter h1{
-  text-align: left;
 
+.filter h1 {
+  text-align: left;
 }
-.search{
+.search {
   display: flex;
   margin-bottom: 10px;
 }
-.input input{
+.input input {
   padding: 5px;
   margin-top: 20px;
   margin-right: 20px;
   border-radius: 5px;
   border: 2px solid black;
 }
-.card h2{
+.card h2 {
   font-weight: bold;
 }
-.card h2:hover{
-  text-decoration: underline;
+.card h2:hover {
+  color: blue;
 }
 .keyword {
   position: relative;
 }
-
 .suggestions {
   position: absolute;
-  top: 100%; 
+  top: 100%;
   left: 0;
-  z-index: 999; 
-  background-color: #fff; 
-  border: 1px solid #ccc; 
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  z-index: 999;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   width: 230px;
   max-height: 30vh;
   overflow-y: auto;
   border-radius: 5px;
 }
-
 .suggestionItem {
   padding: 8px;
   cursor: pointer;
 }
-.suggestionItem:hover{
+.suggestionItem:hover {
   background: blue;
   color: white;
 }
-
-
-.dropdown button{
+.dropdown button {
   background-color: orange;
   padding: 7px;
   margin-top: 19px;
   border-radius: 5px;
-  width: 6vw;
+
   color: white;
   margin-right: 5px;
 }
-.dropdown{
+.slider {
+  max-width: 80%;
   display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: white;
+  text-align: left;
+}
+.sliderr {
+  max-width: 95%;
+}
+.slider .title {
+  text-align: left;
+  width: 98%;
+  color: cornflowerblue;
+  font-size: 18px;
+}
+.slider .title p {
+  display: flex;
+  align-items: center;
+}
+.storycontainer {
+  position: relative;
+}
+.storycontainer:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.storytitle {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  background-color: rgba(51, 51, 51, 0.9);
+  color: white;
+  text-align: center;
+  width: 180px;
+  font-size: 15px;
+}
+.storydetail {
+  display: flex;
+  justify-content: space-around;
+}
+.storyfollow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+.historyItem {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.titleHistory {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.historyTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.deleteHistory {
+  color: gray;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+.deleteHistory:hover {
+  color: blue;
+  cursor: pointer;
+}
+.historyName:hover {
+  color: blue;
+  cursor: pointer;
+}
+.containerHistoryStory {
+  margin-top: 20px;
+}
+.titleCategory {
+  display: flex;
+  text-align: left;
+  margin: 0 20px;
+}
+.titleCategory li a:hover {
+  color: blue;
+}
+.containerrrrrr {
+  display: grid;
+  justify-content: center;
+}
+.row {
+  display: flex;
+  align-items: flex-start;
+  align-items: start;
+}
+.row > div {
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  gap: 20px;
 }
 @media screen and (max-width: 512px) {
-  .input input{
+  .input input {
     width: 130px;
   }
   .customselect {
     width: 105px;
   }
+  .item ul li {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
 }
+@media screen and (max-width: 750px) {
+  .containerContent {
+    width: 100%;
+  }
+  .slider {
+    max-width: 100%;
+  }
 
-
-
+  .headerr {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .containerContent {
+    display: flex;
+    flex-direction: column;
+  }
+  .containerLeft {
+    width: 100%;
+  }
+  .containerRight {
+    width: 100%;
+    padding: 15px;
+  }
+  .itemGenre {
+    display: none;
+  }
+  .historyName {
+    font-size: 20px;
+  }
+  .deleteHistory {
+    font-size: 20px;
+  }
+}

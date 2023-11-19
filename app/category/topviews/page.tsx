@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "@/app/styles/categoryy.module.css";
-
+import { FaEye} from "react-icons/fa";
 const TopViews = ({ stories }: any) => {
   return (
     <div className={styles.itemRight}>
@@ -29,9 +29,7 @@ const TopViews = ({ stories }: any) => {
                       <div className={styles.overlay}>
                         <div>{story.title}</div>
                         <div className={styles.eye}>
-                          <picture>
-                            <img src="/icons/eyee.png" width={"20px"} alt="" />
-                          </picture>{" "}
+                        <FaEye/>{" "}
                           {story.follow}
                         </div>
                       </div>

@@ -1,5 +1,6 @@
 "use client";
-import React from "react";
+
+import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { setLoading } from "../store/slice/signupSlice";
 import { Button } from "@nextui-org/react";
@@ -14,6 +15,7 @@ import NameAge from "./NameAge/page";
 const Signup = () => {
   const dispatch = useDispatch();
   const { yearold, name, password, email, loading } = useSelector((state) => state.signup);
+  const [successMessage, setSuccessMessage] = useState("");
 
   const handleSignup = async () => {
     if (!yearold || !name || !password || !email) {
@@ -25,7 +27,7 @@ const Signup = () => {
 
     try {
       await signupUserr({ yearold, name, password, email });
-      alert("Đăng ký thành công!");
+      setSuccessMessage("Đăng ký thành công!");
     } catch (error) {
       alert(`Đã có lỗi xảy ra. ${error.message}`);
     } finally {
@@ -44,9 +46,12 @@ const Signup = () => {
             Have already an account?
             <div className={styles.Loginhere}>
               <Link href={`/Login`}>Login here</Link>
-            </div>
-            {loading && <LoadingOverlay />}
+            </div>         
+            {loading && <LoadingOverlay />} 
           </div>
+          <div>
+            {successMessage && <p>{successMessage}</p>}
+            </div>
           <Button
             className={styles.button}
             onClick={handleSignup}

@@ -1,8 +1,8 @@
 "use client";
-import storiesData from "../../data/stories";
+import storiesData from "../../Mock/stories";
 import styles from "@/app/styles/profile.module.css";
 import Link from "@/node_modules/next/link";
-import Image from "@/node_modules/next/image";
+import { FaEye,FaHeart,FaComment} from "react-icons/fa";
 
 const History = () => {
     const HistoryStories = storiesData.filter((story) => story.history);
@@ -23,17 +23,13 @@ const History = () => {
                                     </picture>
                                     <div className={styles.textContainer}>
                                         <div className={styles.follow}>
-                                            <picture><img src="/icons/eyee.png" alt="" /></picture>{story.follow}
+
+                                        <div className={styles.icon}><FaEye/>{story.follow}</div> <div className={styles.icon}><FaHeart/>{story.favorites}</div> <div className={styles.icon}><FaComment />{story.comment.length}</div>
                                         </div>
-                                    </div>
-                                    <div className={styles.textContainerr}>
-                                        <div className={styles.followw}>
-                                            {story.category}
-                                        </div>
-                                    </div>
+                                    </div>    
                                 </div>
                                 <Link href={`/home/${story.id}`}>
-                                    <div className={styles.title}> {story.title}</div>
+                                    <div className={styles.title}>{story.title}</div>
                                 </Link>
                             </li>
                         ))

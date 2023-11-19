@@ -37,22 +37,23 @@
   background: white;
   max-width: 80%;
   display: flex;
-  align-items: center;
-  justify-content: center;
   min-height: 100vh;
-  overflow-y: auto;
+}
+.cardRight{
+  width: 25%;
+}
+.cardRight>*{
+  margin-bottom: 10px;
 }
 .card {
-  max-width: 80%;
+  max-width: 70%;
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
-  margin-top: 20px;
 }
 .img {
   margin-top: 20px;
-  width: 70%;
+  width: 80%;
   gap: 20px;
   display: flex;
   justify-content: space-between;
@@ -66,16 +67,28 @@
   margin-bottom: 10px;
   font-size: 20px;
 }
-.chapter {
+.author p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contentChapter {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100%;
 }
+.chapter{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .chapterr {
-  width: 70%;
-  max-width: 70%;
+  width: 80%;
+  max-width: 80%;
 }
 .chapterr li {
   background: rgb(212, 208, 208);
@@ -125,7 +138,7 @@
   margin-top: 20px;
 }
 .containerdescription {
-  width: 70%;
+  width: 80%;
   text-align: left;
 }
 .inline {
@@ -180,8 +193,69 @@
   flex-direction: column;
   
 }
-.inputcomment input{
-  border: 1px solid red;
+.inputcomment .input{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.inputcomment{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  justify-content: space-between;
+
+}
+.inputcomment button{
+  background: blue;
+  color: white;
+  padding: 11px;
+  border-radius: 5px;
+}
+.star{
+  color: orange;
+  font-size: 25px;
+  display: flex;
+  gap: 10px;
+}
+
+.buttonPrev{
+  border: 1px solid rgb(246, 177, 50);
+  width: 110px;
+  font-size: 15px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  border-radius: 5px;
+  background: rgb(248, 177, 45);
+  font-weight: bold;
+  color: #fff;
+  
+}
+.buttonPrev:hover{
+  background: orange;
+}
+.buttonChapter{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.buttonTim{
+  border-radius: 5px;
+  display: flex;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  height: 35px;
+  margin-top: 10px;
+}
+.buttonNavigation{
+  display: flex;
+  gap: 10px;
 }
 @media screen and (max-width: 1280px) {
   .img {
@@ -189,17 +263,35 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
   }
+  .list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .cardRight{
+    width: 70%;
+  }
+
+  
 }
 @media screen and (max-width: 751px) {
   .item{
-    font-size: 12px;
+    font-size: 13px;
   }
   .item p{
-    font-size: 12px;
+    font-size: 13px;
   }
   .author{
-    font-size: 15px;
+    font-size: 17px;
+  }
+  .list{
+    max-width: 100%;
+  }
+  .header{
+    width: 100%;
   }
 }
 @media screen and (max-width: 600px) {
@@ -210,6 +302,16 @@
     justify-content: center;
     gap: 10px;
   }
+  .buttonChapter{
+    display: flex;
+    flex-direction: column;
+  }
+  .list{
+    max-width: 100%;
+  }
+  .header{
+    width: 100%;
+  }
 }
 @media screen and (max-width: 512px){
   .item{
@@ -219,12 +321,12 @@
     display: none;
   }
   .author{
-    font-size: 13px;
+    font-size: 15px;
   }
   .description p {
-    font-size: 13px;
+    font-size: 15px;
   }
   .date {
-    font-size: 11px;
+    font-size: 12px;
   }
 }

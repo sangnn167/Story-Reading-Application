@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from 'react';
 import Link from 'next/link';
-import storiesData from "../../../data/stories";
+import storiesData from "../../../Mock/stories";
 import styles from "@/app/styles/home.module.css"
 import Header from '@/app/header/page';
 
