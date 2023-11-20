@@ -1,4 +1,3 @@
-// ChapterNavigation.js
 import React from "react";
 import styles from "@/app/styles/home.module.css";
 

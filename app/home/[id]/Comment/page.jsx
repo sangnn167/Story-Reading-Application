@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "@/app/Common/Button/page"; // Đường dẫn đến component Button
+import Button from "@/app/Common/Button/page";
 import styles from "@/app/styles/home.module.css";
 
 const Comments = ({ commentCount, newComment, comments, handleAddComment,setNewComment  }) => {
