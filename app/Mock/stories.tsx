@@ -1232,7 +1232,7 @@ const storiesData = [
     datePosted: "2023-11-09",
     user: "Linh",
     author: "Asagiri Kafuka",
-    category: "Supernatural,Ecchi,,Thiếu nhi",
+    category: "Supernatural,Ecchi,Thiếu nhi",
     status: "[Đang Cập Nhật]",
     follow: 953,
     favourite: false,
