@@ -135,7 +135,7 @@ const storiesData = [
       {
         iduser: 1,
         userName: "Quang",
-        userComment:"Truyện cũng được",
+        userComment:"Truyện được",
         avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
       },
       {
@@ -191,13 +191,13 @@ const storiesData = [
       {
         iduser: 1,
         userName: "Quang",
-        userComment:"Truyện cũng được",
+        userComment:"Truyện không hay",
         avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
       },
       {
         iduser: 2,
         userName: "Ngọc Quang",
-        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        userComment:"Hay",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
       },
       {
@@ -242,13 +242,13 @@ const storiesData = [
       {
         iduser: 1,
         userName: "Hiển",
-        userComment:"Truyện cũng được",
+        userComment:"Truyện cũng tạm tạm",
         avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
       },
       {
         iduser: 2,
         userName: "Hưng",
-        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        userComment:"Quá tuyệt",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
       }
     ],
@@ -337,13 +337,13 @@ const storiesData = [
       {
         iduser: 1,
         userName: "Cảnh",
-        userComment:"Truyện cũng được",
+        userComment:"Cảm xúc",
         avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
       },
       {
         iduser: 2,
         userName: "Hưng",
-        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        userComment:"Hay",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
       },
       {
@@ -393,7 +393,7 @@ const storiesData = [
       {
         iduser: 2,
         userName: "Lùn",
-        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        userComment:"Được",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
       },
       {
@@ -443,7 +443,7 @@ const storiesData = [
       {
         iduser: 2,
         userName: "Hùng",
-        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        userComment:"Nghệ",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
       }
     ],
@@ -481,7 +481,7 @@ const storiesData = [
       {
         iduser: 2,
         userName: "Hùng",
-        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        userComment:"Vỗ tay",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
       }
     ],
@@ -519,7 +519,7 @@ const storiesData = [
       {
         iduser: 2,
         userName: "Linh",
-        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        userComment:"Được được",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
       }
     ],
@@ -552,13 +552,13 @@ const storiesData = [
       {
         iduser: 1,
         userName: "Minh",
-        userComment:"Truyện cũng được",
+        userComment:"Đọc tạm",
         avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
       },
       {
         iduser: 2,
         userName: "Huyền",
-        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        userComment:"Không hay lắm",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
       }
     ],
@@ -590,13 +590,13 @@ const storiesData = [
       {
         iduser: 1,
         userName: "Hiển",
-        userComment:"Truyện cũng được",
+        userComment:"Nên đọc",
         avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
       },
       {
         iduser: 2,
         userName: "Hùng",
-        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        userComment:"Đáng đọc",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
       }
     ],
@@ -628,13 +628,13 @@ const storiesData = [
       {
         iduser: 1,
         userName: "Huy",
-        userComment:"Truyện cũng được",
+        userComment:"Hay",
         avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
       },
       {
         iduser: 2,
         userName: "Hùng",
-        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        userComment:"Không hay",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
       }
     ],
@@ -672,7 +672,7 @@ const storiesData = [
       {
         iduser: 2,
         userName: "Hùng",
-        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        userComment:"hahahahahaa",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
       }
     ],
@@ -710,7 +710,7 @@ const storiesData = [
       {
         iduser: 2,
         userName: "Tuấn",
-        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        userComment:"Tuyệt vời",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
       }
     ],
@@ -748,7 +748,7 @@ const storiesData = [
       {
         iduser: 2,
         userName: "Phan",
-        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        userComment:"Hóng phần tiếp",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
       }
     ],
@@ -780,13 +780,13 @@ const storiesData = [
       {
         iduser: 1,
         userName: "Tiên",
-        userComment:"Truyện cũng được",
+        userComment:"Được",
         avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
       },
       {
         iduser: 2,
         userName: "Hoàng",
-        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        userComment:"Bao giờ ra phần tiếp",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
       }
     ],
@@ -824,7 +824,7 @@ const storiesData = [
       {
         iduser: 2,
         userName: "Có tên",
-        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        userComment:"Chờ đợi",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
       }
     ],
@@ -862,7 +862,7 @@ const storiesData = [
       {
         iduser: 2,
         userName: "Haaa",
-        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        userComment:"Lâu ra tiếp thế",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
       }
     ],
@@ -900,7 +900,7 @@ const storiesData = [
       {
         iduser: 2,
         userName: "Thảo",
-        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        userComment:"Hay",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
       }
     ],
@@ -932,13 +932,13 @@ const storiesData = [
       {
         iduser: 1,
         userName: "Quỳnh",
-        userComment:"Truyện cũng được",
+        userComment:"Ổn",
         avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
       },
       {
         iduser: 2,
         userName: "Nam bé",
-        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        userComment:"Không ổn rồi",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
       }
     ],
@@ -1014,7 +1014,7 @@ const storiesData = [
       {
         iduser: 2,
         userName: "Đạo",
-        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        userComment:"Haha",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
       }
     ],
