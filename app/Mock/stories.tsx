@@ -1255,6 +1255,7 @@ const storiesData = [
         iduser: 1,
         userName: "Không tên",
         userComment:"Truyện cũng được",
+        avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
       }
     ]
   },
