@@ -832,7 +832,7 @@ const storiesData = [
     datePosted: "2021-12-02",
     user: "Linh",
     author: "Osuka Gen",
-    category: "One shot,Ecchi,Tragedy,Psychological",
+    category: "One shot,Tragedy,Psychological",
     status: "[Đang Cập Nhật]",
     follow: 16,
     favourite: false,
