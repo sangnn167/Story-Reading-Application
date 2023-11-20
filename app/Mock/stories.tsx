@@ -59,6 +59,8 @@ const storiesData = [
     favourite: true,
     history: false,
     favorites: "225",
+    Numberofreviews:"545454",
+    Ratings: "4.5/5",
     imgUrl: "https://st.nettruyenus.com/data/comics/32/vo-luyen-dinh-phong.jpg",
     img:"https://thuvienanime.com/wp-content/uploads/2021/11/duong-khai-thuvienanime.jpeg",
     chapters: [
@@ -121,6 +123,8 @@ const storiesData = [
     favourite: false,
     history: true,
     favorites: "242",
+    Numberofreviews:"54822",
+    Ratings: "4.5/5",
     imgUrl: "https://kenosa.vn/app_images/product/2016/7/7/su-tich-chu-cuoi-cung-trang-truyen-tranh-co-tich-86416-500-86416.jpg",
     img:"https://i.ytimg.com/vi/Oxd8YS9rTGw/maxresdefault.jpg",
     chapters: [
@@ -165,6 +169,8 @@ const storiesData = [
     favourite: false,
     history: true,
     favorites: "952",
+    Numberofreviews:"89252",
+    Ratings: "4.5/5",
     imgUrl: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiL7i43fNMQoaU7nPGJAlrWznVnbuN9sV2gQ9FkSo98Bc6P1QHzanzadHmzun0or0TIsX-jJfdyWzERtkHZjZadDbJbrX0lfsOzMUeBYWkaxiwD8OHck8utt29uPAEcOD34o3bSHu_isd0Zmnl6LZ1ybsaD32aj04g0UYLOzYnbVnSgDpYR137nz3Z1qA/s2000/undead-unluck_poster2.jpg",
     img:"https://i2.wp.com/aiptcomics.com/wp-content/uploads/2021/04/Undead-Unluck-Vol.-01-Header.png?fit=1400%2C732&ssl=1",
     chapters: [
@@ -222,6 +228,8 @@ const storiesData = [
     favourite: true,
     history: true,
     favorites: "587",
+    Numberofreviews:"87212",
+    Ratings: "4.5/5",
     imgUrl: "https://yymedia.codeprime.net/media/fb_img/e626839642.jpg",
     img:"https://i.ytimg.com/vi/DPl2HuzYcYg/maxresdefault.jpg",
     chapters: [
@@ -266,6 +274,8 @@ const storiesData = [
     user: "Nam",
     history: true,
     favorites: "1,022",
+    Numberofreviews:"74512",
+    Ratings: "4.5/5",
     imgUrl: "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/cay_khe___truyen_co_tich_viet_nam/2020_06_01_11_45_38_1-390x510.JPG",
     img:"https://i.ytimg.com/vi/ZDY1Tln-2PY/maxresdefault.jpg",
     chapters: [
@@ -304,6 +314,8 @@ const storiesData = [
     favourite: true,
     history: false,
     favorites: "789",
+    Numberofreviews:"8752",
+    Ratings: "4.5/5",
     imgUrl: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGv_NyKIec-grSk7BaDr2zfpx1SOKhQ3pwT0-UtXjtMZ8hamTHefThTMSNY7Z3ogfG73ryTNV37q-GvmixCXY6cqKfFZ2d0cbTGP-6bQkyn84AemlcRQi88pmrFNxPfvthaEjBs69ATOJ0mJHTgLPfzy2yF4o_h0ASPi9w71aDRwvdR5pNl5oyCitMsw/s772/4905f91632b03ca914f3f0763bb93c03.jpg",
     img:"https://media.voocdn.com/media/image/id/64132defacc399a23b8b4609_720x",
     chapters: [
@@ -367,6 +379,8 @@ const storiesData = [
     favourite: true,
     history: false,
     favorites: "554",
+    Numberofreviews:"87130",
+    Ratings: "4.5/5",
     imgUrl: "https://xemsachhay.com/wp-content/uploads/2018/04/28694_35197.jpg",
     img:"https://thegioicotich.vn/wp-content/uploads/2020/12/da-trang-xe-cat-bien-dong.jpg",
     chapters: [
@@ -423,6 +437,8 @@ const storiesData = [
     favourite: false,
     history: false,
     favorites: "659",
+    Numberofreviews:"5323",
+    Ratings: "4.5/5",
     imgUrl: "https://salt.tikicdn.com/cache/w1200/media/catalog/product/i/m/img764_2.jpg",
     img:"https://thegioicotich.vn/wp-content/uploads/2010/11/cay-tre-tram-dot.png",
     chapters: [
@@ -461,6 +477,8 @@ const storiesData = [
     favourite: false,
     history: false,
     favorites: "954",
+    Numberofreviews:"95324",
+    Ratings: "4.5/5",
     imgUrl: "https://img.saostar.vn/w600/2017/11/05/1753793/poster_main2_nonlogo.jpg",
     img:"https://thegioidienanh.vn/stores/news_dataimages/hath/112017/08/15/2346_Con_RYng_Chau_Tien.jpg",
     chapters: [
@@ -499,6 +517,8 @@ const storiesData = [
     favourite: true,
     history: false,
     favorites: "822",
+    Numberofreviews:"54230",
+    Ratings: "4.5/5",
     imgUrl: "https://yymedia.codeprime.net/media/ogimg/202206/933566716c.jpg",
     img:"https://thuvienanime.com/wp-content/uploads/2023/04/dai-quan-gia-la-ma-hoang-thuvienanime-thumb.jpg",
     chapters: [
@@ -538,6 +558,8 @@ const storiesData = [
     favourite: false,
     history: false,
     favorites: "705",
+    Numberofreviews:"45458",
+    Ratings: "4.5/5",
     imgUrl: "https://cdn0.fahasa.com/media/catalog/product/i/m/image_178393.jpg",
     img:"https://halotravel.vn/wp-content/uploads/2021/12/su-tich-ong-cong-ong-tao-ve-troi.jpg",
     chapters: [
@@ -576,6 +598,8 @@ const storiesData = [
     favourite: false,
     history: false,
     favorites: "122",
+    Numberofreviews:"86865",
+    Ratings: "4.5/5",
     imgUrl: "https://rapchieuphim.com/photos/8925/268163213_4675287362506402_2825456165037815081_n.jpg",
     img:"https://bilutv.link/film/17994/big.jpg",
     chapters: [
@@ -614,6 +638,8 @@ const storiesData = [
     favourite: false,
     history: false,
     favorites: "254",
+    Numberofreviews:"685858",
+    Ratings: "4.5/5",
     imgUrl: "https://www.nae.vn/ttv/ttv/public/images/story/f336d4321f871ece8d3e41118bb1cbda9b2426b7d0b3629fdc6f053c05a33b64.jpg",
     img:"https://i.ytimg.com/vi/NSH0GirJiVQ/maxresdefault.jpg",
     chapters: [
@@ -652,6 +678,8 @@ const storiesData = [
     favourite: false,
     history: false,
     favorites: "302",
+    Numberofreviews:"58577",
+    Ratings: "4.5/5",
     imgUrl: "https://www.enwallpaper.com/wp-content/uploads/2021/05/One-Punch-Man-Wallpapers-2-e1621157778598.jpg",
     img: "https://www.impulsegamer.com/articles/wp-content/uploads/2020/02/onepunchman1.jpg",
     chapters: [
@@ -690,6 +718,8 @@ const storiesData = [
     favourite: false,
     history: false,
     favorites: "122",
+    Numberofreviews:"57577",
+    Ratings: "4.5/5",
     imgUrl: "https://ebooksphucminh.vn/wp-content/uploads/2021/08/sua-bia-con-nguoi-la-chua-muon-loai-691x1024.jpg",
     img:"https://thegioicotich.vn/wp-content/uploads/2021/06/su-tich-nguoi-lam-chua-muon-loai.jpg",
     chapters: [
@@ -728,6 +758,8 @@ const storiesData = [
     favourite: false,
     history: false,
     favorites: "102",
+    Numberofreviews:"86868",
+    Ratings: "4.5/5",
     imgUrl: "https://touchcinema.com/uploads/phim-2021/1200wx180ju0h-22-poster.jpg",
     img:"https://www.elleman.vn/app/uploads/2022/04/16/213427/Jujutsu-Kaisen-0-elleman.jpg",
     chapters: [
@@ -766,6 +798,8 @@ const storiesData = [
     favourite: false,
     history: false,
     favorites: "400",
+    Numberofreviews:"88955",
+    Ratings: "4.5/5",
     imgUrl: "https://newshop.vn/public/uploads/products/20107/rua-va-tho-chay-thi-1.jpg",
     img:"https://1.bp.blogspot.com/-6jlNtnIC4Y4/Xr4psuoZXZI/AAAAAAAAlY8/2UL9XZufDfMDQ-x7YA-VGTQiVFW-2zsaQCLcBGAsYHQ/s1600/Rua-va-Tho%2B%252812%2529.jpg",
     chapters: [
@@ -804,6 +838,8 @@ const storiesData = [
     favourite: false,
     history: false,
     favorites: "3,200",
+    Numberofreviews:"454578",
+    Ratings: "4.5/5",
     imgUrl: "https://chuuniotaku.com/wp-content/uploads/2021/02/battle-through-the-heavens-banner-manhua.jpg",
     img:"https://i.pinimg.com/originals/bf/dc/94/bfdc94fa4ff7ae22dc74db98d7955296.png",
     chapters: [
@@ -842,6 +878,8 @@ const storiesData = [
     favourite: false,
     favorites: "1,400",
     history: false,
+    Numberofreviews:"57447",
+    Ratings: "4.5/5",
     imgUrl: "https://i.pinimg.com/originals/f8/77/15/f8771575f6470867ecdfb95f63b1ac0d.jpg",
     img:"https://media.nichegamer.com/wp-content/uploads/2018/05/31235154/srwx_banner.jpg",
     chapters: [
@@ -880,6 +918,8 @@ const storiesData = [
     favourite: false,
     history: false,
     favorites: "1,520",
+    Numberofreviews:"52223",
+    Ratings: "4.5/5",
     imgUrl: "https://truyenz.info/wp-content/uploads/2019/07/Naruto-Full-Color-Edition-Truyenz.info_.jpg",
     img:"https://img.thuthuatphanmem.vn/uploads/2018/09/20/anh-naruto-truyen_105003397.jpg",
     chapters: [
@@ -918,6 +958,8 @@ const storiesData = [
     favourite: false,
     history: false,
     favorites: "2,205",
+    Numberofreviews:"58774",
+    Ratings: "4.5/5",
     imgUrl: "https://media.funhub.net/media/image/id/6291a663acc3992b1d8b467b?type=raw",
     img:"https://vedc.com.vn/wp-content/uploads/2022/09/Aphelios-Nguyet-Da-Song-Sinh.jpg",
     chapters: [
@@ -956,6 +998,8 @@ const storiesData = [
     favourite: false,
     history: false,
     favorites: "1,720",
+    Numberofreviews:"58866",
+    Ratings: "4.5/5",
     imgUrl: "https://i.pinimg.com/originals/df/d4/35/dfd43530b12a6dfec0472ea1cb613794.png",
     img:"https://nld.mediacdn.vn/2020/11/27/13-banner-truyen-tranh-online-16064944282141952425197.jpg",
     chapters: [
@@ -994,6 +1038,8 @@ const storiesData = [
     favourite: false,
     history: false,
     favorites: "5,400",
+    Numberofreviews:"57544",
+    Ratings: "4.5/5",
     imgUrl: "https://vignette.wikia.nocookie.net/doblaje/images/b/b3/Kakegurui.jpg/revision/latest?cb=20180128080051&path-prefix=es",
     img:"https://ptanime.com/wp-content/uploads/2017/05/Kakegurui-anime-novo-poster-promocional-destaque.jpg",
     chapters: [
@@ -1032,6 +1078,8 @@ const storiesData = [
     favourite: false,
     history: false,
     favorites: "5,500",
+    Numberofreviews:"57111",
+    Ratings: "4.5/5",
     imgUrl: "https://mangaclash.com/wp-content/uploads/2023/02/Serial-Killer-Isekai-ni-Oritatsu.jpg",
     img:"https://tse3.mm.bing.net/th?id=OIP.BYyUI6ELnpKnY66tM2jcUAHaEK&pid=Api&P=0&h=180",
     chapters: [
@@ -1070,6 +1118,8 @@ const storiesData = [
     favourite: false,
     history: false,
     favorites: "10,200",
+    Numberofreviews:"58666",
+    Ratings: "4.5/5",
     imgUrl: "https://media.funhub.net/media/image/id/6291a663acc3992b1d8b467b?type=raw",
     img:"https://cdn.sforum.vn/sforum/wp-content/uploads/2023/06/banner-moi-honkai-star-rail-6.jpg",
     chapters: [
@@ -1108,6 +1158,8 @@ const storiesData = [
     favourite: false,
     history: false,
     favorites: "2,400",
+    Numberofreviews:"74171",
+    Ratings: "4.5/5",
     imgUrl: "https://truyenvnhay.net/wp-content/uploads/2023/08/truyen-long-lay-phut-lia-doi.jpg",
     img:"https://storage-ct.lrclib.net/file/cuutruyen/uploads/manga/910/panorama/processed-7a8c70e44d70c1159029deeaa5b92522.jpg",
     chapters: [
@@ -1146,6 +1198,8 @@ const storiesData = [
     favourite: false,
     history: true,
     favorites: "1,420",
+    Numberofreviews:"688282",
+    Ratings: "4.5/5",
     imgUrl: "https://s2.anhvip.xyz/comics/nguon-khoi-sinh-1648221092.jpg",
     img:"https://kocr.net/wp-content/uploads/2021/07/HTKS-2.jpg",
     chapters: [
@@ -1184,6 +1238,8 @@ const storiesData = [
     favourite: false,
     history: true,
     favorites: "1,120",
+    Numberofreviews:"87677",
+    Ratings: "4.5/5",
     imgUrl: "https://lh3.googleusercontent.com/h3AxidpaUWs9qaWaMXqlj6V3rxYVoGBfVmE3LF6gdoKyH2xwoy_I2IkVlm01HDEVEkZHjA1Jvim0f2iKm2hiUriJJ39X_v1Rq6sax7TgHVh2e_T9QGwSDlki1yjN85O_iBP-OeikvQ=w2400",
     img:"https://storage-ct.lrclib.net/file/cuutruyen/uploads/manga/910/panorama/processed-7a8c70e44d70c1159029deeaa5b92522.jpg",
     chapters: [
