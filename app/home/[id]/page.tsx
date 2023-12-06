@@ -10,12 +10,16 @@ import Description from "./Description/page";
 import Comments from "./Comment/page";
 import StoryGenre from "../storygenre/page";
 import HistoryStory from "../historyStory/page";
+import data from "@emoji-mart/data";
+
+
 
 const StoryPage = ({ params }: { params: { id: String } }) => {
-  const selectedStory = storiesData.find((story:any) => story.id.toString() === params.id);
+  const selectedStory = storiesData.find((story: any) => story.id.toString() === params.id);
   const [newComment, setNewComment] = useState("");
   const [comments, setComments] = useState(selectedStory?.comment ?? []);
   const [commentCount, setCommentCount] = useState(selectedStory?.comment?.length || 0);
+  const [showPicker, setShowPicker] = useState(false);
 
   const handleAddComment = () => {
     const newCommentObject = {
@@ -29,6 +33,13 @@ const StoryPage = ({ params }: { params: { id: String } }) => {
     setCommentCount(updatedComments.length);
     setNewComment("");
   };
+  const addEmoji = (e: any) => {
+    const sym = e.unified.split("_")
+    const codeArray: number[] = [];
+    sym.forEach((el: any) => codeArray.push(parseInt("0x" + el, 16)));
+    let emoji = String.fromCodePoint(...codeArray);
+    setNewComment(newComment + emoji);
+  }
   if (!selectedStory) {
     return <div>Truyện không tồn tại.</div>;
   }
@@ -45,24 +56,28 @@ const StoryPage = ({ params }: { params: { id: String } }) => {
           <div className={styles.author}>
             <p className={styles.date}>Ngày đăng: {selectedStory.datePosted}</p>
           </div>
-          <StoryInformation selectedStory={selectedStory}/>
+          <StoryInformation selectedStory={selectedStory} />
           <div className={styles.contentChapter}>
             <Chapters selectedStory={selectedStory} />
             <Description description={selectedStory.description} />
             <Comments
               commentCount={commentCount}
               newComment={newComment}
-              comments={comments}
+              setNewComment={setNewComment}
+              showPicker={showPicker}
+              setShowPicker={setShowPicker}
+              data={data}
+              addEmoji={addEmoji}
               handleAddComment={handleAddComment}
-              setNewComment={setNewComment}/>
+              comments={comments} />
           </div>
         </div>
         <div className={styles.cardRight}>
-         <StoryGenre/>
-          <HistoryStory/>
+          <StoryGenre />
+          <HistoryStory />
         </div>
       </div>
-    </div>
+    </div >
   );
 };
 

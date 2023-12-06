@@ -14,7 +14,7 @@
   justify-content: center;
   flex-direction: column;
 }
-.header{
+.header {
   background: white;
   width: 80%;
   text-align: left;
@@ -22,14 +22,14 @@
   font-size: 14px;
   color: rgb(96, 95, 95);
 }
-.header{
+.header {
   display: flex;
   align-items: center;
 }
-.header p{
+.header p {
   display: flex;
 }
-.header p:hover{
+.header p:hover {
   text-decoration: underline;
   cursor: pointer;
 }
@@ -39,10 +39,10 @@
   display: flex;
   min-height: 100vh;
 }
-.cardRight{
+.cardRight {
   width: 25%;
 }
-.cardRight>*{
+.cardRight > * {
   margin-bottom: 10px;
 }
 .card {
@@ -67,7 +67,7 @@
   margin-bottom: 10px;
   font-size: 20px;
 }
-.author p{
+.author p {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -79,7 +79,7 @@
   justify-content: center;
   width: 100%;
 }
-.chapter{
+.chapter {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -104,7 +104,7 @@
   align-items: center;
   justify-content: space-between;
 }
-.item p{
+.item p {
   color: gray;
   font-size: 14px;
 }
@@ -147,7 +147,7 @@
 .description {
   float: left;
 }
-.button button{
+.button button {
   border: 1px solid orange;
   background: orange;
   color: white;
@@ -156,71 +156,69 @@
   padding: 5px;
   border-radius: 5px;
 }
-.button{
+.button {
   display: flex;
 }
-.headerContent{
+.headerContent {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 .button button[disabled] {
-  opacity: 0.7; 
+  opacity: 0.7;
   cursor: not-allowed;
 }
-.fontsize button{
-  width: 30px; 
+.fontsize button {
+  width: 30px;
   height: 34px;
   border-radius: 50%;
   border: none;
-  background-color: orange; 
-  color: #fff; 
+  background-color: orange;
+  color: #fff;
   cursor: pointer;
-  
 }
-.comment p{
+.comment p {
   margin-bottom: 20px;
 }
-.itemcomment{
+.itemcomment {
   display: flex;
   margin-bottom: 10px;
   gap: 10px;
-  
 }
-.titlecomment{
+.titlecomment {
   display: flex;
   flex-direction: column;
-  
 }
-.inputcomment .input{
+.inputcomment .input {
   width: 100%;
   padding: 10px;
   border: 1px solid black;
   border-radius: 5px;
   margin-right: 5px;
+  
 }
-.inputcomment{
+.inputcomment {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
   justify-content: space-between;
-
 }
-.inputcomment button{
+.inputcomment button {
   background: blue;
   color: white;
   padding: 11px;
   border-radius: 5px;
+  
 }
-.star{
+.star {
   color: orange;
   font-size: 25px;
   display: flex;
   gap: 10px;
 }
 
-.buttonPrev{
+.buttonPrev {
   border: 1px solid rgb(246, 177, 50);
   width: 110px;
   font-size: 15px;
@@ -233,17 +231,16 @@
   background: rgb(248, 177, 45);
   font-weight: bold;
   color: #fff;
-  
 }
-.buttonPrev:hover{
+.buttonPrev:hover {
   background: orange;
 }
-.buttonChapter{
+.buttonChapter {
   display: flex;
   align-items: center;
   gap: 10px;
 }
-.buttonTim{
+.buttonTim {
   border-radius: 5px;
   display: flex;
   width: 100px;
@@ -253,7 +250,7 @@
   height: 35px;
   margin-top: 10px;
 }
-.buttonNavigation{
+.buttonNavigation {
   display: flex;
   gap: 10px;
 }
@@ -266,62 +263,60 @@
     justify-content: center;
     width: 100%;
   }
-  .list{
+  .list {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .cardRight{
+  .cardRight {
     width: 70%;
   }
-
-  
 }
 @media screen and (max-width: 751px) {
-  .item{
+  .item {
     font-size: 13px;
   }
-  .item p{
+  .item p {
     font-size: 13px;
   }
-  .author{
+  .author {
     font-size: 17px;
   }
-  .list{
+  .list {
     max-width: 100%;
   }
-  .header{
+  .header {
     width: 100%;
   }
 }
 @media screen and (max-width: 600px) {
-  .button{
+  .button {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 10px;
   }
-  .buttonChapter{
+  .buttonChapter {
     display: flex;
     flex-direction: column;
   }
-  .list{
+  .list {
     max-width: 100%;
   }
-  .header{
+  .header {
     width: 100%;
   }
 }
-@media screen and (max-width: 512px){
-  .item{
+@media screen and (max-width: 512px) {
+  .item {
     font-size: 11px;
   }
-  .item p{
+  .item p {
     display: none;
   }
-  .author{
+  .author {
     font-size: 15px;
   }
   .description p {

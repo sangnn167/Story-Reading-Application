@@ -1,8 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import Button from "@/app/Common/Button/page";
 import styles from "@/app/styles/home.module.css";
+import Picker from "@emoji-mart/react";
+import { MdInsertEmoticon } from "react-icons/md";
 
-const Comments = ({ commentCount, newComment, comments, handleAddComment,setNewComment  }) => {
+const Comments = ({
+  commentCount,
+  newComment,
+  setNewComment,
+  showPicker,
+  setShowPicker,
+  data,
+  addEmoji,
+  handleAddComment,
+  comments,
+}) => {
+
+
   return (
     <div className={styles.containerdescription}>
       <div className={styles.inline}></div>
@@ -18,6 +32,22 @@ const Comments = ({ commentCount, newComment, comments, handleAddComment,setNewC
             value={newComment}
             onChange={(e) => setNewComment(e.target.value)}
           />
+          <div style={{ position: "relative", marginRight: "5px" }}>
+            <Button onClick={() => setShowPicker(!showPicker)}>
+              <MdInsertEmoticon size={"24px"} />
+            </Button>
+            <div
+              style={{
+                position: "absolute",
+                top: "50px",
+                right: 0,
+                display: showPicker ? "block" : "none",
+              }}
+            >
+              <Picker data={data} onEmojiSelect={addEmoji} />
+            </div>
+          </div>
+
           <Button onClick={handleAddComment}>Post</Button>
         </div>
         <div>
