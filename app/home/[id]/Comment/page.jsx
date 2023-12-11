@@ -3,20 +3,19 @@ import Button from "@/app/Common/Button/page";
 import styles from "@/app/styles/home.module.css";
 import Picker from "@emoji-mart/react";
 import { MdInsertEmoticon } from "react-icons/md";
+import { BiSolidLike } from "react-icons/bi";
 
-const Comments = ({
-  commentCount,
-  newComment,
-  setNewComment,
-  showPicker,
-  setShowPicker,
-  data,
-  addEmoji,
-  handleAddComment,
-  comments,
-}) => {
-
-
+const Comments = ({commentCount,newComment,setNewComment,showPicker,setShowPicker,data,addEmoji,handleAddComment,comments,}) => {
+  const [commentStatus, setCommentStatus] = useState({});
+  const handleClick = (iduser) => {
+    const updatedStatus = { ...commentStatus };
+    if (updatedStatus[iduser]) {
+      delete updatedStatus[iduser];
+    } else {
+      updatedStatus[iduser] = true;
+    }
+    setCommentStatus(updatedStatus);
+  };
   return (
     <div className={styles.containerdescription}>
       <div className={styles.inline}></div>
@@ -62,14 +61,44 @@ const Comments = ({
                           <img
                             src={comment.avatar}
                             alt=""
-                            width={"50px"}
-                            height={"50px"}
+                            width={"65px"}
+                            height={"65px"}
                           />
                         </picture>
                       </div>
                       <div className={styles.titlecomment}>
                         <strong>{comment.userName}</strong>
-                        {comment.userComment}
+                        <div>{comment.userComment}</div>
+                        <div className={styles.LikeContainer}>
+                          <div className={styles.timeCommnet}>
+                            {comment.commentTime}
+                          </div>
+                          <div
+                            className={styles.textlike}
+                            onClick={() => handleClick(comment.iduser)}
+                            style={{
+                              color: commentStatus[comment.iduser]
+                                ? "blue"
+                                : "black",
+                            }}
+                          >
+                            {commentStatus[comment.iduser] ? (
+                              <div className={styles.LikeComment}>
+                                Unlike{" "}
+                                <div
+                                  style={{
+                                    display: "flex",
+                                    alignItems: "center",
+                                  }}
+                                >
+                                  <BiSolidLike size={"15px"} />1
+                                </div>
+                              </div>
+                            ) : (
+                              "Like"
+                            )}
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </li>

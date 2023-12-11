@@ -37,12 +37,14 @@ const storiesData = [
         userName: "Linh",
         userComment:"Truyện cũng được",
         avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
+        commentTime: "1 giờ trước"
       },
       {
         iduser: 2,
         userName: "Hùng",
         userComment:"Cuộc sống",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
+        commentTime: "2 giờ trước"
       }
     ],
   },

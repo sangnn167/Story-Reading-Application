@@ -21,12 +21,38 @@ const StoryPage = ({ params }: { params: { id: String } }) => {
   const [commentCount, setCommentCount] = useState(selectedStory?.comment?.length || 0);
   const [showPicker, setShowPicker] = useState(false);
 
+
+  const getTimeAgo = (timestamp:any) => {
+    const now = Date.now();
+    const seconds = Math.floor((now - timestamp) / 1000);
+  
+    
+    if (seconds < 60) {
+      if (seconds < 1) {
+        return 'Vừa xong';
+      }
+      return seconds + ' giây trước';
+    } else if (seconds < 3600) {
+      const minutes = Math.floor(seconds / 60);
+      return minutes + ' phút trước';
+    } else if (seconds < 86400) {
+      const hours = Math.floor(seconds / 3600);
+      return hours + ' giờ trước';
+    } else {
+      const days = Math.floor(seconds / 86400);
+      return days + ' ngày trước';
+    }
+  };
+
   const handleAddComment = () => {
+    const currentTime = Date.now();
+    const formattedTime = getTimeAgo(currentTime);
     const newCommentObject = {
       iduser: comments.length + 1,
       userName: "You",
       userComment: newComment,
       avatar: "https://tse1.mm.bing.net/th?id=OIP.bq8ahErktvpu62_xf0aMwAHaHa&pid=Api&P=0&h=180",
+      commentTime: formattedTime,
     };
     const updatedComments = [...comments, newCommentObject];
     setComments(updatedComments);
@@ -40,6 +66,7 @@ const StoryPage = ({ params }: { params: { id: String } }) => {
     let emoji = String.fromCodePoint(...codeArray);
     setNewComment(newComment + emoji);
   }
+  
   if (!selectedStory) {
     return <div>Truyện không tồn tại.</div>;
   }

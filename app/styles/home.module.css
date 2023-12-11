@@ -196,7 +196,6 @@
   border: 1px solid black;
   border-radius: 5px;
   margin-right: 5px;
-  
 }
 .inputcomment {
   display: flex;
@@ -205,11 +204,11 @@
   justify-content: space-between;
 }
 .inputcomment button {
-  background: blue;
+  background: orange;
   color: white;
   padding: 11px;
   border-radius: 5px;
-  
+  font-weight: bold;
 }
 .star {
   color: orange;
@@ -254,7 +253,36 @@
   display: flex;
   gap: 10px;
 }
-
+.LikeContainer{
+  display: flex;
+  gap: 10px;
+  font-size: 13px;
+}
+.LikeContainer .textlike{
+  font-weight: bold;
+}
+.LikeContainer .textlike:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.timeCommnet{
+  color: grey;
+}
+.LikeComment{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.Reply{
+  font-weight: bold;
+}
+.Reply:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.commentContainer{
+  display: flex;
+}
 @media screen and (max-width: 1280px) {
   .img {
     flex-direction: column;
