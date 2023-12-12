@@ -1,11 +1,11 @@
-import React from 'react';
-import Link from '@/node_modules/next/link';
-import styles from '@/app/styles/trangchu.module.css';
-import { useSelector } from 'react-redux';
+import React from "react";
+import Link from "@/node_modules/next/link";
+import styles from "@/app/styles/trangchu.module.css";
+import { useSelector } from "react-redux";
 
 const ListStory = () => {
   const filteredStories = useSelector((state) => state.stories.filteredStories);
-  
+
   return (
     <div className={styles.list}>
       <div className={styles.item}>
@@ -18,7 +18,7 @@ const ListStory = () => {
                     <img
                       src={story.imgUrl}
                       alt={story.title}
-                      style={{width: '200px', height: '240px'}}
+                      style={{ width: "200px", height: "240px" }}
                     />
                   </picture>
                   <Link href={`/home/${story.id}`}>

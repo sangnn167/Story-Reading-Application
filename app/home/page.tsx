@@ -7,10 +7,11 @@ import { setFilteredStories } from "../store/slice/readstories";
 import SearchFilter from "@/app/home/searchfilter/page";
 import NewStory from "@/app/home/newstory/page";
 import Header from "../header/page";
-import ListStory from "./liststory/page"
-import MySlider from "./slider/page"
-import HistoryStory from "./historyStory/page"
-import StoryGenre from "./storygenre/page"
+import ListStory from "./liststory/page";
+import MySlider from "./slider/page";
+import HistoryStory from "./historyStory/page";
+import StoryGenre from "./storygenre/page";
+import Chat from "../chat/page";
 import { FcNext } from "react-icons/fc";
 
 
@@ -32,7 +33,7 @@ const Home = () => {
 
   return (
     <div className={styles.container}>
-     
+
       <Header />
       <div className={styles.headerr}>
         <p>Đọc truyện online, đọc truyện chữ, truyện full, truyện hay. Tổng hợp đầy đủ và cập nhật liên tục.</p>
@@ -60,10 +61,10 @@ const Home = () => {
         <div className={styles.containerRight}>
           <StoryGenre />
           <div className={styles.containerHistoryStory}>
-          <HistoryStory />
+            <HistoryStory />
           </div>
         </div>
-        
+        <Chat/>
       </div>
     </div>
   );
