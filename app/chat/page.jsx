@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect, useCallback } from "react";
 import styles from "./styles.module.css";
 import { IoChatbubbleEllipses } from "react-icons/io5";
 import { LuSendHorizonal } from "react-icons/lu";
@@ -9,6 +9,7 @@ const Chat = () => {
   const [displayedText, setDisplayedText] = useState([]);
   const [feedbackText, setFeedbackText] = useState("");
   const [showChat, setShowChat] = useState(false);
+  const inputRef = useRef(null);
 
   const toggleChat = () => {
     setShowChat(!showChat);
@@ -30,12 +31,45 @@ const Chat = () => {
     }, 2000);
   };
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  const handleEnterPress = useCallback((event) => {
+    if (event.key === "Enter") {
+      handleButtonClick();
+    }
+  });
+
+  useEffect(() => {
+    const handleKeyPress = (event) => {
+      if (showChat && event.key === "Enter") {
+        handleEnterPress(event);
+      }
+    };
+
+    document.addEventListener("keydown", handleKeyPress);
+
+    return () => {
+      document.removeEventListener("keydown", handleKeyPress);
+    };
+  }, [showChat, handleEnterPress]);
+
+  useEffect(() => {
+    if (showChat && inputRef.current) {
+      inputRef.current.focus();
+    }
+  }, [showChat]);
+
   return (
     <div className={styles.ChatContainer}>
       {showChat && (
         <div className={styles.container}>
-          <div className={styles.titleChat}>Messenger</div>
+          <div className={styles.titleChat}>
+            Messenger<button className={styles.Exit} onClick={toggleChat}>x</button>
+          </div>
           <div className={styles.content}>
+            <div className={styles.titleHelp}>
+              Mọi thắc mắc <br />
+              chúng tôi đều có thể giải quyết.
+            </div>
             <ul>
               {displayedText.map((text, index) => (
                 <li key={index}>
@@ -52,7 +86,13 @@ const Chat = () => {
             )}
           </div>
           <div className={styles.inputChat}>
-            <input type="text" value={inputText} onChange={handleInputChange} />
+            <input
+              type="text"
+              value={inputText}
+              onChange={handleInputChange}
+              onKeyPress={handleEnterPress}
+              ref={inputRef}
+            />
           </div>
           <div className={styles.buttonContainer}>
             <button onClick={handleButtonClick}>
