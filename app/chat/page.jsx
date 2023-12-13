@@ -3,6 +3,7 @@ import styles from "./styles.module.css";
 import { IoChatbubbleEllipses } from "react-icons/io5";
 import { LuSendHorizonal } from "react-icons/lu";
 import { FaUserCircle } from "react-icons/fa";
+import { FaXmark } from "react-icons/fa6";
 
 const Chat = () => {
   const [inputText, setInputText] = useState("");
@@ -63,7 +64,7 @@ const Chat = () => {
       {showChat && (
         <div className={styles.container}>
           <div className={styles.titleChat}>
-            Messenger<button className={styles.Exit} onClick={toggleChat}>x</button>
+            Messenger<button className={styles.Exit} onClick={toggleChat}><FaXmark size={"20px"}/></button>
           </div>
           <div className={styles.content}>
             <div className={styles.titleHelp}>
