@@ -20,7 +20,7 @@ const storiesData = [
       {
         chapterNumber: 1,
         chapterTitle: "Tấm cám phần 1",
-        chapterDescription: `Ngày xửa ngày xưa, có hai chị em cùng cha khác mẹ, chị tên là Tấm, em tên là Cám. Mẹ Tấm mất sớm, sau đó mấy năm cha Tấm cũng qua đời, Tấm ở với dì ghẻ là mẹ Cám. Bà mẹ kế này rất cay nghiệt, bắt Tấm phải làm hết mọi việc nặng nhọc từ việc nhà đến việc chăn trâu cắt cỏ. Trong khi đó Cám được nuông chiều không phải làm gì cả.Một hôm bà ta cho hai chị em mỗi người một cái giỏ bảo ra đồng xúc tép, còn hứa “Hễ đứa nào bắt được đầy giỏ thì thưởng cho một cái yếm đỏ”. Ra đồng, Tấm chăm chỉ bắt được đầy giỏ, còn Cám thì mải chơi nên chẳng bắt được gì. Thấy Tấm bắt được một giỏ đầy, Cám bảo chị :Chị Tấm ơi, chị Tấm! Đầu chị lấm, chị hụp cho sâu, kẻo về mẹ mắngTin là thật, Tấm bèn xuống ao lội ra chỗ sâu tắm rửa. Cám thừa dịp trút hết tép của Tấm vào giỏ của mình rồi ba chân bốn cẳng về trước. Lúc Tấm bước lên chỉ còn giỏ không, bèn ngồi xuống bưng mặt khóc hu hu.Nghe tiếng khóc của Tấm, Bụt liền hiện lên hỏi:Vì sao con khóc?Tấm kể lại hết sự tình cho Bụt nghe, Bụt bảo:Thôi con hãy nín đi! Con thử nhìn vào trong giỏ xem còn gì nữa không?Tấm nhìn vào giỏ rồi nói:Dạ chỉ còn một con cá bống.Bụt dặn dò Tấm:Con đem con cá bống ấy về thả xuống giếng mà nuôi. Mỗi bữa, con mang cho bống một ít cơm. Mỗi lần cho ăn con nhớ gọi thế này:“Bống bống bang bang.Lên ăn cơm vàng cơm bạc nhà ta.Chớ ăn cơm hẩm cháo hoa nhà người”.Không gọi đúng như thế thì nó không lên, con nhớ lấy!Nói xong Bụt biến mất. Tấm về nhà làm theo lời dặn của Bụt, thả bống xuống giếng. Rồi từ hôm ấy trở đi, cứ mỗi bữa ăn, Tấm đều để dành cơm, giấu đem ra cho bống. Mỗi lần nghe Tấm gọi, bống lại ngoi lên mặt nước đớp từng hạt cơm mà Tấm ném xuống. Người và cá ngày một quen nhau, bống ngày càng lớn lên trông thấy.Thấy Tấm thường mang cơm ra giếng, mụ dì ghẻ sinh nghi, bèn sai Cám đi rình. Cám nấp ở bụi cây gần bờ giếng nghe Tấm gọi bống, bèn nhẩm thuộc rồi về kể lại cho mẹ nghe. Tối hôm ấy mụ dì ghẻ lấy giọng ngọt ngào bảo với Tấm:Con ơi con! Làng đã bắt đầu cấm đồng rồi đấy. Mai con đi chăn trâu, phải chăn đồng xa, chớ chăn đồng nhà, làng bắt mất trâu.Tấm vâng lời, sáng hôm sau đưa trâu đi ăn thật xa. Ở nhà, mẹ con Cám mang bát cơm ra giếng, cũng gọi y như Tấm gọi. Bống vừa ngoi lên mặt nước, mẹ Cám đã chực sẵn, bắt lấy bống đem về nhà làm thịt ăn.Đến chiều Tấm dắt trâu về, sau khi ăn xong Tấm lại mang cơm ra giếng, Tấm gọi nhưng chả thấy bống ngoi lên như mọi khi. Tấm gọi mãi, gọi mãi, cuối cùng chỉ thấy một cục máu nổi lên mặt nước. Biết là có chuyện chẳng lành, Tấm òa lên khóc. Bụt lại hiện lên hỏi:Tại sao con lại khóc?Tấm kể sự tình cho Bụt nghe, Bụt bảo:Con bống của con, người ta đã ăn thịt mất rồi. Thôi con hãy nín đi! Rồi về nhặt xương nó, kiếm 4 cái lọ bỏ vào, đem chôn xuống dưới 4 chân giường con nằm.Tấm trở về theo lời Bụt đi tìm xương bống, nhưng tìm mãi các xó vườn góc sân mà không thấy đâu cả. Một con gà thấy thế, kêu lên:Cục ta cục tác! Cho ta nắm thóc, ta bới xương cho!Tấm bốc nắm thóc ném cho gà. Gà chạy vào bếp bới một lúc thì thấy xương ngay. Tấm bèn nhặt lấy bỏ vào 4 cái lọ và đem chôn dưới chân giường như lời bụt dặn.Ít lâu sau nhà vua mở hội trong mấy đêm ngày. Trên các nẻo đường, già trẻ gái trai trong làng đều nô nức dập dìu tuôn về kinh như nước chảy. Hai mẹ con Cám cũng sắm sửa quần áo đẹp để đi trẩy hội. Thấy Tấm cũng muốn đi, mụ dì ghẻ nguýt dài, sau đó mụ lấy một đấu gạo trộn lẫn với một đấu thóc, bảo Tấm:Khi nào nhặt riêng gạo và thóc ra hai đấu thì mới được đi xem hội.Nói đoạn, hai mẹ con Cám xúng xính vận quần áo đẹp lên đường đi trảy hội. Tấm tủi thân òa lên khóc. Bụt lại hiện lên hỏi:Tại sao con khóc?Tấm chỉ vào cái thúng, thưa rằng:Thưa dì con bắt phải nhặt thóc ra thóc, gạo ra gạo, rồi mới được đi xem hội. Nhưng lúc nhặt xong thì hội đã tan mất rồi, chẳng còn gì để mà xem nữa ạ.Bụt bảo: “Thôi con đừng khóc nữa. Con mang cái thúng đặt ra giữa sân, để ta sai chim sẻ xuống nhặt giúp cho.Dạ… nhưng ngộ nhỡ chim sẻ ăn hết, thì khi về con sẽ bị đòn mất.Con cứ bảo chúng nó thế này:“Rặt rặt (con chim sẻ) xuống nhặt cho tao.Ăn mất hạt nào thì tao đánh cho.Thì chúng nó sẽ không ăn của con đâu.”Bụt vừa dứt lời, ở trên không có một đàn chim sẻ đáp xuống sân nhặt thóc ra một bên, gạo ra một bên.Chúng lăng xăng ríu rít, chỉ trong chốc lát đã nhặt xong, không vơi một hạt nào. Nhưng khi gạo đã nhặt xong, bầy chim sẻ bay đi rồi, Tấm lại nức nở khóc. Bụt lại hiện lên bảo:Nguyên do vì sao con lại khóc?Dạ nhìn con rách rưới quá, sợ rằng người ta không cho con vào xem hội.Con hãy đào những cái lọ xương bống đã chôn ngày trước lên thì sẽ có đủ những thứ con cần để con đi trẩy hội.Tấm vâng lời, đi đào các lọ lên. Tấm đào lọ thứ nhất thấy toàn quần áo đẹp, lọ thứ hai lấy ra được một đôi hài thêu hoa, lọ thứ ba thì thấy có một con ngựa bé tí, nhưng vừa đặt con ngựa xuống đất bỗng chốc nó đã hí vang lên và biến thành ngựa thật. Đào đến lọ cuối cùng thì Tấm lấy ra được một bộ yên cương xinh xắn.Tấm mừng quá vội tắm rửa rồi mặc quần áo mới vào. Trong phút chốc Tấm trở nên xinh đẹp, cưỡi lên lưng ngựa phóng như bay đến kinh thành. Nhưng khi ngựa phi qua một cây cầu đá để vào thành, chiếc hài của Tấm bỗng tuột khỏi chân rơi xuống nước, không kịp nhặt. Khi ngựa dừng lại ở trong hội, Tấm lấy khăn gói chiếc giầy còn lại rồi chen vào biển người.Khi đoàn xa giá chở vua đi đến chân cầu. Hai con voi ngự dẫn đầu đoàn bỗng nhiên cắm ngà xuống đất kêu rống lên, không chịu đi qua cầu. Vua thấy vậy, bèn sai quân lính tìm kiếm xung quanh xem có gì lạ không,quân lính lập tức bủa vây tìm kiếm, phát hiện trên mặt nước có một chiếc hài thiêu hoa, họ liền vớt lên trình cho Vua xem. Vua ngắm nghía chiếc hài hồi lâu không chán và tấm tắc khen: “Chiếc hài này quả thật tinh xảo,lần đầu tiên Trẫm mới nhìn thấy một chiếc hài đẹp sắc xảo đến vậy! Người đi chiếc hài này chắc hẳn phải là trang tuyệt sắc”.`,
+        chapterDescription: `Ngày xửa ngày xưa,</br> \n có hai chị em cùng cha khác mẹ, chị tên là Tấm, em tên là Cám. Mẹ Tấm mất sớm, sau đó mấy năm cha Tấm cũng qua đời, Tấm ở với dì ghẻ là mẹ Cám. Bà mẹ kế này rất cay nghiệt, bắt Tấm phải làm hết mọi việc nặng nhọc từ việc nhà đến việc chăn trâu cắt cỏ. Trong khi đó Cám được nuông chiều không phải làm gì cả.Một hôm bà ta cho hai chị em mỗi người một cái giỏ bảo ra đồng xúc tép, còn hứa “Hễ đứa nào bắt được đầy giỏ thì thưởng cho một cái yếm đỏ”. Ra đồng, Tấm chăm chỉ bắt được đầy giỏ, còn Cám thì mải chơi nên chẳng bắt được gì. Thấy Tấm bắt được một giỏ đầy, Cám bảo chị :Chị Tấm ơi, chị Tấm! Đầu chị lấm, chị hụp cho sâu, kẻo về mẹ mắngTin là thật, Tấm bèn xuống ao lội ra chỗ sâu tắm rửa. Cám thừa dịp trút hết tép của Tấm vào giỏ của mình rồi ba chân bốn cẳng về trước. Lúc Tấm bước lên chỉ còn giỏ không, bèn ngồi xuống bưng mặt khóc hu hu.Nghe tiếng khóc của Tấm, Bụt liền hiện lên hỏi:Vì sao con khóc?Tấm kể lại hết sự tình cho Bụt nghe, Bụt bảo:Thôi con hãy nín đi! Con thử nhìn vào trong giỏ xem còn gì nữa không?Tấm nhìn vào giỏ rồi nói:Dạ chỉ còn một con cá bống.Bụt dặn dò Tấm:Con đem con cá bống ấy về thả xuống giếng mà nuôi. Mỗi bữa, con mang cho bống một ít cơm. Mỗi lần cho ăn con nhớ gọi thế này:“Bống bống bang bang.Lên ăn cơm vàng cơm bạc nhà ta.Chớ ăn cơm hẩm cháo hoa nhà người”.Không gọi đúng như thế thì nó không lên, con nhớ lấy!Nói xong Bụt biến mất. Tấm về nhà làm theo lời dặn của Bụt, thả bống xuống giếng. Rồi từ hôm ấy trở đi, cứ mỗi bữa ăn, Tấm đều để dành cơm, giấu đem ra cho bống. Mỗi lần nghe Tấm gọi, bống lại ngoi lên mặt nước đớp từng hạt cơm mà Tấm ném xuống. Người và cá ngày một quen nhau, bống ngày càng lớn lên trông thấy.Thấy Tấm thường mang cơm ra giếng, mụ dì ghẻ sinh nghi, bèn sai Cám đi rình. Cám nấp ở bụi cây gần bờ giếng nghe Tấm gọi bống, bèn nhẩm thuộc rồi về kể lại cho mẹ nghe. Tối hôm ấy mụ dì ghẻ lấy giọng ngọt ngào bảo với Tấm:Con ơi con! Làng đã bắt đầu cấm đồng rồi đấy. Mai con đi chăn trâu, phải chăn đồng xa, chớ chăn đồng nhà, làng bắt mất trâu.Tấm vâng lời, sáng hôm sau đưa trâu đi ăn thật xa. Ở nhà, mẹ con Cám mang bát cơm ra giếng, cũng gọi y như Tấm gọi. Bống vừa ngoi lên mặt nước, mẹ Cám đã chực sẵn, bắt lấy bống đem về nhà làm thịt ăn.Đến chiều Tấm dắt trâu về, sau khi ăn xong Tấm lại mang cơm ra giếng, Tấm gọi nhưng chả thấy bống ngoi lên như mọi khi. Tấm gọi mãi, gọi mãi, cuối cùng chỉ thấy một cục máu nổi lên mặt nước. Biết là có chuyện chẳng lành, Tấm òa lên khóc. Bụt lại hiện lên hỏi:Tại sao con lại khóc?Tấm kể sự tình cho Bụt nghe, Bụt bảo:Con bống của con, người ta đã ăn thịt mất rồi. Thôi con hãy nín đi! Rồi về nhặt xương nó, kiếm 4 cái lọ bỏ vào, đem chôn xuống dưới 4 chân giường con nằm.Tấm trở về theo lời Bụt đi tìm xương bống, nhưng tìm mãi các xó vườn góc sân mà không thấy đâu cả. Một con gà thấy thế, kêu lên:Cục ta cục tác! Cho ta nắm thóc, ta bới xương cho!Tấm bốc nắm thóc ném cho gà. Gà chạy vào bếp bới một lúc thì thấy xương ngay. Tấm bèn nhặt lấy bỏ vào 4 cái lọ và đem chôn dưới chân giường như lời bụt dặn.Ít lâu sau nhà vua mở hội trong mấy đêm ngày. Trên các nẻo đường, già trẻ gái trai trong làng đều nô nức dập dìu tuôn về kinh như nước chảy. Hai mẹ con Cám cũng sắm sửa quần áo đẹp để đi trẩy hội. Thấy Tấm cũng muốn đi, mụ dì ghẻ nguýt dài, sau đó mụ lấy một đấu gạo trộn lẫn với một đấu thóc, bảo Tấm:Khi nào nhặt riêng gạo và thóc ra hai đấu thì mới được đi xem hội.Nói đoạn, hai mẹ con Cám xúng xính vận quần áo đẹp lên đường đi trảy hội. Tấm tủi thân òa lên khóc. Bụt lại hiện lên hỏi:Tại sao con khóc?Tấm chỉ vào cái thúng, thưa rằng:Thưa dì con bắt phải nhặt thóc ra thóc, gạo ra gạo, rồi mới được đi xem hội. Nhưng lúc nhặt xong thì hội đã tan mất rồi, chẳng còn gì để mà xem nữa ạ.Bụt bảo: “Thôi con đừng khóc nữa. Con mang cái thúng đặt ra giữa sân, để ta sai chim sẻ xuống nhặt giúp cho.Dạ… nhưng ngộ nhỡ chim sẻ ăn hết, thì khi về con sẽ bị đòn mất.Con cứ bảo chúng nó thế này:“Rặt rặt (con chim sẻ) xuống nhặt cho tao.Ăn mất hạt nào thì tao đánh cho.Thì chúng nó sẽ không ăn của con đâu.”Bụt vừa dứt lời, ở trên không có một đàn chim sẻ đáp xuống sân nhặt thóc ra một bên, gạo ra một bên.Chúng lăng xăng ríu rít, chỉ trong chốc lát đã nhặt xong, không vơi một hạt nào. Nhưng khi gạo đã nhặt xong, bầy chim sẻ bay đi rồi, Tấm lại nức nở khóc. Bụt lại hiện lên bảo:Nguyên do vì sao con lại khóc?Dạ nhìn con rách rưới quá, sợ rằng người ta không cho con vào xem hội.Con hãy đào những cái lọ xương bống đã chôn ngày trước lên thì sẽ có đủ những thứ con cần để con đi trẩy hội.Tấm vâng lời, đi đào các lọ lên. Tấm đào lọ thứ nhất thấy toàn quần áo đẹp, lọ thứ hai lấy ra được một đôi hài thêu hoa, lọ thứ ba thì thấy có một con ngựa bé tí, nhưng vừa đặt con ngựa xuống đất bỗng chốc nó đã hí vang lên và biến thành ngựa thật. Đào đến lọ cuối cùng thì Tấm lấy ra được một bộ yên cương xinh xắn.Tấm mừng quá vội tắm rửa rồi mặc quần áo mới vào. Trong phút chốc Tấm trở nên xinh đẹp, cưỡi lên lưng ngựa phóng như bay đến kinh thành. Nhưng khi ngựa phi qua một cây cầu đá để vào thành, chiếc hài của Tấm bỗng tuột khỏi chân rơi xuống nước, không kịp nhặt. Khi ngựa dừng lại ở trong hội, Tấm lấy khăn gói chiếc giầy còn lại rồi chen vào biển người.Khi đoàn xa giá chở vua đi đến chân cầu. Hai con voi ngự dẫn đầu đoàn bỗng nhiên cắm ngà xuống đất kêu rống lên, không chịu đi qua cầu. Vua thấy vậy, bèn sai quân lính tìm kiếm xung quanh xem có gì lạ không,quân lính lập tức bủa vây tìm kiếm, phát hiện trên mặt nước có một chiếc hài thiêu hoa, họ liền vớt lên trình cho Vua xem. Vua ngắm nghía chiếc hài hồi lâu không chán và tấm tắc khen: “Chiếc hài này quả thật tinh xảo,lần đầu tiên Trẫm mới nhìn thấy một chiếc hài đẹp sắc xảo đến vậy! Người đi chiếc hài này chắc hẳn phải là trang tuyệt sắc”.`,
         chapterDatePosted: "2 ngày trước",
 
       },
@@ -42,7 +42,7 @@ const storiesData = [
       {
         iduser: 2,
         userName: "Hùng",
-        userComment:"Cuộc sống",
+        userComment: "Cuộc sống",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
         commentTime: "2 giờ trước"
       }
@@ -61,10 +61,10 @@ const storiesData = [
     favourite: true,
     history: false,
     favorites: "225",
-    Numberofreviews:"545454",
+    Numberofreviews: "545454",
     Ratings: "4.5/5",
     imgUrl: "https://st.nettruyenus.com/data/comics/32/vo-luyen-dinh-phong.jpg",
-    img:"https://thuvienanime.com/wp-content/uploads/2021/11/duong-khai-thuvienanime.jpeg",
+    img: "https://thuvienanime.com/wp-content/uploads/2021/11/duong-khai-thuvienanime.jpeg",
     chapters: [
       {
         chapterNumber: 1,
@@ -95,19 +95,19 @@ const storiesData = [
       {
         iduser: 1,
         userName: "Ánh",
-        userComment:"Truyện cũng được",
+        userComment: "Truyện cũng được",
         avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
       },
       {
         iduser: 2,
         userName: "Trang",
-        userComment:"Truyện hay nên đọc",
+        userComment: "Truyện hay nên đọc",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
       },
       {
         iduser: 3,
         userName: "Nhung",
-        userComment:"Top 1",
+        userComment: "Top 1",
         avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
       },
     ],
@@ -125,10 +125,10 @@ const storiesData = [
     favourite: false,
     history: true,
     favorites: "242",
-    Numberofreviews:"54822",
+    Numberofreviews: "54822",
     Ratings: "4.5/5",
     imgUrl: "https://kenosa.vn/app_images/product/2016/7/7/su-tich-chu-cuoi-cung-trang-truyen-tranh-co-tich-86416-500-86416.jpg",
-    img:"https://i.ytimg.com/vi/Oxd8YS9rTGw/maxresdefault.jpg",
+    img: "https://i.ytimg.com/vi/Oxd8YS9rTGw/maxresdefault.jpg",
     chapters: [
       {
         chapterNumber: 1,
@@ -141,19 +141,19 @@ const storiesData = [
       {
         iduser: 1,
         userName: "Quang",
-        userComment:"Truyện được",
+        userComment: "Truyện được",
         avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
       },
       {
         iduser: 2,
         userName: "Hoàng",
-        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        userComment: "Cuộc sống thường ngày của nghệ sĩ",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
       },
       {
         iduser: 3,
         userName: "Hân",
-        userComment:"Tuyệt",
+        userComment: "Tuyệt",
         avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
       }
     ],
@@ -171,10 +171,10 @@ const storiesData = [
     favourite: false,
     history: true,
     favorites: "952",
-    Numberofreviews:"89252",
+    Numberofreviews: "89252",
     Ratings: "4.5/5",
     imgUrl: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiL7i43fNMQoaU7nPGJAlrWznVnbuN9sV2gQ9FkSo98Bc6P1QHzanzadHmzun0or0TIsX-jJfdyWzERtkHZjZadDbJbrX0lfsOzMUeBYWkaxiwD8OHck8utt29uPAEcOD34o3bSHu_isd0Zmnl6LZ1ybsaD32aj04g0UYLOzYnbVnSgDpYR137nz3Z1qA/s2000/undead-unluck_poster2.jpg",
-    img:"https://i2.wp.com/aiptcomics.com/wp-content/uploads/2021/04/Undead-Unluck-Vol.-01-Header.png?fit=1400%2C732&ssl=1",
+    img: "https://i2.wp.com/aiptcomics.com/wp-content/uploads/2021/04/Undead-Unluck-Vol.-01-Header.png?fit=1400%2C732&ssl=1",
     chapters: [
       {
         chapterNumber: 1,
@@ -199,24 +199,24 @@ const storiesData = [
       {
         iduser: 1,
         userName: "Quang",
-        userComment:"Truyện không hay",
+        userComment: "Truyện không hay",
         avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
       },
       {
         iduser: 2,
         userName: "Ngọc Quang",
-        userComment:"Hay",
+        userComment: "Hay",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
       },
       {
         iduser: 3,
         userName: "Quang",
-        userComment:"Haha",
+        userComment: "Haha",
         avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
       },
     ],
   },
-  
+
   {
     id: 5,
     title: "Tình cờ",
@@ -230,10 +230,10 @@ const storiesData = [
     favourite: true,
     history: true,
     favorites: "587",
-    Numberofreviews:"87212",
+    Numberofreviews: "87212",
     Ratings: "4.5/5",
     imgUrl: "https://yymedia.codeprime.net/media/fb_img/e626839642.jpg",
-    img:"https://i.ytimg.com/vi/DPl2HuzYcYg/maxresdefault.jpg",
+    img: "https://i.ytimg.com/vi/DPl2HuzYcYg/maxresdefault.jpg",
     chapters: [
       {
         chapterNumber: 1,
@@ -252,13 +252,13 @@ const storiesData = [
       {
         iduser: 1,
         userName: "Hiển",
-        userComment:"Truyện cũng tạm tạm",
+        userComment: "Truyện cũng tạm tạm",
         avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
       },
       {
         iduser: 2,
         userName: "Hưng",
-        userComment:"Quá tuyệt",
+        userComment: "Quá tuyệt",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
       }
     ],
@@ -276,10 +276,10 @@ const storiesData = [
     user: "Nam",
     history: true,
     favorites: "1,022",
-    Numberofreviews:"74512",
+    Numberofreviews: "74512",
     Ratings: "4.5/5",
     imgUrl: "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/cay_khe___truyen_co_tich_viet_nam/2020_06_01_11_45_38_1-390x510.JPG",
-    img:"https://i.ytimg.com/vi/ZDY1Tln-2PY/maxresdefault.jpg",
+    img: "https://i.ytimg.com/vi/ZDY1Tln-2PY/maxresdefault.jpg",
     chapters: [
       {
         chapterNumber: 1,
@@ -292,13 +292,13 @@ const storiesData = [
       {
         iduser: 1,
         userName: "Nam",
-        userComment:"Truyện cũng được",
+        userComment: "Truyện cũng được",
         avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
       },
       {
         iduser: 2,
         userName: "Huy",
-        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        userComment: "Cuộc sống thường ngày của nghệ sĩ",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
       }
     ],
@@ -316,10 +316,10 @@ const storiesData = [
     favourite: true,
     history: false,
     favorites: "789",
-    Numberofreviews:"8752",
+    Numberofreviews: "8752",
     Ratings: "4.5/5",
     imgUrl: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGv_NyKIec-grSk7BaDr2zfpx1SOKhQ3pwT0-UtXjtMZ8hamTHefThTMSNY7Z3ogfG73ryTNV37q-GvmixCXY6cqKfFZ2d0cbTGP-6bQkyn84AemlcRQi88pmrFNxPfvthaEjBs69ATOJ0mJHTgLPfzy2yF4o_h0ASPi9w71aDRwvdR5pNl5oyCitMsw/s772/4905f91632b03ca914f3f0763bb93c03.jpg",
-    img:"https://media.voocdn.com/media/image/id/64132defacc399a23b8b4609_720x",
+    img: "https://media.voocdn.com/media/image/id/64132defacc399a23b8b4609_720x",
     chapters: [
       {
         chapterNumber: 1,
@@ -345,25 +345,25 @@ const storiesData = [
         chapterDescription: "Lâm Giai Thụy không bị thương nặng, mấy ngày sau đã được ra viện. Hôm ra viện, hắn mới chợt nhớ ra còn một người nữa trong vụ tai nạn xe lần này. Mặc dù không cảm thấy nợ Lương Cẩn cái gì, tai nạn xe cũng là do gã trói mình đi theo tạo thành, nhưng dù sao người này cũng đã từng là bạn bè, đi xem gã thế nào cũng không có gì quá đáng. Thế là trong lúc Long Hoằng Văn làm thủ tục ra viện, hắn hỏi phòng bệnh của Lương Cẩn rồi đi qua đó.Phòng bệnh không có ai, khi Lâm Giai Thụy đẩy cửa đi vào thì Lương Cẩn đã tỉnh, trên đầu băng một lớp vải dày, một chút máu bị thấm ra. Gã thẫn thờ nhìn trần nhà, ánh mắt rời rạc, dường như đang suy nghĩ điều gì, toàn thân tản ra hơi thở tuyệt vọng.Lâm Giai Thụy ngồi xuống bên cạnh gã, gọi một tiếng: “Lương Cẩn.”Lúc này Lương Cẩn mới phản ứng lại, quay sang nhìn Lâm Giai Thụy, ánh mắt có hồn hơn, gã giãy dụa, kéo tay Lâm Giai Thụy lại cầm chặt, mắt đỏ ửng, giọng nghẹn ngào: “Anh không sao.”Lâm Giai Thụy gật đầu, định rút tay về, nhưng không biết Lương Cẩn lấy sức ở đâu ra, giữ chặt đến mức khiến hắn không rút ra được, anh đành phải nhấc cánh tay trái bị thương lên nói: “Trừ tay trái bị thương nhẹ ra thì đều ổn cả.”Lương Cẩn nhìn tay trái của hắn, áy náy nói: “Xin lỗi, làm anh chịu khổ rồi.”Lâm Giai Thụy hơi kinh ngạc, thì là thiếu gia này cũng biết nói xin lỗi, hắn nhướng mày, cười châm biếm: “Ô, thì ra anh cũng biết nói xin lỗi.”Lương Cẩn cúi đầu nở một nụ cười khó coi: “Vậy sao? Hình như đúng thế thật. Cho đến giờ cũng chỉ có người khác xin lỗi tôi, còn tôi đã khi nào phải xin lỗi người ta đâu…” Gã ngẩng đầu, mắt sáng rỡ, kiên định nói: “Nhưng anh không phải người khác, nếu xin lỗi có thể được ở bên anh, mỗi ngày nói một vạn lần tôi cũng chấp nhận.”Lâm Giai Thụy rút mạnh tay về, lạnh mặt: “Tôi tới thăm anh là để nói rõ với anh, không thể. Một là vì tôi không thích bị người khác bám riết, hai là…Anh đã phá hủy sự nghiệp tôi yêu thích nhất, không ai lại biết ơn kẻ vu oan nhân cách và sự nghiệp của mình, đẩy mình ra cho công chúng phỉ nhổ.”Lương Cẩn lấy tay che mắt, cười thê lương: “Ha ha, quả nhiên là tôi tự đẩy anh ra xa. Được. Tôi không có gì oán trách! Không có được anh là do tôi không may, không có số được ở bên anh.”Lâm Giai Thụy lẳng lặng nhìn gã, hơi nghi ngờ lời gã nói ra. Nếu gã dễ dàng buông tha như vậy thì đã không xảy ra nhiều chuyện đến thế.Quả nhiên Lương Cẩn buông tay, ánh mắt vẫn mang theo ngọn lửa quen thuộc: “Nhưng tôi không từ bỏ! Sẽ không từ bỏ!”Lâm Giai Thụy ôm đầu: “Anh có biết là anh mang đến bao nhiêu phiền toái cho cuộc sống của tôi không! Tôi chỉ muốn yên ổn sống hết cả đời này… Anh hủy hoại sự nghiệp của tôi, nhưng anh không thể hủy hoại cuộc đời tôi! Lương Cẩn! Tỉnh táo lại đi! Yêu một người là như thế này sao! Cướp đoạt tất cả của người ấy chính là yêu?”Lương Cẩn lại trừng đôi mắt đỏ rực, luống cuống, hốt hoảng ôm chầm Lâm Giai Thụy, giọng nói đã có tiếng khóc nức nở: “Không phải, không phải thế! Tôi chỉ muốn giữ anh ở bên cạnh…”Lâm Giai Thụy thở dài đẩy gã ra, khó hiểu nói: “Tôi không biết yêu một người là như thế nào. Tôi chỉ biết anh đã hủy đi sự nghiệp của tôi, điều mà mẹ tôi tự hào nhất…Mùa thu năm ấy bà qua đời, trước khi ra đi điều khiến bà lo lắng nhất đó là tôi vẫn chưa ổn định cuộc sống, nhưng bà tự hào vì những thành tựu tôi đạt được trong lĩnh vực của mình. Rồi mùa thu năm đó, anh phá hủy tất cả, giẫm nát lòng tự trọng và nhân cách của tôi. Tôi không thể quên được chuyện này. Vì vậy sau này cách xa tôi ra. Cũng không cần giữ mãi thứ tình cảm vô vọng này nữa.” Nói xong liền đứng dậy rời đi, mặc cho người phía sau la hét thế nào cũng không ngoảnh đầu lại. Hắn nhớ tới vẻ lo âu khi mẹ tiễn mình đi xa, nhớ tới vẻ tự hào khi biết mình đạt được thành tựu, nhưng chung quy không thể quay lại được nữa…Lương Cẩn ngây dại, đến nước mắt cũng ngừng chảy, cảm thấy thân thể như bị rạch thủng một lỗ, máu khắp người chảy qua lỗ hổng đó, chảy đến khi mình chỉ còn lại một cái thây khô máu, không có tư duy, không có linh hồn. Gã nghĩ hẳn là mình sẽ rất đau, nhưng ngay cả tri giác cũng không có, gã nghĩ mình hẳn phải khóc thất thanh, người mình yêu nhất nói cả đời này bọn họ cũng không có khả năng, bảo mình cách xa ra…Nhưng đến sức lực để đau khổ cũng mất hết. Gã chỉ có thể nằm trên giường bệnh, xơ xác như thây khô, ánh mắt đờ đẫn nhìn lên trần nhà, cảm tưởng như mình đã chết…Long Hoằng Văn làm xong thủ tục xuất viện trở về không thầy Lâm Giai Thụy, đang lo lắng thì thấy Lâm Giai Thụy đi đến.Anh vội vàng đi tới kiểm tra Lâm Giai Thụy từ trên xuống dưới, chỉ sợ lại sứt mẻ chỗ nào. Lâm Giai Thụy nhìn dáng vẻ bồn chồn của anh, bỗng nảy ra ý đùa giỡn, mềm oặt người, giả vờ yếu ớt nói: “Ban nãy vào nhà vệ sinh đụng phải người ta, chân đau, váng đầu…”Long Hoằng Văn thấy Lâm Giai Thụy mềm nhũn người, lập tức biến sắc, ôm hắn đưa lên giường bệnh, nhíu mày hỏi: “Sao lại đau? Không được, anh phải đi làm thủ tục nhập viện thôi, đợi khi nào khỏe hẳn thì ra viện, nhé?”Lâm Giai Thụy bật cười, đúng là rõ ngốc, mình giả vờ rõ ràng như vậy mà cũng không nhìn ra. Thế là vừa cười vừa nói: “Lừa anh thôi! Đồ ngốc này! Thu dọn về nhà!”Long Hoằng Văn nghe Lâm Giai Thụy nói lừa mình thì lập tức thở phào, sau lại nghe hắn nói “Về nhà” lại càng vui vẻ – Tiểu Thụy gọi nơi bọn họ chung sống là “nhà”… Nhưng anh vẫn kiểm tra Lâm Giai Thụy một lượt từ trên xuống dưới, thấy hắn không sao mới yên tâm thu dọn hành lý về nhà.Đợi Lâm Giai Thụy khỏi hẳn cũng đã qua một khoảng thời gian. Trong khoảng thời gian này, Lương Cẩn không đến làm phiền, chắc là nghĩ thông rồi. Lâm Giai Thụy nằm trong lòng Long Hoằng Văn, há miệng ăn táo Long Hoằng Văn đút cho. Hắn híp mắt, tựa như chú mèo ngủ lười, ngáp dài một cái.Long Hoằng Văn hôn chụt một cái lên môi cậu, dịu dàng hỏi: “Sao vậy? Mệt à? Có muốn đi ngủ một lát không, ngủ dậy là có cơm ăn.”Lâm Giai Thụy lắc lắc đầu, ôm chặt eo Long Hoằng Văn, cọ cọ như làm nũng, từ lúc ở cùng người này, từng phút từng giây, hắn đều cảm nhận được sự quan tâm chăm sóc của anh, được hưởng thụ cảm giác gia đình. Hắn không phải thần tiên, không thể phủ nhận rằng hắn đã có một chút xíu động lòng. Điều đó chứng tỏ cuộc sống vốn cân bằng từ trước đến nay của hắn đã bị người này phá vỡ, đồng thời chiếm một vị trí không nhỏ trong đó. Nhưng lòng người khó lường, trước kia mẹ và tên khốn kia chẳng phải cũng từng mặn nồng thắm thiết? Cuối cùng lại trở thành một trò cười hoang đường, làm người ta đau thương tột cùng. Hắn xoa xoa ngực Long Hoằng Văn, bên dưới là trái tim ấm áp đang đập, hắn nói: “Đi gặp mẹ cùng em đi. Em muốn bà yên lòng. Nhưng nếu ngày nào đó anh phản bội em… Hừ.” Lâm Giai Thụy cười gằn, trên khuôn mặt là vẻ lạnh lùng đến đáng sợ: “Tuy em rất thích cảm giác gia đình mà anh mang lại, nhưng anh muốn đi em sẽ không cản, tốt nhất đi thì đi luôn, coi như chưa từng gặp nhau.”Long Hoằng Văn nghe nửa câu trước, tâm trạng rất xúc động, nhưng nghe nốt nửa câu sau thì không khỏi căng thẳng, ôm chặt người trong ngực, nghiêm túc nói: “Sẽ không có ngày nào như vậy. Anh biết hứa hẹn đối với em chẳng khác gì cuộn phim đen trắng, không có tác dụng gì cả, nhưng anh sẽ dùng thời gian chứng minh. Tiểu Thụy, hãy tin anh.”Lâm Giai Thụy không nói gì, chỉ ngẩng đầu, vươn tay ôm cổ anh, sau đó hôn lên. Nụ hôn này kéo dài mãi không dứt, khi hai người tách nhau ra, hơi thở đã hơn dồn dập. Nhìn nhau mỉm cười, Long Hoằng Văn ngượng ngùng móc ra mấy chai bôi trơn dưới ghế sofa đưa cho Lâm Giai Thụy, Lâm Giai Thụy hơi ngạc nhiên: “Sao ở đây cũng có thứ này…”Long Hoằng Văn xấu hổ ngoảnh mặt đi: “…Tiện mà.”Lâm Giai Thụy mỉm cười, hiếm khi thấy người này xấu hổ đến vậy. Bình thường toàn ra vẻ ta đây cứng cỏi. Tư thế lúc nào cũng là cưỡi ngồi, chắc là thích cảm giác kiểm soát của người trên ha? Nhưng cũng đã đến lúc anh phải đối diện với sự thật, hiểu rõ ai mới là “người trên” thực sự…Lâm Giai Thụy cười khẩy, nhận lấy dầu bôi trơn, bóp một ít ra tay định mò ra phía sau Long Hoằng Văn. Long Hoằng Văn đỏ mặt, tương đối kích động – Tiểu Thụy hiếm khi chủ động làm chuyện này, đêm nay liệu có coi là đột phá? Anh gấp gáp hôn lên môi người bên trên, bỏ qua chuyện thân thể cao to của mình nằm trên sofa không được thoải mái.Lâm Giai Thụy tiếp nhận nụ hôn nồng nhiệt và động tác xoa nắn mạnh bạo của anh, ngón tay vẫn không ngừng mở rộng cửa sau của Long Hoằng Văn, đã tăng lên ba ngón. Long Hoằng Văn thở dốc khó nhịn, nhưng Lâm Giai Thụy vẫn chậm chạp không tiến vào, anh đành phải luồn tay vào trong quần Lâm Giai Thụy… Chợt phát hiện nơi đó vẫn nửa mềm, thực sự là đả kích lớn đối với anh. Mình thì sớm đã dục hỏa thiêu đốt, gấp không chịu nổi, thân dưới cũng căng trướng đến phát đau, vậy mà còn chưa được vuốt ve thỏa mãn. Anh không chờ được nữa, thế là trở mình một cái, Lâm Giai Thụy bị đảo xuống dưới. Mắt Long Hoằng Văn đã bị dục hỏa che lấp, lòng chỉ muốn nuốt trọn người dưới thân vào bụng, nhưng nghĩ nằm ở sofa không thoải mái lắm, vậy là bế Lâm Giai Thụy đi vào phòng ngủ.Lâm Giai Thụy bị lật còn đang ê hết cả mông, giờ lại bị bế đi, hắn hơi buồn bực, mình gầy thì gầy thật, nhưng không đến mức dễ dàng bị chuyển tới chuyển lui như vậy chứ, hơn nữa bình thường Long Hoằng Văn cũng thích ôm hắn đi đi lại lại như vậy, hoàn toàn coi hắn là búp bê sứ rồi… Hắn giãy dụa một chút, nhưng vô tình nhìn thấy ánh mắt nóng bỏng như muốn ăn thịt người của Long Hoằng Văn, liền ngại ngùng rút tay về, vì sao hắn lại có dự cảm “tinh tẫn nhân vong” nhỉ… Ánh mắt này… thật đáng sợ…Trước đây ôm tâm trạng đau khổ làm chuyện đó với Lâm Giai Thụy có lẽ không trông chờ gì vào tương lai, sau đó trải qua một lần suýt mất đi, cuối cùng nhận được sự chấp thuận của Lâm Giai Thụy. Anh tưởng chừng mình đang mơ, hôm qua vẫn là ảo tưởng hư vô mờ mịt, hôm nay mây đen bỗng nhiên tan biến, mặt trời ló rạng, trên trời còn rơi xuống một cái bánh lớn. Anh có cảm giác mình đang lơ lửng trên mây, một cảm giác rất không chân thực. Anh gấp gáp muốn chứng minh người trước mắt còn ở bên mình, còn hắn có yêu mình hay không đã không còn quan trọng nữa.",
         chapterDatePosted: "44 phút trước",
       },
-      
+
     ],
     comment: [
       {
         iduser: 1,
         userName: "Cảnh",
-        userComment:"Cảm xúc",
+        userComment: "Cảm xúc",
         avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
       },
       {
         iduser: 2,
         userName: "Hưng",
-        userComment:"Hay",
+        userComment: "Hay",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
       },
       {
         iduser: 3,
         userName: "Man",
-        userComment:"Truyện không hay",
+        userComment: "Truyện không hay",
         avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
       },
     ],
@@ -381,10 +381,10 @@ const storiesData = [
     favourite: true,
     history: false,
     favorites: "554",
-    Numberofreviews:"87130",
+    Numberofreviews: "87130",
     Ratings: "4.5/5",
     imgUrl: "https://xemsachhay.com/wp-content/uploads/2018/04/28694_35197.jpg",
-    img:"https://thegioicotich.vn/wp-content/uploads/2020/12/da-trang-xe-cat-bien-dong.jpg",
+    img: "https://thegioicotich.vn/wp-content/uploads/2020/12/da-trang-xe-cat-bien-dong.jpg",
     chapters: [
       {
         chapterNumber: 1,
@@ -403,25 +403,25 @@ const storiesData = [
       {
         iduser: 1,
         userName: "Tuấn",
-        userComment:"Truyện cũng được",
+        userComment: "Truyện cũng được",
         avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
       },
       {
         iduser: 2,
         userName: "Lùn",
-        userComment:"Được",
+        userComment: "Được",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
       },
       {
         iduser: 3,
         userName: "Cao",
-        userComment:"Tạm",
+        userComment: "Tạm",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
       },
       {
         iduser: 4,
         userName: "Thấp",
-        userComment:"Được",
+        userComment: "Được",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
       }
     ],
@@ -439,10 +439,10 @@ const storiesData = [
     favourite: false,
     history: false,
     favorites: "659",
-    Numberofreviews:"5323",
+    Numberofreviews: "5323",
     Ratings: "4.5/5",
     imgUrl: "https://salt.tikicdn.com/cache/w1200/media/catalog/product/i/m/img764_2.jpg",
-    img:"https://thegioicotich.vn/wp-content/uploads/2010/11/cay-tre-tram-dot.png",
+    img: "https://thegioicotich.vn/wp-content/uploads/2010/11/cay-tre-tram-dot.png",
     chapters: [
       {
         chapterNumber: 1,
@@ -455,13 +455,13 @@ const storiesData = [
       {
         iduser: 1,
         userName: "Hoàng",
-        userComment:"Truyện cũng được",
+        userComment: "Truyện cũng được",
         avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
       },
       {
         iduser: 2,
         userName: "Hùng",
-        userComment:"Nghệ",
+        userComment: "Nghệ",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
       }
     ],
@@ -479,10 +479,10 @@ const storiesData = [
     favourite: false,
     history: false,
     favorites: "954",
-    Numberofreviews:"95324",
+    Numberofreviews: "95324",
     Ratings: "4.5/5",
     imgUrl: "https://img.saostar.vn/w600/2017/11/05/1753793/poster_main2_nonlogo.jpg",
-    img:"https://thegioidienanh.vn/stores/news_dataimages/hath/112017/08/15/2346_Con_RYng_Chau_Tien.jpg",
+    img: "https://thegioidienanh.vn/stores/news_dataimages/hath/112017/08/15/2346_Con_RYng_Chau_Tien.jpg",
     chapters: [
       {
         chapterNumber: 1,
@@ -495,13 +495,13 @@ const storiesData = [
       {
         iduser: 1,
         userName: "Tuấn",
-        userComment:"Truyện cũng được",
+        userComment: "Truyện cũng được",
         avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
       },
       {
         iduser: 2,
         userName: "Hùng",
-        userComment:"Vỗ tay",
+        userComment: "Vỗ tay",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
       }
     ],
@@ -519,10 +519,10 @@ const storiesData = [
     favourite: true,
     history: false,
     favorites: "822",
-    Numberofreviews:"54230",
+    Numberofreviews: "54230",
     Ratings: "4.5/5",
     imgUrl: "https://yymedia.codeprime.net/media/ogimg/202206/933566716c.jpg",
-    img:"https://thuvienanime.com/wp-content/uploads/2023/04/dai-quan-gia-la-ma-hoang-thuvienanime-thumb.jpg",
+    img: "https://thuvienanime.com/wp-content/uploads/2023/04/dai-quan-gia-la-ma-hoang-thuvienanime-thumb.jpg",
     chapters: [
       {
         chapterNumber: 1,
@@ -535,18 +535,18 @@ const storiesData = [
       {
         iduser: 1,
         userName: "Lam",
-        userComment:"Truyện cũng được",
+        userComment: "Truyện cũng được",
         avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
       },
       {
         iduser: 2,
         userName: "Linh",
-        userComment:"Được được",
+        userComment: "Được được",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
       }
     ],
   },
-  
+
   {
     id: 12,
     title: "Ông công ông táo",
@@ -560,10 +560,10 @@ const storiesData = [
     favourite: false,
     history: false,
     favorites: "705",
-    Numberofreviews:"45458",
+    Numberofreviews: "45458",
     Ratings: "4.5/5",
     imgUrl: "https://cdn0.fahasa.com/media/catalog/product/i/m/image_178393.jpg",
-    img:"https://halotravel.vn/wp-content/uploads/2021/12/su-tich-ong-cong-ong-tao-ve-troi.jpg",
+    img: "https://halotravel.vn/wp-content/uploads/2021/12/su-tich-ong-cong-ong-tao-ve-troi.jpg",
     chapters: [
       {
         chapterNumber: 1,
@@ -576,13 +576,13 @@ const storiesData = [
       {
         iduser: 1,
         userName: "Minh",
-        userComment:"Đọc tạm",
+        userComment: "Đọc tạm",
         avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
       },
       {
         iduser: 2,
         userName: "Huyền",
-        userComment:"Không hay lắm",
+        userComment: "Không hay lắm",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
       }
     ],
@@ -600,10 +600,10 @@ const storiesData = [
     favourite: false,
     history: false,
     favorites: "122",
-    Numberofreviews:"86865",
+    Numberofreviews: "86865",
     Ratings: "4.5/5",
     imgUrl: "https://rapchieuphim.com/photos/8925/268163213_4675287362506402_2825456165037815081_n.jpg",
-    img:"https://bilutv.link/film/17994/big.jpg",
+    img: "https://bilutv.link/film/17994/big.jpg",
     chapters: [
       {
         chapterNumber: 1,
@@ -616,13 +616,13 @@ const storiesData = [
       {
         iduser: 1,
         userName: "Hiển",
-        userComment:"Nên đọc",
+        userComment: "Nên đọc",
         avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
       },
       {
         iduser: 2,
         userName: "Hùng",
-        userComment:"Đáng đọc",
+        userComment: "Đáng đọc",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
       }
     ],
@@ -640,10 +640,10 @@ const storiesData = [
     favourite: false,
     history: false,
     favorites: "254",
-    Numberofreviews:"685858",
+    Numberofreviews: "685858",
     Ratings: "4.5/5",
     imgUrl: "https://www.nae.vn/ttv/ttv/public/images/story/f336d4321f871ece8d3e41118bb1cbda9b2426b7d0b3629fdc6f053c05a33b64.jpg",
-    img:"https://i.ytimg.com/vi/NSH0GirJiVQ/maxresdefault.jpg",
+    img: "https://i.ytimg.com/vi/NSH0GirJiVQ/maxresdefault.jpg",
     chapters: [
       {
         chapterNumber: 1,
@@ -656,13 +656,13 @@ const storiesData = [
       {
         iduser: 1,
         userName: "Huy",
-        userComment:"Hay",
+        userComment: "Hay",
         avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
       },
       {
         iduser: 2,
         userName: "Hùng",
-        userComment:"Không hay",
+        userComment: "Không hay",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
       }
     ],
@@ -680,7 +680,7 @@ const storiesData = [
     favourite: false,
     history: false,
     favorites: "302",
-    Numberofreviews:"58577",
+    Numberofreviews: "58577",
     Ratings: "4.5/5",
     imgUrl: "https://www.enwallpaper.com/wp-content/uploads/2021/05/One-Punch-Man-Wallpapers-2-e1621157778598.jpg",
     img: "https://www.impulsegamer.com/articles/wp-content/uploads/2020/02/onepunchman1.jpg",
@@ -696,13 +696,13 @@ const storiesData = [
       {
         iduser: 1,
         userName: "Sang",
-        userComment:"Truyện cũng được",
+        userComment: "Truyện cũng được",
         avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
       },
       {
         iduser: 2,
         userName: "Hùng",
-        userComment:"hahahahahaa",
+        userComment: "hahahahahaa",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
       }
     ],
@@ -720,10 +720,10 @@ const storiesData = [
     favourite: false,
     history: false,
     favorites: "122",
-    Numberofreviews:"57577",
+    Numberofreviews: "57577",
     Ratings: "4.5/5",
     imgUrl: "https://ebooksphucminh.vn/wp-content/uploads/2021/08/sua-bia-con-nguoi-la-chua-muon-loai-691x1024.jpg",
-    img:"https://thegioicotich.vn/wp-content/uploads/2021/06/su-tich-nguoi-lam-chua-muon-loai.jpg",
+    img: "https://thegioicotich.vn/wp-content/uploads/2021/06/su-tich-nguoi-lam-chua-muon-loai.jpg",
     chapters: [
       {
         chapterNumber: 1,
@@ -736,13 +736,13 @@ const storiesData = [
       {
         iduser: 1,
         userName: "Sáng",
-        userComment:"Truyện cũng được",
+        userComment: "Truyện cũng được",
         avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
       },
       {
         iduser: 2,
         userName: "Tuấn",
-        userComment:"Tuyệt vời",
+        userComment: "Tuyệt vời",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
       }
     ],
@@ -760,10 +760,10 @@ const storiesData = [
     favourite: false,
     history: false,
     favorites: "102",
-    Numberofreviews:"86868",
+    Numberofreviews: "86868",
     Ratings: "4.5/5",
     imgUrl: "https://touchcinema.com/uploads/phim-2021/1200wx180ju0h-22-poster.jpg",
-    img:"https://www.elleman.vn/app/uploads/2022/04/16/213427/Jujutsu-Kaisen-0-elleman.jpg",
+    img: "https://www.elleman.vn/app/uploads/2022/04/16/213427/Jujutsu-Kaisen-0-elleman.jpg",
     chapters: [
       {
         chapterNumber: 1,
@@ -776,13 +776,13 @@ const storiesData = [
       {
         iduser: 1,
         userName: "Nam",
-        userComment:"Truyện cũng được",
+        userComment: "Truyện cũng được",
         avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
       },
       {
         iduser: 2,
         userName: "Phan",
-        userComment:"Hóng phần tiếp",
+        userComment: "Hóng phần tiếp",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
       }
     ],
@@ -800,10 +800,10 @@ const storiesData = [
     favourite: false,
     history: false,
     favorites: "400",
-    Numberofreviews:"88955",
+    Numberofreviews: "88955",
     Ratings: "4.5/5",
     imgUrl: "https://newshop.vn/public/uploads/products/20107/rua-va-tho-chay-thi-1.jpg",
-    img:"https://1.bp.blogspot.com/-6jlNtnIC4Y4/Xr4psuoZXZI/AAAAAAAAlY8/2UL9XZufDfMDQ-x7YA-VGTQiVFW-2zsaQCLcBGAsYHQ/s1600/Rua-va-Tho%2B%252812%2529.jpg",
+    img: "https://1.bp.blogspot.com/-6jlNtnIC4Y4/Xr4psuoZXZI/AAAAAAAAlY8/2UL9XZufDfMDQ-x7YA-VGTQiVFW-2zsaQCLcBGAsYHQ/s1600/Rua-va-Tho%2B%252812%2529.jpg",
     chapters: [
       {
         chapterNumber: 1,
@@ -816,13 +816,13 @@ const storiesData = [
       {
         iduser: 1,
         userName: "Tiên",
-        userComment:"Được",
+        userComment: "Được",
         avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
       },
       {
         iduser: 2,
         userName: "Hoàng",
-        userComment:"Bao giờ ra phần tiếp",
+        userComment: "Bao giờ ra phần tiếp",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
       }
     ],
@@ -840,10 +840,10 @@ const storiesData = [
     favourite: false,
     history: false,
     favorites: "3,200",
-    Numberofreviews:"454578",
+    Numberofreviews: "454578",
     Ratings: "4.5/5",
     imgUrl: "https://chuuniotaku.com/wp-content/uploads/2021/02/battle-through-the-heavens-banner-manhua.jpg",
-    img:"https://i.pinimg.com/originals/bf/dc/94/bfdc94fa4ff7ae22dc74db98d7955296.png",
+    img: "https://i.pinimg.com/originals/bf/dc/94/bfdc94fa4ff7ae22dc74db98d7955296.png",
     chapters: [
       {
         chapterNumber: 1,
@@ -856,13 +856,13 @@ const storiesData = [
       {
         iduser: 1,
         userName: "Không tên",
-        userComment:"Truyện cũng được",
+        userComment: "Truyện cũng được",
         avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
       },
       {
         iduser: 2,
         userName: "Có tên",
-        userComment:"Chờ đợi",
+        userComment: "Chờ đợi",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
       }
     ],
@@ -880,10 +880,10 @@ const storiesData = [
     favourite: false,
     favorites: "1,400",
     history: false,
-    Numberofreviews:"57447",
+    Numberofreviews: "57447",
     Ratings: "4.5/5",
     imgUrl: "https://i.pinimg.com/originals/f8/77/15/f8771575f6470867ecdfb95f63b1ac0d.jpg",
-    img:"https://media.nichegamer.com/wp-content/uploads/2018/05/31235154/srwx_banner.jpg",
+    img: "https://media.nichegamer.com/wp-content/uploads/2018/05/31235154/srwx_banner.jpg",
     chapters: [
       {
         chapterNumber: 1,
@@ -896,13 +896,13 @@ const storiesData = [
       {
         iduser: 1,
         userName: "Hiiii",
-        userComment:"Truyện cũng được",
+        userComment: "Truyện cũng được",
         avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
       },
       {
         iduser: 2,
         userName: "Haaa",
-        userComment:"Lâu ra tiếp thế",
+        userComment: "Lâu ra tiếp thế",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
       }
     ],
@@ -920,10 +920,10 @@ const storiesData = [
     favourite: false,
     history: false,
     favorites: "1,520",
-    Numberofreviews:"52223",
+    Numberofreviews: "52223",
     Ratings: "4.5/5",
     imgUrl: "https://truyenz.info/wp-content/uploads/2019/07/Naruto-Full-Color-Edition-Truyenz.info_.jpg",
-    img:"https://img.thuthuatphanmem.vn/uploads/2018/09/20/anh-naruto-truyen_105003397.jpg",
+    img: "https://img.thuthuatphanmem.vn/uploads/2018/09/20/anh-naruto-truyen_105003397.jpg",
     chapters: [
       {
         chapterNumber: 1,
@@ -936,13 +936,13 @@ const storiesData = [
       {
         iduser: 1,
         userName: "Yến",
-        userComment:"Truyện cũng được",
+        userComment: "Truyện cũng được",
         avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
       },
       {
         iduser: 2,
         userName: "Thảo",
-        userComment:"Hay",
+        userComment: "Hay",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
       }
     ],
@@ -960,10 +960,10 @@ const storiesData = [
     favourite: false,
     history: false,
     favorites: "2,205",
-    Numberofreviews:"58774",
+    Numberofreviews: "58774",
     Ratings: "4.5/5",
     imgUrl: "https://media.funhub.net/media/image/id/6291a663acc3992b1d8b467b?type=raw",
-    img:"https://vedc.com.vn/wp-content/uploads/2022/09/Aphelios-Nguyet-Da-Song-Sinh.jpg",
+    img: "https://vedc.com.vn/wp-content/uploads/2022/09/Aphelios-Nguyet-Da-Song-Sinh.jpg",
     chapters: [
       {
         chapterNumber: 1,
@@ -976,13 +976,13 @@ const storiesData = [
       {
         iduser: 1,
         userName: "Quỳnh",
-        userComment:"Ổn",
+        userComment: "Ổn",
         avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
       },
       {
         iduser: 2,
         userName: "Nam bé",
-        userComment:"Không ổn rồi",
+        userComment: "Không ổn rồi",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
       }
     ],
@@ -1000,10 +1000,10 @@ const storiesData = [
     favourite: false,
     history: false,
     favorites: "1,720",
-    Numberofreviews:"58866",
+    Numberofreviews: "58866",
     Ratings: "4.5/5",
     imgUrl: "https://i.pinimg.com/originals/df/d4/35/dfd43530b12a6dfec0472ea1cb613794.png",
-    img:"https://nld.mediacdn.vn/2020/11/27/13-banner-truyen-tranh-online-16064944282141952425197.jpg",
+    img: "https://nld.mediacdn.vn/2020/11/27/13-banner-truyen-tranh-online-16064944282141952425197.jpg",
     chapters: [
       {
         chapterNumber: 1,
@@ -1016,13 +1016,13 @@ const storiesData = [
       {
         iduser: 1,
         userName: "Tùng",
-        userComment:"Truyện cũng được",
+        userComment: "Truyện cũng được",
         avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
       },
       {
         iduser: 2,
         userName: "Duy",
-        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        userComment: "Cuộc sống thường ngày của nghệ sĩ",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
       }
     ],
@@ -1040,10 +1040,10 @@ const storiesData = [
     favourite: false,
     history: false,
     favorites: "5,400",
-    Numberofreviews:"57544",
+    Numberofreviews: "57544",
     Ratings: "4.5/5",
     imgUrl: "https://vignette.wikia.nocookie.net/doblaje/images/b/b3/Kakegurui.jpg/revision/latest?cb=20180128080051&path-prefix=es",
-    img:"https://ptanime.com/wp-content/uploads/2017/05/Kakegurui-anime-novo-poster-promocional-destaque.jpg",
+    img: "https://ptanime.com/wp-content/uploads/2017/05/Kakegurui-anime-novo-poster-promocional-destaque.jpg",
     chapters: [
       {
         chapterNumber: 1,
@@ -1056,13 +1056,13 @@ const storiesData = [
       {
         iduser: 1,
         userName: "Hữu",
-        userComment:"Truyện cũng được",
+        userComment: "Truyện cũng được",
         avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
       },
       {
         iduser: 2,
         userName: "Đạo",
-        userComment:"Haha",
+        userComment: "Haha",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
       }
     ],
@@ -1080,10 +1080,10 @@ const storiesData = [
     favourite: false,
     history: false,
     favorites: "5,500",
-    Numberofreviews:"57111",
+    Numberofreviews: "57111",
     Ratings: "4.5/5",
     imgUrl: "https://mangaclash.com/wp-content/uploads/2023/02/Serial-Killer-Isekai-ni-Oritatsu.jpg",
-    img:"https://tse3.mm.bing.net/th?id=OIP.BYyUI6ELnpKnY66tM2jcUAHaEK&pid=Api&P=0&h=180",
+    img: "https://tse3.mm.bing.net/th?id=OIP.BYyUI6ELnpKnY66tM2jcUAHaEK&pid=Api&P=0&h=180",
     chapters: [
       {
         chapterNumber: 1,
@@ -1096,13 +1096,13 @@ const storiesData = [
       {
         iduser: 1,
         userName: "Bình",
-        userComment:"Truyện cũng được",
+        userComment: "Truyện cũng được",
         avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
       },
       {
         iduser: 2,
         userName: "Trâu",
-        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        userComment: "Cuộc sống thường ngày của nghệ sĩ",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
       }
     ],
@@ -1120,10 +1120,10 @@ const storiesData = [
     favourite: false,
     history: false,
     favorites: "10,200",
-    Numberofreviews:"58666",
+    Numberofreviews: "58666",
     Ratings: "4.5/5",
     imgUrl: "https://media.funhub.net/media/image/id/6291a663acc3992b1d8b467b?type=raw",
-    img:"https://cdn.sforum.vn/sforum/wp-content/uploads/2023/06/banner-moi-honkai-star-rail-6.jpg",
+    img: "https://cdn.sforum.vn/sforum/wp-content/uploads/2023/06/banner-moi-honkai-star-rail-6.jpg",
     chapters: [
       {
         chapterNumber: 1,
@@ -1136,13 +1136,13 @@ const storiesData = [
       {
         iduser: 1,
         userName: "Lâm",
-        userComment:"Truyện cũng được",
+        userComment: "Truyện cũng được",
         avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
       },
       {
         iduser: 2,
         userName: "Tùng Lâm",
-        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        userComment: "Cuộc sống thường ngày của nghệ sĩ",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
       }
     ],
@@ -1160,10 +1160,10 @@ const storiesData = [
     favourite: false,
     history: false,
     favorites: "2,400",
-    Numberofreviews:"74171",
+    Numberofreviews: "74171",
     Ratings: "4.5/5",
     imgUrl: "https://truyenvnhay.net/wp-content/uploads/2023/08/truyen-long-lay-phut-lia-doi.jpg",
-    img:"https://storage-ct.lrclib.net/file/cuutruyen/uploads/manga/910/panorama/processed-7a8c70e44d70c1159029deeaa5b92522.jpg",
+    img: "https://storage-ct.lrclib.net/file/cuutruyen/uploads/manga/910/panorama/processed-7a8c70e44d70c1159029deeaa5b92522.jpg",
     chapters: [
       {
         chapterNumber: 1,
@@ -1176,13 +1176,13 @@ const storiesData = [
       {
         iduser: 1,
         userName: "Nam",
-        userComment:"Truyện cũng được",
+        userComment: "Truyện cũng được",
         avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
       },
       {
         iduser: 2,
         userName: "Lâm",
-        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        userComment: "Cuộc sống thường ngày của nghệ sĩ",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
       }
     ],
@@ -1200,10 +1200,10 @@ const storiesData = [
     favourite: false,
     history: true,
     favorites: "1,420",
-    Numberofreviews:"688282",
+    Numberofreviews: "688282",
     Ratings: "4.5/5",
     imgUrl: "https://s2.anhvip.xyz/comics/nguon-khoi-sinh-1648221092.jpg",
-    img:"https://kocr.net/wp-content/uploads/2021/07/HTKS-2.jpg",
+    img: "https://kocr.net/wp-content/uploads/2021/07/HTKS-2.jpg",
     chapters: [
       {
         chapterNumber: 1,
@@ -1216,13 +1216,13 @@ const storiesData = [
       {
         iduser: 1,
         userName: "Huyy",
-        userComment:"Truyện cũng được",
+        userComment: "Truyện cũng được",
         avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
       },
       {
         iduser: 2,
         userName: "Lùn",
-        userComment:"Cuộc sống thường ngày của nghệ sĩ",
+        userComment: "Cuộc sống thường ngày của nghệ sĩ",
         avatar: "https://daihocdaivietsaigon.edu.vn/wp-content/uploads/2023/02/1676242016_111-Hinh-Anh-Avatar-Nu-Dep-Phong-Cach-CHILL-HET.jpg",
       }
     ],
@@ -1240,10 +1240,10 @@ const storiesData = [
     favourite: false,
     history: true,
     favorites: "1,120",
-    Numberofreviews:"87677",
+    Numberofreviews: "87677",
     Ratings: "4.5/5",
     imgUrl: "https://lh3.googleusercontent.com/h3AxidpaUWs9qaWaMXqlj6V3rxYVoGBfVmE3LF6gdoKyH2xwoy_I2IkVlm01HDEVEkZHjA1Jvim0f2iKm2hiUriJJ39X_v1Rq6sax7TgHVh2e_T9QGwSDlki1yjN85O_iBP-OeikvQ=w2400",
-    img:"https://storage-ct.lrclib.net/file/cuutruyen/uploads/manga/910/panorama/processed-7a8c70e44d70c1159029deeaa5b92522.jpg",
+    img: "https://storage-ct.lrclib.net/file/cuutruyen/uploads/manga/910/panorama/processed-7a8c70e44d70c1159029deeaa5b92522.jpg",
     chapters: [
       {
         chapterNumber: 1,
@@ -1256,12 +1256,12 @@ const storiesData = [
       {
         iduser: 1,
         userName: "Không tên",
-        userComment:"Truyện cũng được",
+        userComment: "Truyện cũng được",
         avatar: "https://hinhnen123.com/wp-content/uploads/2021/06/avt-cute-8.jpg",
       }
     ]
   },
-  
+
 ];
 
 export default storiesData;

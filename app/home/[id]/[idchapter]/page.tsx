@@ -24,7 +24,7 @@ const ChapterPage = ({ params }: { params: { id: string; idchapter: string } }) 
   return (
     <div className={styles.containerchapter}>
       <Header/>
-      <div className={styles.header}>    
+      <div className={styles.header}>
         <p className={styles.truyen}><picture><img src="/icons/home.png" width={"18px"} alt="" /></picture> <Link href={`/home`}>Truyện</Link></p>/<p><Link href={`/home/${selectedStory?.id}`}>{selectedStory?.title}</Link></p>/<p>Chương {selectedChapter?.chapterNumber}</p>
       </div>
       <div className={styles.content}>
@@ -45,7 +45,12 @@ const ChapterPage = ({ params }: { params: { id: string; idchapter: string } }) 
           </div>
         </div>
         <div className={styles.noidung} style={{ fontSize: `${fontSize}px` }}>
-          <p>{selectedChapter?.chapterDescription}</p>
+          {/* <p>{selectedChapter?.chapterDescription}</p> */}
+          <div
+            dangerouslySetInnerHTML={{
+              __html: `<p>${selectedChapter?.chapterDescription || ''}</p>`
+            }}
+          />
         </div>
       </div>
     </div>
