@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useRef, useEffect } from "react";
 import Button from "@/app/Common/Button/page";
 import styles from "@/app/styles/home.module.css";
 import Picker from "@emoji-mart/react";
@@ -43,7 +43,10 @@ const Comments = ({commentCount,newComment,setNewComment,showPicker,setShowPicke
                 display: showPicker ? "block" : "none",
               }}
             >
-              <Picker data={data} onEmojiSelect={addEmoji} />
+              <Picker data={data} onEmojiSelect={(e) => { //hoặc có thể viết là onEmojiSelect={addEmoji} => nếu viết như này thì không ẩn showPicker sau khi chọn icon
+                addEmoji(e);
+                setShowPicker(!showPicker); // cái này để ẩn showPicker sau khi chọn icon
+              }} /> 
             </div>
           </div>
 
